@@ -1,0 +1,4010 @@
+{
+  "QueryResponse": {
+    "Purchase": [
+      {
+        "Id": "9301",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-28",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "770",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 79.66,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 79.66,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9302",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-12T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-12T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-12",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "764",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 88.47,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 88.47,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9303",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-06T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-06T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-06",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "843",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 111.3,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 111.3,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9304",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "193",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 93.63,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 93.63,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9305",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "179",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 74.21,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 74.21,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9306",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-05T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-05T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-05",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "555",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 101.75,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 101.75,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9307",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "223",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 85.92,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 85.92,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9308",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-28",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "172",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 66.9,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 66.9,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9309",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "204",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 120.77,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 120.77,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9310",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "240",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 134.29,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 134.29,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9311",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-13T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-13T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-13",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "236",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 122.78,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 122.78,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9312",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-21T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-21T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-21",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "643",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 67.86,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 67.86,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9313",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-19T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-19T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-19",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "550",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 113.5,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 113.5,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9314",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-12T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-12T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-12",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "255",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 111.53,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 111.53,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9315",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "980",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 116.79,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 116.79,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9316",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-07T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-07T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-07",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "870",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 64.04,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 64.04,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9317",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "539",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 89.56,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 89.56,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9318",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-11T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-11",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "760",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 77.3,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 77.3,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9319",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "838",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 109.09,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 109.09,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9320",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-20T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-20T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-20",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "127",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 139.72,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 139.72,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9321",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-28",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "310",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 133.82,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 133.82,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9322",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "501",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 71.98,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 71.98,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9323",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "912",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 125.54,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 125.54,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9324",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "611",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 65.15,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 65.15,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9325",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-21T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-21T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-21",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "112",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 102.55,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 102.55,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9326",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-12T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-12T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-12",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "981",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 66.88,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 66.88,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9327",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-27T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-27T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-27",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "799",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 87.89,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 87.89,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9328",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-06T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-06T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-06",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "888",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 140.9,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 140.9,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9329",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "368",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 61.08,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 61.08,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9330",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-07T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-07T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-07",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "908",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 60.44,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 60.44,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9331",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-13T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-13T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-13",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "613",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 111.57,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 111.57,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9332",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-25T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-25T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-25",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "184",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 118.16,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 118.16,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9333",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-21T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-21T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-21",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "384",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 110.44,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 110.44,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9334",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "308",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 101.02,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 101.02,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9335",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-26T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-26",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "700",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 84.41,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 84.41,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9336",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-21T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-21T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-21",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "758",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 113.49,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 113.49,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9337",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "966",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 94.37,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 94.37,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9338",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "544",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 62.76,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 62.76,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9339",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "416",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 109.79,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 109.79,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9340",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "222",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 121.66,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 121.66,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9341",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "267",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 118.13,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 118.13,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9342",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-16T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-16",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "901",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 102.07,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 102.07,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9343",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-27T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-27T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-27",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "229",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 70.03,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 70.03,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9344",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-24T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-24T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-24",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "220",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 79.19,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 79.19,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9345",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-25T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-25T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-25",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "539",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 85.15,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 85.15,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9346",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "690",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 78.67,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 78.67,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9347",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-21T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-21T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-21",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "468",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 95.97,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 95.97,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9348",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "476",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 106.02,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 106.02,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9349",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-06T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-06T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-06",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "687",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 64.26,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 64.26,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9350",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "621",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 75.56,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 75.56,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9351",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "350",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 132.66,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 132.66,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9352",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "253",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 89.47,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 89.47,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9353",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-06T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-06T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-06",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "666",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 132.17,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 132.17,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9354",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-26T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-26T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-26",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "529",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 121.66,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 121.66,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9355",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "837",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 92.46,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 92.46,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9356",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-11T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-11T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-11",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "481",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 62.01,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 62.01,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9357",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "283",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 136.17,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 136.17,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9358",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "510",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 143.33,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 143.33,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9359",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "892",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 132.94,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 132.94,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9360",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-28T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-28T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-28",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "567",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 62.77,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 62.77,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9361",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "903",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 81.24,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 81.24,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9362",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-10T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-10T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-10",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "477",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 76.83,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 76.83,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9363",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-19T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-19T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-19",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "894",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 144.8,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 144.8,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9364",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-07T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-07T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-07",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "915",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 104.19,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 104.19,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9365",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "124",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 138.92,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 138.92,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9366",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "810",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 112.23,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 112.23,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9367",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "877",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 85.15,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel (miscoded)"
+          }
+        ],
+        "TotalAmt": 85.15,
+        "PrivateNote": "WEX Fleet Card — fuel (miscoded)",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9368",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-22T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-22T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-22",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "414",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 121.43,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 121.43,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9369",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-04T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-04T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-04",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "529",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 143.48,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 143.48,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9370",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-16T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-16T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-16",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "245",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 142.53,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 142.53,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9371",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "337",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 58.95,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 58.95,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9372",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-03-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-03-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-03-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "481",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 92.18,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 92.18,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9373",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "197",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 62.64,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 62.64,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9374",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-17T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-17T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-17",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "176",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 128.8,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 128.8,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9375",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-19T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-19T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-19",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "233",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 94.15,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 94.15,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9376",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "101",
+          "name": "Fuel"
+        },
+        "EntityRef": {
+          "value": "920",
+          "name": "WEX Fleet Solutions",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 131.58,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "101",
+                "name": "Fuel"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "WEX Fleet Card — fuel"
+          }
+        ],
+        "TotalAmt": 131.58,
+        "PrivateNote": "WEX Fleet Card — fuel",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9377",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-23T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-23T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-23",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "563",
+          "name": "Pep Boys Fleet",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1517.59,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Transmission service"
+          }
+        ],
+        "TotalAmt": 1517.59,
+        "PrivateNote": "Transmission service",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9378",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "898",
+          "name": "Jiffy Lube Commercial",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 512.47,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Brake service"
+          }
+        ],
+        "TotalAmt": 512.47,
+        "PrivateNote": "Brake service",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9379",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-25T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-25T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-25",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "268",
+          "name": "Jiffy Lube Commercial",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1102.31,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Oil change + tyre rotation"
+          }
+        ],
+        "TotalAmt": 1102.31,
+        "PrivateNote": "Oil change + tyre rotation",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9380",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "648",
+          "name": "Denver Truck Center",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 902.97,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Oil change + tyre rotation"
+          }
+        ],
+        "TotalAmt": 902.97,
+        "PrivateNote": "Oil change + tyre rotation",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9381",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-12T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-12T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-12",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "415",
+          "name": "Jiffy Lube Commercial",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 1740.59,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Tyre replacement"
+          }
+        ],
+        "TotalAmt": 1740.59,
+        "PrivateNote": "Tyre replacement",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9382",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-15T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-15T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-15",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "102",
+          "name": "Vehicle Maintenance"
+        },
+        "EntityRef": {
+          "value": "261",
+          "name": "Midas Auto Service",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 565.21,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "102",
+                "name": "Vehicle Maintenance"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Oil change + tyre rotation"
+          }
+        ],
+        "TotalAmt": 565.21,
+        "PrivateNote": "Oil change + tyre rotation",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9383",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "821",
+          "name": "IC Driver #01",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 474.7,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 474.7,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9384",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "320",
+          "name": "IC Driver #02",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 666.11,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 666.11,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9385",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "828",
+          "name": "IC Driver #03",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 374.93,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 374.93,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9386",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "505",
+          "name": "IC Driver #04",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 899.78,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 899.78,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9387",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "406",
+          "name": "IC Driver #05",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 311.33,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 311.33,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9388",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "278",
+          "name": "IC Driver #06",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 804.86,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 804.86,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9389",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "975",
+          "name": "IC Driver #07",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 889.34,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 889.34,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9390",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "663",
+          "name": "IC Driver #08",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 635.81,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 635.81,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9391",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "204",
+          "name": "IC Driver #09",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 340.62,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 340.62,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9392",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "163",
+          "name": "IC Driver #10",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 357.73,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 357.73,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9393",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "943",
+          "name": "IC Driver #11",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 363.66,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 363.66,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9394",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "745",
+          "name": "IC Driver #12",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 518.23,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 518.23,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9395",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "700",
+          "name": "IC Driver #13",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 333.79,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 333.79,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9396",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-02T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-02T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-02",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "176",
+          "name": "IC Driver #14",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 867.15,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 867.15,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9397",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-01T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-01T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-01",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "302",
+          "name": "IC Driver #15",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 918.18,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 918.18,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9398",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-03T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-03T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-03",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "231",
+          "name": "IC Driver #16",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 563.8,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 1"
+          }
+        ],
+        "TotalAmt": 563.8,
+        "PrivateNote": "Weekly IC driver payment — week 1",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9399",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-08T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-08T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-08",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "949",
+          "name": "IC Driver #01",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 859.25,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 859.25,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      },
+      {
+        "Id": "9400",
+        "SyncToken": "0",
+        "MetaData": {
+          "CreateTime": "2025-02-09T00:00:00-07:00",
+          "LastUpdatedTime": "2025-02-09T00:00:00-07:00"
+        },
+        "TxnDate": "2025-02-09",
+        "PaymentType": "CreditCard",
+        "AccountRef": {
+          "value": "104",
+          "name": "Driver Labour — IC"
+        },
+        "EntityRef": {
+          "value": "572",
+          "name": "IC Driver #02",
+          "type": "Vendor"
+        },
+        "Line": [
+          {
+            "Id": "1",
+            "Amount": 358.42,
+            "DetailType": "AccountBasedExpenseLineDetail",
+            "AccountBasedExpenseLineDetail": {
+              "AccountRef": {
+                "value": "104",
+                "name": "Driver Labour — IC"
+              },
+              "BillableStatus": "NotBillable",
+              "ClassRef": null
+            },
+            "Description": "Weekly IC driver payment — week 2"
+          }
+        ],
+        "TotalAmt": 358.42,
+        "PrivateNote": "Weekly IC driver payment — week 2",
+        "CurrencyRef": {
+          "value": "USD"
+        }
+      }
+    ],
+    "startPosition": 301,
+    "maxResults": 100,
+    "totalCount": 1337
+  },
+  "time": "2026-07-04T13:45:14-07:00"
+}

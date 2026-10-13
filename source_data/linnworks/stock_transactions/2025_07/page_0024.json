@@ -1,0 +1,38 @@
+{
+  "PageNumber": 24,
+  "TotalPages": 24,
+  "HasMorePages": false,
+  "TotalRecords": 2302,
+  "Data": [
+    {
+      "pkStockTransactionId": "876F148D-5E2F-FC47-B618-4FA85717B7A9",
+      "fkStockItemId": "04A5EE8C-58C0-68A2-2646-C6EA143639A0",
+      "SKU": "WALL-C004",
+      "ItemTitle": "Phased asynchronous functionalities",
+      "TransactionType": "DISPATCH",
+      "TransactionNote": "Stock removed for a processed order",
+      "Quantity": -1,
+      "fkOrderId": "LW43357470",
+      "Location": "Denver Warehouse",
+      "BinRack": "BIN-18-04",
+      "Date": "2025-07-07T20:57:37.000Z",
+      "StockValue": 8.52,
+      "_note": "Running balance must be reconstructed by replaying transactions"
+    },
+    {
+      "pkStockTransactionId": "CC9CCC78-03E9-3763-7103-2F4BB7DB95B7",
+      "fkStockItemId": "5367E1C8-60BA-B48D-3D3F-8820633B78EF",
+      "SKU": "PERE-E008",
+      "ItemTitle": "Right-sized motivating time-frame",
+      "TransactionType": "DISPATCH",
+      "TransactionNote": "Stock removed for a processed order",
+      "Quantity": -2,
+      "fkOrderId": "LW24614863",
+      "Location": "Denver Warehouse",
+      "BinRack": "BIN-36-15",
+      "Date": "2025-07-07T20:59:07.000Z",
+      "StockValue": 110.46,
+      "_note": "Running balance must be reconstructed by replaying transactions"
+    }
+  ]
+}

@@ -1,0 +1,3807 @@
+{
+  "totalSize": 1314,
+  "done": false,
+  "nextRecordsUrl": "/services/data/v58.0/query/Contract_Rate__c-2",
+  "records": [
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B4E8lnpJ1mdOscCM"
+      },
+      "Id": "a0B4E8lnpJ1mdOscCM",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 2.38,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 2.28,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BAqgGc7rkeGJaHPd"
+      },
+      "Id": "a0BAqgGc7rkeGJaHPd",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 65.63,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 63.0,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BXwVfLsI0U8ZHcns"
+      },
+      "Id": "a0BXwVfLsI0U8ZHcns",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 8.15,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 7.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B3SvDpqwUESegUp2"
+      },
+      "Id": "a0B3SvDpqwUESegUp2",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 8.15,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 7.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BG3pZAJc1zIoTDEY"
+      },
+      "Id": "a0BG3pZAJc1zIoTDEY",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 8.15,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 7.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BrEm2DkFZEFRM16E"
+      },
+      "Id": "a0BrEm2DkFZEFRM16E",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 8.97,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 8.61,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BaJMBPMDsUTiA2jY"
+      },
+      "Id": "a0BaJMBPMDsUTiA2jY",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 8.15,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 7.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BtrlSLyrFZGqcJ08"
+      },
+      "Id": "a0BtrlSLyrFZGqcJ08",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 8.15,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 7.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BdraqycaFgzgT3zK"
+      },
+      "Id": "a0BdraqycaFgzgT3zK",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 8.15,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 7.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2jyp8hII2fePP7s"
+      },
+      "Id": "a0B2jyp8hII2fePP7s",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 8.15,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 7.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BRzddCj17tpAsiXq"
+      },
+      "Id": "a0BRzddCj17tpAsiXq",
+      "Contract__c": "800k64mN5oWFD1RwVj",
+      "Account__c": "001P6cCFtcnn6HZvks",
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 10.19,
+      "Discount_Rate__c": 0.04,
+      "Net_Rate__c": 9.78,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-09-13",
+      "CreatedDate": "2024-08-20T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2VTvfDDRvwdYYXC"
+      },
+      "Id": "a0B2VTvfDDRvwdYYXC",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 1.9,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 1.6,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B0H0RLTvyena8uzB"
+      },
+      "Id": "a0B0H0RLTvyena8uzB",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 76.73,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 64.45,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bxgi0VbYYttsvv18"
+      },
+      "Id": "a0Bxgi0VbYYttsvv18",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 7.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.05,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BwOHULTNeagloz0e"
+      },
+      "Id": "a0BwOHULTNeagloz0e",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 7.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.05,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BOwt3KuBAjzXGP1g"
+      },
+      "Id": "a0BOwt3KuBAjzXGP1g",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 7.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.05,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BkMo7qJyQNKqE671"
+      },
+      "Id": "a0BkMo7qJyQNKqE671",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 7.92,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.65,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BBBUeKtvAJe4ZHtH"
+      },
+      "Id": "a0BBBUeKtvAJe4ZHtH",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 7.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.05,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BVvmgo1DyCfcLBAV"
+      },
+      "Id": "a0BVvmgo1DyCfcLBAV",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 7.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.05,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BtT9HMzEFV35bucz"
+      },
+      "Id": "a0BtT9HMzEFV35bucz",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 7.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.05,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BH3OehV0cTdIhXYX"
+      },
+      "Id": "a0BH3OehV0cTdIhXYX",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 7.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.05,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BvnN4kgGd1CcREER"
+      },
+      "Id": "a0BvnN4kgGd1CcREER",
+      "Contract__c": "800zoZS68SEAooAcVd",
+      "Account__c": "0017UzSLLbcsu6PIBe",
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 9.0,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 7.56,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-22",
+      "CreatedDate": "2023-12-06T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BFHe3iriBr2QTxaI"
+      },
+      "Id": "a0BFHe3iriBr2QTxaI",
+      "Contract__c": "800MkyB8kMlYDPfY6m",
+      "Account__c": "0014VLfNY6vKa3qJRW",
+      "SwiftRoute_Client_ID__c": "client_003",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 4.04,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 4.0,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2024-12-15",
+      "CreatedDate": "2024-11-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BWKAteJPlKeQADJD"
+      },
+      "Id": "a0BWKAteJPlKeQADJD",
+      "Contract__c": "800MkyB8kMlYDPfY6m",
+      "Account__c": "0014VLfNY6vKa3qJRW",
+      "SwiftRoute_Client_ID__c": "client_003",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 56.46,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 55.9,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2024-12-15",
+      "CreatedDate": "2024-11-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BtjSUbH6kP8MYi1K"
+      },
+      "Id": "a0BtjSUbH6kP8MYi1K",
+      "Contract__c": "800MkyB8kMlYDPfY6m",
+      "Account__c": "0014VLfNY6vKa3qJRW",
+      "SwiftRoute_Client_ID__c": "client_003",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_1",
+      "Zone_Name__c": "Zone Abq 1",
+      "Base_Rate__c": 17.56,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.38,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-15",
+      "CreatedDate": "2024-11-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BcKGHJuyA7Nl3ycy"
+      },
+      "Id": "a0BcKGHJuyA7Nl3ycy",
+      "Contract__c": "800MkyB8kMlYDPfY6m",
+      "Account__c": "0014VLfNY6vKa3qJRW",
+      "SwiftRoute_Client_ID__c": "client_003",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_2",
+      "Zone_Name__c": "Zone Abq 2",
+      "Base_Rate__c": 17.56,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.38,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-15",
+      "CreatedDate": "2024-11-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BmDzH9OH31WdfTFS"
+      },
+      "Id": "a0BmDzH9OH31WdfTFS",
+      "Contract__c": "800MkyB8kMlYDPfY6m",
+      "Account__c": "0014VLfNY6vKa3qJRW",
+      "SwiftRoute_Client_ID__c": "client_003",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_3",
+      "Zone_Name__c": "Zone Abq 3",
+      "Base_Rate__c": 21.95,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 21.73,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-15",
+      "CreatedDate": "2024-11-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B6DBR4fIx2bRYURq"
+      },
+      "Id": "a0B6DBR4fIx2bRYURq",
+      "Contract__c": "800MkyB8kMlYDPfY6m",
+      "Account__c": "0014VLfNY6vKa3qJRW",
+      "SwiftRoute_Client_ID__c": "client_003",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_4",
+      "Zone_Name__c": "Zone Abq 4",
+      "Base_Rate__c": 19.32,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 19.13,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-15",
+      "CreatedDate": "2024-11-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2IFaVywsuLF7tcM"
+      },
+      "Id": "a0B2IFaVywsuLF7tcM",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 3.25,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 3.22,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bg8ad13C2oh3lAQk"
+      },
+      "Id": "a0Bg8ad13C2oh3lAQk",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 64.68,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 64.03,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BbgYtuoo0yERqIRY"
+      },
+      "Id": "a0BbgYtuoo0yERqIRY",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 11.72,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 11.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BVA85AR13vxKrhWV"
+      },
+      "Id": "a0BVA85AR13vxKrhWV",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 11.72,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 11.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BuSS8lw98L6kxBce"
+      },
+      "Id": "a0BuSS8lw98L6kxBce",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 11.72,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 11.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BTOHf7QEMWNZWY9i"
+      },
+      "Id": "a0BTOHf7QEMWNZWY9i",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 12.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 12.76,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BiXkyr837LJkI56U"
+      },
+      "Id": "a0BiXkyr837LJkI56U",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 11.72,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 11.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B16xb3cmCa1zoJBN"
+      },
+      "Id": "a0B16xb3cmCa1zoJBN",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 11.72,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 11.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BGCV1clgBzMEZJME"
+      },
+      "Id": "a0BGCV1clgBzMEZJME",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 11.72,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 11.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BN5ps034Kke6uY2R"
+      },
+      "Id": "a0BN5ps034Kke6uY2R",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 11.72,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 11.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BkAwTrLmCmrcM2od"
+      },
+      "Id": "a0BkAwTrLmCmrcM2od",
+      "Contract__c": "800NPtS1MuajP1JDT6",
+      "Account__c": "001mclJw7JZ6jzvP5N",
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 14.65,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 14.5,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-21",
+      "CreatedDate": "2025-01-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B5P3mDdRf3OLZaYo"
+      },
+      "Id": "a0B5P3mDdRf3OLZaYo",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 3.06,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 3.03,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BnYeE9UbX7hTHvOE"
+      },
+      "Id": "a0BnYeE9UbX7hTHvOE",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 48.99,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 48.5,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BfNrJHWqJz90XkV0"
+      },
+      "Id": "a0BfNrJHWqJz90XkV0",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 17.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.71,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BnTKR6Q6mqqV5ekh"
+      },
+      "Id": "a0BnTKR6Q6mqqV5ekh",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 17.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.71,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B6BqXgohhDkPiiF1"
+      },
+      "Id": "a0B6BqXgohhDkPiiF1",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 17.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.71,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BWTpaWd55NHYnqom"
+      },
+      "Id": "a0BWTpaWd55NHYnqom",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 19.68,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 19.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BzcPU7LpEobP2NAD"
+      },
+      "Id": "a0BzcPU7LpEobP2NAD",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 17.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.71,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BfhCavFlYBn3pFtu"
+      },
+      "Id": "a0BfhCavFlYBn3pFtu",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 17.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.71,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BZM9qdMGW33hLWOX"
+      },
+      "Id": "a0BZM9qdMGW33hLWOX",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 17.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.71,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BWbzxeiTVpq2ABmC"
+      },
+      "Id": "a0BWbzxeiTVpq2ABmC",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 17.89,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 17.71,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BzOzqqK8hHQuk17m"
+      },
+      "Id": "a0BzOzqqK8hHQuk17m",
+      "Contract__c": "8004ZrhxfFtJWDEeAF",
+      "Account__c": "001ivZNmPgGhcOrdu5",
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 22.36,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 22.14,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-10",
+      "CreatedDate": "2024-05-14T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BiNpQVBlcaeOtSxe"
+      },
+      "Id": "a0BiNpQVBlcaeOtSxe",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 4.13,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 3.47,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BdhBvqkzJnXsIEsW"
+      },
+      "Id": "a0BdhBvqkzJnXsIEsW",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 74.07,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 62.22,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bps1o6dG0YtjLksI"
+      },
+      "Id": "a0Bps1o6dG0YtjLksI",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 7.36,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.18,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BLboFfCcrTBQhZp8"
+      },
+      "Id": "a0BLboFfCcrTBQhZp8",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 7.36,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.18,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BNz4RbqhViEEyYun"
+      },
+      "Id": "a0BNz4RbqhViEEyYun",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 7.36,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.18,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BkMu7zRoQwcnXZ1R"
+      },
+      "Id": "a0BkMu7zRoQwcnXZ1R",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 8.1,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.8,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BSjxX64eLDLpyj2u"
+      },
+      "Id": "a0BSjxX64eLDLpyj2u",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 7.36,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.18,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BUOkmZ1kdJKR7MzQ"
+      },
+      "Id": "a0BUOkmZ1kdJKR7MzQ",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 7.36,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.18,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BZ76vVelBsoBjZaX"
+      },
+      "Id": "a0BZ76vVelBsoBjZaX",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 7.36,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.18,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BwQUVKtMk8ch81sl"
+      },
+      "Id": "a0BwQUVKtMk8ch81sl",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 7.36,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 6.18,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BAicjxSbiuJ9NfaO"
+      },
+      "Id": "a0BAicjxSbiuJ9NfaO",
+      "Contract__c": "80014CBny6Rsml3WrU",
+      "Account__c": "0012oBQHAJ2rKSrmAH",
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 9.2,
+      "Discount_Rate__c": 0.16,
+      "Net_Rate__c": 7.73,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-12-23",
+      "CreatedDate": "2024-11-25T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B8quwq7RLXuxz0cx"
+      },
+      "Id": "a0B8quwq7RLXuxz0cx",
+      "Contract__c": "800p3E6mM4TvvV81xr",
+      "Account__c": "001xfLKSs8jLn4fBy6",
+      "SwiftRoute_Client_ID__c": "client_007",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 2.58,
+      "Discount_Rate__c": 0.06,
+      "Net_Rate__c": 2.43,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2023-12-07",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B4pvw9m2JoDJdza5"
+      },
+      "Id": "a0B4pvw9m2JoDJdza5",
+      "Contract__c": "800p3E6mM4TvvV81xr",
+      "Account__c": "001xfLKSs8jLn4fBy6",
+      "SwiftRoute_Client_ID__c": "client_007",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 49.36,
+      "Discount_Rate__c": 0.06,
+      "Net_Rate__c": 46.4,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2023-12-07",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B4ZSaaSPLGZexuAu"
+      },
+      "Id": "a0B4ZSaaSPLGZexuAu",
+      "Contract__c": "800p3E6mM4TvvV81xr",
+      "Account__c": "001xfLKSs8jLn4fBy6",
+      "SwiftRoute_Client_ID__c": "client_007",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_1",
+      "Zone_Name__c": "Zone Slc 1",
+      "Base_Rate__c": 12.75,
+      "Discount_Rate__c": 0.06,
+      "Net_Rate__c": 11.98,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-07",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BJ1q9w5wwBO7Tq6l"
+      },
+      "Id": "a0BJ1q9w5wwBO7Tq6l",
+      "Contract__c": "800p3E6mM4TvvV81xr",
+      "Account__c": "001xfLKSs8jLn4fBy6",
+      "SwiftRoute_Client_ID__c": "client_007",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_2",
+      "Zone_Name__c": "Zone Slc 2",
+      "Base_Rate__c": 12.75,
+      "Discount_Rate__c": 0.06,
+      "Net_Rate__c": 11.98,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-07",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BKupmxHUWLgWvdRg"
+      },
+      "Id": "a0BKupmxHUWLgWvdRg",
+      "Contract__c": "800p3E6mM4TvvV81xr",
+      "Account__c": "001xfLKSs8jLn4fBy6",
+      "SwiftRoute_Client_ID__c": "client_007",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_3",
+      "Zone_Name__c": "Zone Slc 3",
+      "Base_Rate__c": 12.75,
+      "Discount_Rate__c": 0.06,
+      "Net_Rate__c": 11.98,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-07",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BBYPu1I0g1GlFWYi"
+      },
+      "Id": "a0BBYPu1I0g1GlFWYi",
+      "Contract__c": "800p3E6mM4TvvV81xr",
+      "Account__c": "001xfLKSs8jLn4fBy6",
+      "SwiftRoute_Client_ID__c": "client_007",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_4",
+      "Zone_Name__c": "Zone Slc 4",
+      "Base_Rate__c": 12.75,
+      "Discount_Rate__c": 0.06,
+      "Net_Rate__c": 11.98,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-07",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BwgZlOcrXgtEiNAn"
+      },
+      "Id": "a0BwgZlOcrXgtEiNAn",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 3.22,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 2.8,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2Ru16eSeTjRTwkk"
+      },
+      "Id": "a0B2Ru16eSeTjRTwkk",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 78.08,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 67.93,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BSC7RJTESF34ixJG"
+      },
+      "Id": "a0BSC7RJTESF34ixJG",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 13.6,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 11.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BlTLsBUVafovakgn"
+      },
+      "Id": "a0BlTLsBUVafovakgn",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 13.6,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 11.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BLXAtxLEMk3qyrSR"
+      },
+      "Id": "a0BLXAtxLEMk3qyrSR",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 13.6,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 11.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BM4spb1x8rwO5IhZ"
+      },
+      "Id": "a0BM4spb1x8rwO5IhZ",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 14.96,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 13.02,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BmZssoqTLmWnKa9E"
+      },
+      "Id": "a0BmZssoqTLmWnKa9E",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 13.6,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 11.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Be4EhHtrUe24wztZ"
+      },
+      "Id": "a0Be4EhHtrUe24wztZ",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 13.6,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 11.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BRTW8pmRlrec0Oug"
+      },
+      "Id": "a0BRTW8pmRlrec0Oug",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 13.6,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 11.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BSCqZz8Qxar0JRvy"
+      },
+      "Id": "a0BSCqZz8Qxar0JRvy",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 13.6,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 11.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BkyiMWDnEqrkLBPv"
+      },
+      "Id": "a0BkyiMWDnEqrkLBPv",
+      "Contract__c": "800XlXK2raayd8Z4zG",
+      "Account__c": "001bs4xQgefMswJTpn",
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 17.0,
+      "Discount_Rate__c": 0.13,
+      "Net_Rate__c": 14.79,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-12-31",
+      "CreatedDate": "2023-12-08T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0ByTalfBsP00IWqbH"
+      },
+      "Id": "a0ByTalfBsP00IWqbH",
+      "Contract__c": "8008nV65e37T8Ql3Hm",
+      "Account__c": "001rN7kvJvN8DpvwPF",
+      "SwiftRoute_Client_ID__c": "client_009",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 3.96,
+      "Discount_Rate__c": 0.08,
+      "Net_Rate__c": 3.64,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2024-03-24",
+      "CreatedDate": "2024-03-01T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BGlkNmXBA3SHYTnI"
+      },
+      "Id": "a0BGlkNmXBA3SHYTnI",
+      "Contract__c": "8008nV65e37T8Ql3Hm",
+      "Account__c": "001rN7kvJvN8DpvwPF",
+      "SwiftRoute_Client_ID__c": "client_009",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 73.82,
+      "Discount_Rate__c": 0.08,
+      "Net_Rate__c": 67.91,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2024-03-24",
+      "CreatedDate": "2024-03-01T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bc05PLm81pqkv7pi"
+      },
+      "Id": "a0Bc05PLm81pqkv7pi",
+      "Contract__c": "8008nV65e37T8Ql3Hm",
+      "Account__c": "001rN7kvJvN8DpvwPF",
+      "SwiftRoute_Client_ID__c": "client_009",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_1",
+      "Zone_Name__c": "Zone Slc 1",
+      "Base_Rate__c": 11.31,
+      "Discount_Rate__c": 0.08,
+      "Net_Rate__c": 10.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-24",
+      "CreatedDate": "2024-03-01T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BKROl2t1I8in09hg"
+      },
+      "Id": "a0BKROl2t1I8in09hg",
+      "Contract__c": "8008nV65e37T8Ql3Hm",
+      "Account__c": "001rN7kvJvN8DpvwPF",
+      "SwiftRoute_Client_ID__c": "client_009",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_2",
+      "Zone_Name__c": "Zone Slc 2",
+      "Base_Rate__c": 11.31,
+      "Discount_Rate__c": 0.08,
+      "Net_Rate__c": 10.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-24",
+      "CreatedDate": "2024-03-01T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B1DTTtF5gj6UInmW"
+      },
+      "Id": "a0B1DTTtF5gj6UInmW",
+      "Contract__c": "8008nV65e37T8Ql3Hm",
+      "Account__c": "001rN7kvJvN8DpvwPF",
+      "SwiftRoute_Client_ID__c": "client_009",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_3",
+      "Zone_Name__c": "Zone Slc 3",
+      "Base_Rate__c": 11.31,
+      "Discount_Rate__c": 0.08,
+      "Net_Rate__c": 10.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-24",
+      "CreatedDate": "2024-03-01T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BGUVMex0J6y0kyJb"
+      },
+      "Id": "a0BGUVMex0J6y0kyJb",
+      "Contract__c": "8008nV65e37T8Ql3Hm",
+      "Account__c": "001rN7kvJvN8DpvwPF",
+      "SwiftRoute_Client_ID__c": "client_009",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_4",
+      "Zone_Name__c": "Zone Slc 4",
+      "Base_Rate__c": 11.31,
+      "Discount_Rate__c": 0.08,
+      "Net_Rate__c": 10.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-24",
+      "CreatedDate": "2024-03-01T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BEylqADjaQJTMQ3k"
+      },
+      "Id": "a0BEylqADjaQJTMQ3k",
+      "Contract__c": "800jE0evK2LQp6Plsj",
+      "Account__c": "001Xial9cFBC5v2viQ",
+      "SwiftRoute_Client_ID__c": "client_010",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 3.1,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 3.07,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2024-03-29",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BoPe6Z71Vue8gxKr"
+      },
+      "Id": "a0BoPe6Z71Vue8gxKr",
+      "Contract__c": "800jE0evK2LQp6Plsj",
+      "Account__c": "001Xial9cFBC5v2viQ",
+      "SwiftRoute_Client_ID__c": "client_010",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 31.45,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 31.14,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2024-03-29",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BmI8EqGpGlUIsZU0"
+      },
+      "Id": "a0BmI8EqGpGlUIsZU0",
+      "Contract__c": "800jE0evK2LQp6Plsj",
+      "Account__c": "001Xial9cFBC5v2viQ",
+      "SwiftRoute_Client_ID__c": "client_010",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_1",
+      "Zone_Name__c": "Zone Slc 1",
+      "Base_Rate__c": 5.54,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 5.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-29",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BXNpxF6yUkQPkCUz"
+      },
+      "Id": "a0BXNpxF6yUkQPkCUz",
+      "Contract__c": "800jE0evK2LQp6Plsj",
+      "Account__c": "001Xial9cFBC5v2viQ",
+      "SwiftRoute_Client_ID__c": "client_010",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_2",
+      "Zone_Name__c": "Zone Slc 2",
+      "Base_Rate__c": 5.54,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 5.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-29",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BqKDw0Ea4DrxCQK3"
+      },
+      "Id": "a0BqKDw0Ea4DrxCQK3",
+      "Contract__c": "800jE0evK2LQp6Plsj",
+      "Account__c": "001Xial9cFBC5v2viQ",
+      "SwiftRoute_Client_ID__c": "client_010",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_3",
+      "Zone_Name__c": "Zone Slc 3",
+      "Base_Rate__c": 5.54,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 5.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-29",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bjg3TeERPFsYk4N3"
+      },
+      "Id": "a0Bjg3TeERPFsYk4N3",
+      "Contract__c": "800jE0evK2LQp6Plsj",
+      "Account__c": "001Xial9cFBC5v2viQ",
+      "SwiftRoute_Client_ID__c": "client_010",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_4",
+      "Zone_Name__c": "Zone Slc 4",
+      "Base_Rate__c": 5.54,
+      "Discount_Rate__c": 0.01,
+      "Net_Rate__c": 5.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-03-29",
+      "CreatedDate": "2024-03-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BPulzJ52534LQI6E"
+      },
+      "Id": "a0BPulzJ52534LQI6E",
+      "Contract__c": "800OyWWD1gK7jueKnI",
+      "Account__c": "001oSzy4jRp0dkgM1W",
+      "SwiftRoute_Client_ID__c": "client_011",
+      "Service_Type__c": "fulfillment_pick",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 4.19,
+      "Discount_Rate__c": 0.0,
+      "Net_Rate__c": 4.19,
+      "Unit__c": "per_unit",
+      "Effective_Date__c": "2025-04-15",
+      "CreatedDate": "2025-03-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BYQ2gOv3L0ZXf1JR"
+      },
+      "Id": "a0BYQ2gOv3L0ZXf1JR",
+      "Contract__c": "800OyWWD1gK7jueKnI",
+      "Account__c": "001oSzy4jRp0dkgM1W",
+      "SwiftRoute_Client_ID__c": "client_011",
+      "Service_Type__c": "storage",
+      "Zone_ID__c": null,
+      "Zone_Name__c": null,
+      "Base_Rate__c": 39.04,
+      "Discount_Rate__c": 0.0,
+      "Net_Rate__c": 39.04,
+      "Unit__c": "per_pallet_per_month",
+      "Effective_Date__c": "2025-04-15",
+      "CreatedDate": "2025-03-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BB0GZBQV29V5uYVL"
+      },
+      "Id": "a0BB0GZBQV29V5uYVL",
+      "Contract__c": "800OyWWD1gK7jueKnI",
+      "Account__c": "001oSzy4jRp0dkgM1W",
+      "SwiftRoute_Client_ID__c": "client_011",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_1",
+      "Zone_Name__c": "Zone Slc 1",
+      "Base_Rate__c": 15.41,
+      "Discount_Rate__c": 0.0,
+      "Net_Rate__c": 15.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-04-15",
+      "CreatedDate": "2025-03-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bpjafg3QorteoZPd"
+      },
+      "Id": "a0Bpjafg3QorteoZPd",
+      "Contract__c": "800OyWWD1gK7jueKnI",
+      "Account__c": "001oSzy4jRp0dkgM1W",
+      "SwiftRoute_Client_ID__c": "client_011",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_2",
+      "Zone_Name__c": "Zone Slc 2",
+      "Base_Rate__c": 15.41,
+      "Discount_Rate__c": 0.0,
+      "Net_Rate__c": 15.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-04-15",
+      "CreatedDate": "2025-03-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B59phTXUcB6V5NS7"
+      },
+      "Id": "a0B59phTXUcB6V5NS7",
+      "Contract__c": "800OyWWD1gK7jueKnI",
+      "Account__c": "001oSzy4jRp0dkgM1W",
+      "SwiftRoute_Client_ID__c": "client_011",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_3",
+      "Zone_Name__c": "Zone Slc 3",
+      "Base_Rate__c": 15.41,
+      "Discount_Rate__c": 0.0,
+      "Net_Rate__c": 15.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-04-15",
+      "CreatedDate": "2025-03-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BApWwoUiLqpt8fFf"
+      },
+      "Id": "a0BApWwoUiLqpt8fFf",
+      "Contract__c": "800OyWWD1gK7jueKnI",
+      "Account__c": "001oSzy4jRp0dkgM1W",
+      "SwiftRoute_Client_ID__c": "client_011",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_slc_4",
+      "Zone_Name__c": "Zone Slc 4",
+      "Base_Rate__c": 15.41,
+      "Discount_Rate__c": 0.0,
+      "Net_Rate__c": 15.41,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-04-15",
+      "CreatedDate": "2025-03-23T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B5RGPn4rwc6uS9A6"
+      },
+      "Id": "a0B5RGPn4rwc6uS9A6",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 11.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 9.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BakkTnZKzBAHl8mf"
+      },
+      "Id": "a0BakkTnZKzBAHl8mf",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 11.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 9.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BzcNV0Eexbr24n7v"
+      },
+      "Id": "a0BzcNV0Eexbr24n7v",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 11.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 9.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BLmEpjI1JstSCHDR"
+      },
+      "Id": "a0BLmEpjI1JstSCHDR",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 12.17,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 10.83,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bi5a49RHzzujZ27Z"
+      },
+      "Id": "a0Bi5a49RHzzujZ27Z",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 11.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 9.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B8nLYGYazVYrZdPk"
+      },
+      "Id": "a0B8nLYGYazVYrZdPk",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 11.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 9.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BCWIaczr7BZ3evbq"
+      },
+      "Id": "a0BCWIaczr7BZ3evbq",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 11.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 9.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BmIW8iF4Fk7yUFqZ"
+      },
+      "Id": "a0BmIW8iF4Fk7yUFqZ",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 11.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 9.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BDmdA5kKi6GUw5VR"
+      },
+      "Id": "a0BDmdA5kKi6GUw5VR",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 13.83,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 12.31,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BEsSA4QAdpJghtKc"
+      },
+      "Id": "a0BEsSA4QAdpJghtKc",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 22.78,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.27,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2egrc01fSEaDlEB"
+      },
+      "Id": "a0B2egrc01fSEaDlEB",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 22.78,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.27,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BP5ckQPcxl1GQWmW"
+      },
+      "Id": "a0BP5ckQPcxl1GQWmW",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 22.78,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.27,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BHgRAftQ0UP8okFw"
+      },
+      "Id": "a0BHgRAftQ0UP8okFw",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 25.06,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 22.3,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BfGn1Hs039oSrHVu"
+      },
+      "Id": "a0BfGn1Hs039oSrHVu",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 22.78,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.27,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BQ65RVltzVJvPdqx"
+      },
+      "Id": "a0BQ65RVltzVJvPdqx",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 22.78,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.27,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bi4tWFV89fHjI9sm"
+      },
+      "Id": "a0Bi4tWFV89fHjI9sm",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 22.78,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.27,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B9lXWjhDQvugCF9I"
+      },
+      "Id": "a0B9lXWjhDQvugCF9I",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 22.78,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.27,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BVspCXbjrIrHB0E6"
+      },
+      "Id": "a0BVspCXbjrIrHB0E6",
+      "Contract__c": "800peatA8gl9LfinMr",
+      "Account__c": "001fuizZtS6CRPNd0t",
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 28.48,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 25.35,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-06",
+      "CreatedDate": "2025-01-26T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B4DWZBVmmzBSFw6g"
+      },
+      "Id": "a0B4DWZBVmmzBSFw6g",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 17.84,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BgnDO1Uihql3bgpk"
+      },
+      "Id": "a0BgnDO1Uihql3bgpk",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 17.84,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BILPyaJfGAWGmyRR"
+      },
+      "Id": "a0BILPyaJfGAWGmyRR",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 17.84,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bc5ALS9UGiKfPvzw"
+      },
+      "Id": "a0Bc5ALS9UGiKfPvzw",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 19.62,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 19.23,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BvL2JPkcOPLXqGbr"
+      },
+      "Id": "a0BvL2JPkcOPLXqGbr",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 17.84,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BM1WGilYVGOU0F5Y"
+      },
+      "Id": "a0BM1WGilYVGOU0F5Y",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 17.84,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BlLVmQuDe3WSqRrx"
+      },
+      "Id": "a0BlLVmQuDe3WSqRrx",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 17.84,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Ba5kKXRhT6KTbNuj"
+      },
+      "Id": "a0Ba5kKXRhT6KTbNuj",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 17.84,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BcCaimPDYFIkQnEm"
+      },
+      "Id": "a0BcCaimPDYFIkQnEm",
+      "Contract__c": "800ziuKEL5QYLt5LxS",
+      "Account__c": "001cQNPbp7d89MEK51",
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 22.3,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 21.85,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-07-06",
+      "CreatedDate": "2024-06-12T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BlfpUQG7ppc3nQ5M"
+      },
+      "Id": "a0BlfpUQG7ppc3nQ5M",
+      "Contract__c": "8004WP4vi0C77RrZ5o",
+      "Account__c": "001GcOh3k23yU7JtfB",
+      "SwiftRoute_Client_ID__c": "client_014",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_slc_1",
+      "Zone_Name__c": "Zone Slc 1",
+      "Base_Rate__c": 18.68,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 18.31,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-22",
+      "CreatedDate": "2024-06-10T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B151Zki0mqZ34cwA"
+      },
+      "Id": "a0B151Zki0mqZ34cwA",
+      "Contract__c": "8004WP4vi0C77RrZ5o",
+      "Account__c": "001GcOh3k23yU7JtfB",
+      "SwiftRoute_Client_ID__c": "client_014",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_slc_2",
+      "Zone_Name__c": "Zone Slc 2",
+      "Base_Rate__c": 18.68,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 18.31,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-22",
+      "CreatedDate": "2024-06-10T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B4rTtFOeIpXSGn5K"
+      },
+      "Id": "a0B4rTtFOeIpXSGn5K",
+      "Contract__c": "8004WP4vi0C77RrZ5o",
+      "Account__c": "001GcOh3k23yU7JtfB",
+      "SwiftRoute_Client_ID__c": "client_014",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_slc_3",
+      "Zone_Name__c": "Zone Slc 3",
+      "Base_Rate__c": 18.68,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 18.31,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-22",
+      "CreatedDate": "2024-06-10T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BxtcsM0KPEYoquER"
+      },
+      "Id": "a0BxtcsM0KPEYoquER",
+      "Contract__c": "8004WP4vi0C77RrZ5o",
+      "Account__c": "001GcOh3k23yU7JtfB",
+      "SwiftRoute_Client_ID__c": "client_014",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_slc_4",
+      "Zone_Name__c": "Zone Slc 4",
+      "Base_Rate__c": 18.68,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 18.31,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2024-06-22",
+      "CreatedDate": "2024-06-10T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bshjig0VxhUQYumQ"
+      },
+      "Id": "a0Bshjig0VxhUQYumQ",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_1",
+      "Zone_Name__c": "Zone Abq 1",
+      "Base_Rate__c": 12.48,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 12.23,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B5bAPAMcljVrLMME"
+      },
+      "Id": "a0B5bAPAMcljVrLMME",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_2",
+      "Zone_Name__c": "Zone Abq 2",
+      "Base_Rate__c": 12.48,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 12.23,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BoPFys8yh9C4zLMU"
+      },
+      "Id": "a0BoPFys8yh9C4zLMU",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_3",
+      "Zone_Name__c": "Zone Abq 3",
+      "Base_Rate__c": 15.6,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 15.29,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B7BBrPkwI93HtZOk"
+      },
+      "Id": "a0B7BBrPkwI93HtZOk",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_4",
+      "Zone_Name__c": "Zone Abq 4",
+      "Base_Rate__c": 13.73,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 13.46,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BQNltju1VQvpizF0"
+      },
+      "Id": "a0BQNltju1VQvpizF0",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_1",
+      "Zone_Name__c": "Zone Abq 1",
+      "Base_Rate__c": 16.36,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 16.03,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BsWwR2mOhLCcASKl"
+      },
+      "Id": "a0BsWwR2mOhLCcASKl",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_2",
+      "Zone_Name__c": "Zone Abq 2",
+      "Base_Rate__c": 16.36,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 16.03,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BZSvxBQVPQQEUqfa"
+      },
+      "Id": "a0BZSvxBQVPQQEUqfa",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_3",
+      "Zone_Name__c": "Zone Abq 3",
+      "Base_Rate__c": 20.45,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 20.04,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BrQoHihuVkGNDPuL"
+      },
+      "Id": "a0BrQoHihuVkGNDPuL",
+      "Contract__c": "800ceOXfq1OTaT3QRh",
+      "Account__c": "001vnPXBx2PXcSQPeC",
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Service_Type__c": "returns",
+      "Zone_ID__c": "zone_abq_4",
+      "Zone_Name__c": "Zone Abq 4",
+      "Base_Rate__c": 18.0,
+      "Discount_Rate__c": 0.02,
+      "Net_Rate__c": 17.64,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-02-15",
+      "CreatedDate": "2025-02-03T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Buo3GfQKLFN4p5ek"
+      },
+      "Id": "a0Buo3GfQKLFN4p5ek",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_1",
+      "Zone_Name__c": "Zone Abq 1",
+      "Base_Rate__c": 12.39,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 11.03,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BdWthUFvFFwYmTve"
+      },
+      "Id": "a0BdWthUFvFFwYmTve",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_2",
+      "Zone_Name__c": "Zone Abq 2",
+      "Base_Rate__c": 12.39,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 11.03,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BpOwsWVuzL40KMVG"
+      },
+      "Id": "a0BpOwsWVuzL40KMVG",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_3",
+      "Zone_Name__c": "Zone Abq 3",
+      "Base_Rate__c": 15.49,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 13.79,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BcDZVInBzudzm2cL"
+      },
+      "Id": "a0BcDZVInBzudzm2cL",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_4",
+      "Zone_Name__c": "Zone Abq 4",
+      "Base_Rate__c": 13.63,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 12.13,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B8FEwhfgz4sEQYVx"
+      },
+      "Id": "a0B8FEwhfgz4sEQYVx",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_1",
+      "Zone_Name__c": "Zone Abq 1",
+      "Base_Rate__c": 23.33,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.76,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BAi4Jr2yYtbNh5Uy"
+      },
+      "Id": "a0BAi4Jr2yYtbNh5Uy",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_2",
+      "Zone_Name__c": "Zone Abq 2",
+      "Base_Rate__c": 23.33,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 20.76,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B82uWdcyxyJARlX2"
+      },
+      "Id": "a0B82uWdcyxyJARlX2",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_3",
+      "Zone_Name__c": "Zone Abq 3",
+      "Base_Rate__c": 29.16,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 25.95,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0ByP69gaAwAnrAmiZ"
+      },
+      "Id": "a0ByP69gaAwAnrAmiZ",
+      "Contract__c": "800Yh1CLwNWXnu5tTz",
+      "Account__c": "001g2krzxnKyDVYXjE",
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_4",
+      "Zone_Name__c": "Zone Abq 4",
+      "Base_Rate__c": 25.66,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 22.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-10-15",
+      "CreatedDate": "2023-09-19T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BnS6nqkIUCp5XwY7"
+      },
+      "Id": "a0BnS6nqkIUCp5XwY7",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 11.2,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 10.86,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BBmKr5rZ0Aan0X0d"
+      },
+      "Id": "a0BBmKr5rZ0Aan0X0d",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 11.2,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 10.86,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bty7k1qx6jTr4CHK"
+      },
+      "Id": "a0Bty7k1qx6jTr4CHK",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 11.2,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 10.86,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BBolN7ulurt9TAvW"
+      },
+      "Id": "a0BBolN7ulurt9TAvW",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 12.32,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 11.95,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BnWVq0p9n0yGDKRW"
+      },
+      "Id": "a0BnWVq0p9n0yGDKRW",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 11.2,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 10.86,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BI6RXq1ExAUs6cZj"
+      },
+      "Id": "a0BI6RXq1ExAUs6cZj",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 11.2,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 10.86,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bp14xN2p22gTzyQ3"
+      },
+      "Id": "a0Bp14xN2p22gTzyQ3",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 11.2,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 10.86,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BRcvPPGmp9SPjAow"
+      },
+      "Id": "a0BRcvPPGmp9SPjAow",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 11.2,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 10.86,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bum2eAPoMZxG0q46"
+      },
+      "Id": "a0Bum2eAPoMZxG0q46",
+      "Contract__c": "800PgyCu4JYkEMSuVJ",
+      "Account__c": "00185SxvRWwEZl1pZv",
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 14.0,
+      "Discount_Rate__c": 0.03,
+      "Net_Rate__c": 13.58,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-01-27",
+      "CreatedDate": "2025-01-07T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BGjkPFKHuG8M1qev"
+      },
+      "Id": "a0BGjkPFKHuG8M1qev",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_1",
+      "Zone_Name__c": "Zone Abq 1",
+      "Base_Rate__c": 12.13,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 10.8,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BIz5ooNp3cPlUbz4"
+      },
+      "Id": "a0BIz5ooNp3cPlUbz4",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_2",
+      "Zone_Name__c": "Zone Abq 2",
+      "Base_Rate__c": 12.13,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 10.8,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BLKnYaFKtEnINxZi"
+      },
+      "Id": "a0BLKnYaFKtEnINxZi",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_3",
+      "Zone_Name__c": "Zone Abq 3",
+      "Base_Rate__c": 15.16,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 13.49,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BAyUqtuMuyLDSGC0"
+      },
+      "Id": "a0BAyUqtuMuyLDSGC0",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_abq_4",
+      "Zone_Name__c": "Zone Abq 4",
+      "Base_Rate__c": 13.34,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 11.87,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B4rSmKNkDTuEps9W"
+      },
+      "Id": "a0B4rSmKNkDTuEps9W",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_1",
+      "Zone_Name__c": "Zone Abq 1",
+      "Base_Rate__c": 27.26,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 24.26,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BpDYW6wxLwBqZRNJ"
+      },
+      "Id": "a0BpDYW6wxLwBqZRNJ",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_2",
+      "Zone_Name__c": "Zone Abq 2",
+      "Base_Rate__c": 27.26,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 24.26,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BrtkB5QzwteTDGj7"
+      },
+      "Id": "a0BrtkB5QzwteTDGj7",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_3",
+      "Zone_Name__c": "Zone Abq 3",
+      "Base_Rate__c": 34.08,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 30.33,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BW1rBuFlv3F2ssRl"
+      },
+      "Id": "a0BW1rBuFlv3F2ssRl",
+      "Contract__c": "8002MgYZeYUH8Vui6X",
+      "Account__c": "001cymbWfso2Kv4f2J",
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_abq_4",
+      "Zone_Name__c": "Zone Abq 4",
+      "Base_Rate__c": 29.99,
+      "Discount_Rate__c": 0.11,
+      "Net_Rate__c": 26.69,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2025-03-23",
+      "CreatedDate": "2025-03-05T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BoOFrTVzYWQnk3RO"
+      },
+      "Id": "a0BoOFrTVzYWQnk3RO",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 17.43,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BX2jWekmwdAE0Wrf"
+      },
+      "Id": "a0BX2jWekmwdAE0Wrf",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 17.43,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BV3pD1oKCk6D3pwS"
+      },
+      "Id": "a0BV3pD1oKCk6D3pwS",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 17.43,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BOOsAsVyCSEfZTYn"
+      },
+      "Id": "a0BOOsAsVyCSEfZTYn",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 19.17,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 16.29,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2LRreLZxQvJfIDB"
+      },
+      "Id": "a0B2LRreLZxQvJfIDB",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 17.43,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BT0nOc0uAQGbIrJt"
+      },
+      "Id": "a0BT0nOc0uAQGbIrJt",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 17.43,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bpa4bsLVQ20D1qaq"
+      },
+      "Id": "a0Bpa4bsLVQ20D1qaq",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 17.43,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BCgtUm3u3w7rrcuk"
+      },
+      "Id": "a0BCgtUm3u3w7rrcuk",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 17.43,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.82,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bs3VNI1q8o0enVw0"
+      },
+      "Id": "a0Bs3VNI1q8o0enVw0",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 21.79,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 18.52,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BIaLVvNvNtiHcnJP"
+      },
+      "Id": "a0BIaLVvNvNtiHcnJP",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 13.74,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 11.68,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BIEOh4ZeEex9vqpa"
+      },
+      "Id": "a0BIEOh4ZeEex9vqpa",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 13.74,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 11.68,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BcZ35cZ0y7JYOMrY"
+      },
+      "Id": "a0BcZ35cZ0y7JYOMrY",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 13.74,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 11.68,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bq6EyJCEYBKIE2NX"
+      },
+      "Id": "a0Bq6EyJCEYBKIE2NX",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 15.11,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 12.84,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BTz8CI0P8sTYjFle"
+      },
+      "Id": "a0BTz8CI0P8sTYjFle",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 13.74,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 11.68,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2EqvF6uKZqgMTnO"
+      },
+      "Id": "a0B2EqvF6uKZqgMTnO",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 13.74,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 11.68,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BerwwNXUbs2APCpE"
+      },
+      "Id": "a0BerwwNXUbs2APCpE",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 13.74,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 11.68,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BzG1Ldl3W3MZnM6d"
+      },
+      "Id": "a0BzG1Ldl3W3MZnM6d",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 13.74,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 11.68,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BMMdDAS6WxXhfEP9"
+      },
+      "Id": "a0BMMdDAS6WxXhfEP9",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 17.18,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 14.6,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BhXAHCd1msPLTWkc"
+      },
+      "Id": "a0BhXAHCd1msPLTWkc",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 102.92,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 87.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BZlyrJWQ6W5viMPS"
+      },
+      "Id": "a0BZlyrJWQ6W5viMPS",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 102.92,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 87.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bl5orjfZ56rzgqZ6"
+      },
+      "Id": "a0Bl5orjfZ56rzgqZ6",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 102.92,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 87.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BKyakmzAtNCMHdfM"
+      },
+      "Id": "a0BKyakmzAtNCMHdfM",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 113.21,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 96.23,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BEfzqM8noxIhtpb6"
+      },
+      "Id": "a0BEfzqM8noxIhtpb6",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 102.92,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 87.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BA8JTGo82a5XksnQ"
+      },
+      "Id": "a0BA8JTGo82a5XksnQ",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 102.92,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 87.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0B2U3IqejqR9BKExD"
+      },
+      "Id": "a0B2U3IqejqR9BKExD",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 102.92,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 87.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BNh3RJ687QYlvRLO"
+      },
+      "Id": "a0BNh3RJ687QYlvRLO",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 102.92,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 87.48,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bu8uWoog1lFfS7sp"
+      },
+      "Id": "a0Bu8uWoog1lFfS7sp",
+      "Contract__c": "800OUgPtFjzaS7JjjK",
+      "Account__c": "001MWoK98QCDkUxBut",
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Service_Type__c": "distribution_run",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 128.65,
+      "Discount_Rate__c": 0.15,
+      "Net_Rate__c": 109.35,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-31T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bpkn8V2KYAlDUewG"
+      },
+      "Id": "a0Bpkn8V2KYAlDUewG",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 11.58,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 10.19,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0Bnu1ltpylsPJR2NC"
+      },
+      "Id": "a0Bnu1ltpylsPJR2NC",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 11.58,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 10.19,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BBgs6LrQfD5d4wLw"
+      },
+      "Id": "a0BBgs6LrQfD5d4wLw",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 11.58,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 10.19,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BdxhFE4deVmlQ46j"
+      },
+      "Id": "a0BdxhFE4deVmlQ46j",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 12.74,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 11.21,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BxUnFqNEpcwGy8dw"
+      },
+      "Id": "a0BxUnFqNEpcwGy8dw",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_5",
+      "Zone_Name__c": "Zone Den 5",
+      "Base_Rate__c": 11.58,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 10.19,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BHa1hy2s0Vuf6dvv"
+      },
+      "Id": "a0BHa1hy2s0Vuf6dvv",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_6",
+      "Zone_Name__c": "Zone Den 6",
+      "Base_Rate__c": 11.58,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 10.19,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BDbudw2E6dmsQGvm"
+      },
+      "Id": "a0BDbudw2E6dmsQGvm",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_7",
+      "Zone_Name__c": "Zone Den 7",
+      "Base_Rate__c": 11.58,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 10.19,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BCOAgI9OHfUOcyTo"
+      },
+      "Id": "a0BCOAgI9OHfUOcyTo",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_8",
+      "Zone_Name__c": "Zone Den 8",
+      "Base_Rate__c": 11.58,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 10.19,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BtEq81DzncfreCns"
+      },
+      "Id": "a0BtEq81DzncfreCns",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "next_day",
+      "Zone_ID__c": "zone_den_9",
+      "Zone_Name__c": "Zone Den 9",
+      "Base_Rate__c": 14.47,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 12.73,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BY0zMtDodygU7z5u"
+      },
+      "Id": "a0BY0zMtDodygU7z5u",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_1",
+      "Zone_Name__c": "Zone Den 1",
+      "Base_Rate__c": 21.46,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 18.88,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BB1hvcCkYPhRnTEH"
+      },
+      "Id": "a0BB1hvcCkYPhRnTEH",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_2",
+      "Zone_Name__c": "Zone Den 2",
+      "Base_Rate__c": 21.46,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 18.88,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0BhAETA2XQqTUkSIL"
+      },
+      "Id": "a0BhAETA2XQqTUkSIL",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_3",
+      "Zone_Name__c": "Zone Den 3",
+      "Base_Rate__c": 21.46,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 18.88,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    },
+    {
+      "attributes": {
+        "type": "Contract_Rate__c",
+        "url": "/services/data/v58.0/sobjects/Contract_Rate__c/a0ByIXuBGNdyZaW2Y1"
+      },
+      "Id": "a0ByIXuBGNdyZaW2Y1",
+      "Contract__c": "800O3MARl0vqL44fhw",
+      "Account__c": "001Higze5PMLdYHMFh",
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Service_Type__c": "same_day",
+      "Zone_ID__c": "zone_den_4",
+      "Zone_Name__c": "Zone Den 4",
+      "Base_Rate__c": 23.61,
+      "Discount_Rate__c": 0.12,
+      "Net_Rate__c": 20.78,
+      "Unit__c": "per_delivery",
+      "Effective_Date__c": "2023-08-12",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000"
+    }
+  ]
+}

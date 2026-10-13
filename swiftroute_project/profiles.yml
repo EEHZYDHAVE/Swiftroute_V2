@@ -1,0 +1,11 @@
+swiftroute_project:
+  outputs:
+    dev:
+      catalog: swiftroute
+      host: dbc-5526678c-5a63.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/4b7e70e9dc2e8a26
+      schema: dbt_schema
+      threads: 1
+      token: dapi9df356195c43213c4373427db5d680e1
+      type: databricks
+  target: dev
