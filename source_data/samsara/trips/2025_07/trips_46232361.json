@@ -1,0 +1,3339 @@
+{
+  "vehicleId": "46232361",
+  "vehicleName": "DEN-VAN-08",
+  "month": "2025_07",
+  "pagination": {
+    "endCursor": "trip_46232361_20250729_939",
+    "hasNextPage": false
+  },
+  "trips": [
+    {
+      "id": "trip_46232361_20250701_25715",
+      "vehicleId": "46232361",
+      "driverId": "20000021",
+      "startMs": 1751346989000,
+      "endMs": 1751352064000,
+      "startAddress": "0035 Crane Corners",
+      "endAddress": "26795 Singleton Roads",
+      "startCoords": {
+        "latitude": 39.814981,
+        "longitude": -104.998944
+      },
+      "endCoords": {
+        "latitude": 39.81174,
+        "longitude": -104.997176
+      },
+      "distanceMeters": 20809.2,
+      "durationMs": 5075000,
+      "drivingDurationMs": 3874462,
+      "idlingDurationMs": 1200538,
+      "fuelConsumedMl": 2646,
+      "fuelConsumedGallons": 0.699,
+      "maxSpeedMph": 32.4,
+      "averageSpeedMph": 9.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250701_008",
+      "vehicleId": "46232361",
+      "driverId": "20000006",
+      "startMs": 1751361918000,
+      "endMs": 1751375648000,
+      "startAddress": "15167 Gallagher Station",
+      "endAddress": "463 Elizabeth Ridges Suite 348",
+      "startCoords": {
+        "latitude": 39.734337,
+        "longitude": -104.907346
+      },
+      "endCoords": {
+        "latitude": 39.776765,
+        "longitude": -105.059917
+      },
+      "distanceMeters": 84462.5,
+      "durationMs": 13730000,
+      "drivingDurationMs": 11957655,
+      "idlingDurationMs": 1772345,
+      "fuelConsumedMl": 10739,
+      "fuelConsumedGallons": 2.837,
+      "maxSpeedMph": 36.7,
+      "averageSpeedMph": 13.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250701_25743",
+      "vehicleId": "46232361",
+      "driverId": "20000007",
+      "startMs": 1751378183000,
+      "endMs": 1751380463000,
+      "startAddress": "3164 Bates Radial Suite 258",
+      "endAddress": "20090 Jeffrey Station Apt. 687",
+      "startCoords": {
+        "latitude": 39.788903,
+        "longitude": -104.901327
+      },
+      "endCoords": {
+        "latitude": 39.763583,
+        "longitude": -105.018566
+      },
+      "distanceMeters": 17232.8,
+      "durationMs": 2280000,
+      "drivingDurationMs": 2045792,
+      "idlingDurationMs": 234208,
+      "fuelConsumedMl": 2192,
+      "fuelConsumedGallons": 0.579,
+      "maxSpeedMph": 37.8,
+      "averageSpeedMph": 16.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250701_038",
+      "vehicleId": "46232361",
+      "driverId": "20000019",
+      "startMs": 1751381700000,
+      "endMs": 1751382321000,
+      "startAddress": "01223 Miller Port Apt. 900",
+      "endAddress": "2702 Ross Greens Suite 095",
+      "startCoords": {
+        "latitude": 39.686659,
+        "longitude": -104.923326
+      },
+      "endCoords": {
+        "latitude": 39.690003,
+        "longitude": -105.014893
+      },
+      "distanceMeters": 3455.8,
+      "durationMs": 621000,
+      "drivingDurationMs": 485646,
+      "idlingDurationMs": 135354,
+      "fuelConsumedMl": 439,
+      "fuelConsumedGallons": 0.116,
+      "maxSpeedMph": 32.9,
+      "averageSpeedMph": 12.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250701_067",
+      "vehicleId": "46232361",
+      "driverId": "20000017",
+      "startMs": 1751397416000,
+      "endMs": 1751407993000,
+      "startAddress": "8208 Woodard Via",
+      "endAddress": "53983 Eric Crossroad",
+      "startCoords": {
+        "latitude": 39.743637,
+        "longitude": -105.000293
+      },
+      "endCoords": {
+        "latitude": 39.732765,
+        "longitude": -105.060674
+      },
+      "distanceMeters": 56996.9,
+      "durationMs": 10577000,
+      "drivingDurationMs": 8426780,
+      "idlingDurationMs": 2150220,
+      "fuelConsumedMl": 7245,
+      "fuelConsumedGallons": 1.914,
+      "maxSpeedMph": 28.0,
+      "averageSpeedMph": 12.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250702_099",
+      "vehicleId": "46232361",
+      "driverId": "20000010",
+      "startMs": 1751415722000,
+      "endMs": 1751422901000,
+      "startAddress": "226 Robin Park",
+      "endAddress": "7331 Tanner Parkways Apt. 664",
+      "startCoords": {
+        "latitude": 39.777174,
+        "longitude": -104.952452
+      },
+      "endCoords": {
+        "latitude": 39.685758,
+        "longitude": -105.024261
+      },
+      "distanceMeters": 49727.6,
+      "durationMs": 7179000,
+      "drivingDurationMs": 6105003,
+      "idlingDurationMs": 1073997,
+      "fuelConsumedMl": 6322,
+      "fuelConsumedGallons": 1.67,
+      "maxSpeedMph": 36.0,
+      "averageSpeedMph": 15.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250702_125",
+      "vehicleId": "46232361",
+      "driverId": "20000001",
+      "startMs": 1751436975000,
+      "endMs": 1751445190000,
+      "startAddress": "968 Wendy Field Suite 570",
+      "endAddress": "3123 Marcus Junctions Apt. 570",
+      "startCoords": {
+        "latitude": 39.695125,
+        "longitude": -105.003052
+      },
+      "endCoords": {
+        "latitude": 39.737217,
+        "longitude": -104.986892
+      },
+      "distanceMeters": 46089.8,
+      "durationMs": 8215000,
+      "drivingDurationMs": 7079282,
+      "idlingDurationMs": 1135718,
+      "fuelConsumedMl": 5860,
+      "fuelConsumedGallons": 1.548,
+      "maxSpeedMph": 30.4,
+      "averageSpeedMph": 12.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250702_155",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1751452035000,
+      "endMs": 1751453775000,
+      "startAddress": "493 David Crossing Suite 639",
+      "endAddress": "6254 Kaitlyn Village Apt. 645",
+      "startCoords": {
+        "latitude": 39.758842,
+        "longitude": -104.958717
+      },
+      "endCoords": {
+        "latitude": 39.708161,
+        "longitude": -105.037098
+      },
+      "distanceMeters": 9378.3,
+      "durationMs": 1740000,
+      "drivingDurationMs": 1306897,
+      "idlingDurationMs": 433103,
+      "fuelConsumedMl": 1192,
+      "fuelConsumedGallons": 0.315,
+      "maxSpeedMph": 29.2,
+      "averageSpeedMph": 12.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250702_186",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1751465879000,
+      "endMs": 1751467679000,
+      "startAddress": "6665 Melvin Shoals Suite 612",
+      "endAddress": "281 Woods Centers",
+      "startCoords": {
+        "latitude": 39.719408,
+        "longitude": -104.923048
+      },
+      "endCoords": {
+        "latitude": 39.688374,
+        "longitude": -105.038247
+      },
+      "distanceMeters": 9456.3,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1421283,
+      "idlingDurationMs": 378717,
+      "fuelConsumedMl": 1204,
+      "fuelConsumedGallons": 0.318,
+      "maxSpeedMph": 34.9,
+      "averageSpeedMph": 11.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250702_217",
+      "vehicleId": "46232361",
+      "driverId": "20000019",
+      "startMs": 1751485110000,
+      "endMs": 1751487030000,
+      "startAddress": "9301 Brian Camp",
+      "endAddress": "993 Angela Pike",
+      "startCoords": {
+        "latitude": 39.755283,
+        "longitude": -105.022456
+      },
+      "endCoords": {
+        "latitude": 39.758283,
+        "longitude": -104.932893
+      },
+      "distanceMeters": 8525.6,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1688483,
+      "idlingDurationMs": 231517,
+      "fuelConsumedMl": 1083,
+      "fuelConsumedGallons": 0.286,
+      "maxSpeedMph": 26.0,
+      "averageSpeedMph": 9.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250702_246",
+      "vehicleId": "46232361",
+      "driverId": "20000014",
+      "startMs": 1751498339000,
+      "endMs": 1751500259000,
+      "startAddress": "74599 Nathaniel Flat Apt. 445",
+      "endAddress": "20268 Ann Point",
+      "startCoords": {
+        "latitude": 39.72271,
+        "longitude": -105.082812
+      },
+      "endCoords": {
+        "latitude": 39.769799,
+        "longitude": -105.082202
+      },
+      "distanceMeters": 9919.4,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1565092,
+      "idlingDurationMs": 354908,
+      "fuelConsumedMl": 1261,
+      "fuelConsumedGallons": 0.333,
+      "maxSpeedMph": 30.3,
+      "averageSpeedMph": 11.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250703_278",
+      "vehicleId": "46232361",
+      "driverId": "20000017",
+      "startMs": 1751524867000,
+      "endMs": 1751527516000,
+      "startAddress": "4966 Jordan Radial",
+      "endAddress": "0617 Monica Way Suite 901",
+      "startCoords": {
+        "latitude": 39.696272,
+        "longitude": -104.98299
+      },
+      "endCoords": {
+        "latitude": 39.763303,
+        "longitude": -104.926471
+      },
+      "distanceMeters": 13081.2,
+      "durationMs": 2649000,
+      "drivingDurationMs": 2095186,
+      "idlingDurationMs": 553814,
+      "fuelConsumedMl": 1662,
+      "fuelConsumedGallons": 0.439,
+      "maxSpeedMph": 37.1,
+      "averageSpeedMph": 11.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250703_307",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1751538579000,
+      "endMs": 1751560812000,
+      "startAddress": "45205 Jasmine Drive Suite 060",
+      "endAddress": "022 Smith Tunnel Suite 474",
+      "startCoords": {
+        "latitude": 39.808037,
+        "longitude": -105.053768
+      },
+      "endCoords": {
+        "latitude": 39.695376,
+        "longitude": -105.025105
+      },
+      "distanceMeters": 141648.6,
+      "durationMs": 22233000,
+      "drivingDurationMs": 16719274,
+      "idlingDurationMs": 5513726,
+      "fuelConsumedMl": 18011,
+      "fuelConsumedGallons": 4.758,
+      "maxSpeedMph": 27.8,
+      "averageSpeedMph": 14.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250703_346",
+      "vehicleId": "46232361",
+      "driverId": "20000007",
+      "startMs": 1751561247000,
+      "endMs": 1751569994000,
+      "startAddress": "19362 Cisneros Locks Apt. 221",
+      "endAddress": "088 Richardson Harbor Apt. 293",
+      "startCoords": {
+        "latitude": 39.778506,
+        "longitude": -104.973617
+      },
+      "endCoords": {
+        "latitude": 39.73012,
+        "longitude": -104.921809
+      },
+      "distanceMeters": 38607.2,
+      "durationMs": 8747000,
+      "drivingDurationMs": 6802659,
+      "idlingDurationMs": 1944341,
+      "fuelConsumedMl": 4910,
+      "fuelConsumedGallons": 1.297,
+      "maxSpeedMph": 27.3,
+      "averageSpeedMph": 9.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250703_374",
+      "vehicleId": "46232361",
+      "driverId": "20000015",
+      "startMs": 1751574820000,
+      "endMs": 1751576740000,
+      "startAddress": "4147 Fisher Turnpike",
+      "endAddress": "18429 Jeff Isle",
+      "startCoords": {
+        "latitude": 39.756209,
+        "longitude": -105.03316
+      },
+      "endCoords": {
+        "latitude": 39.782593,
+        "longitude": -104.973541
+      },
+      "distanceMeters": 7681.1,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1483704,
+      "idlingDurationMs": 436296,
+      "fuelConsumedMl": 977,
+      "fuelConsumedGallons": 0.258,
+      "maxSpeedMph": 30.8,
+      "averageSpeedMph": 8.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250704_406",
+      "vehicleId": "46232361",
+      "driverId": "20000021",
+      "startMs": 1751596815000,
+      "endMs": 1751598915000,
+      "startAddress": "93391 Phillip Ridges Suite 126",
+      "endAddress": "06032 Blake Mission Suite 318",
+      "startCoords": {
+        "latitude": 39.79218,
+        "longitude": -105.070176
+      },
+      "endCoords": {
+        "latitude": 39.778776,
+        "longitude": -104.917932
+      },
+      "distanceMeters": 11831.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1613508,
+      "idlingDurationMs": 486492,
+      "fuelConsumedMl": 1503,
+      "fuelConsumedGallons": 0.397,
+      "maxSpeedMph": 33.2,
+      "averageSpeedMph": 12.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250704_436",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1751617951000,
+      "endMs": 1751619571000,
+      "startAddress": "1150 Meyers Shoal",
+      "endAddress": "961 David Villages Apt. 552",
+      "startCoords": {
+        "latitude": 39.73842,
+        "longitude": -105.068753
+      },
+      "endCoords": {
+        "latitude": 39.735851,
+        "longitude": -104.925489
+      },
+      "distanceMeters": 9067.0,
+      "durationMs": 1620000,
+      "drivingDurationMs": 1455954,
+      "idlingDurationMs": 164046,
+      "fuelConsumedMl": 1155,
+      "fuelConsumedGallons": 0.305,
+      "maxSpeedMph": 35.2,
+      "averageSpeedMph": 12.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250704_464",
+      "vehicleId": "46232361",
+      "driverId": "20000019",
+      "startMs": 1751631694000,
+      "endMs": 1751633974000,
+      "startAddress": "087 Sarah Crest Suite 086",
+      "endAddress": "52077 Jenny Centers Suite 404",
+      "startCoords": {
+        "latitude": 39.737263,
+        "longitude": -104.95653
+      },
+      "endCoords": {
+        "latitude": 39.688303,
+        "longitude": -105.072617
+      },
+      "distanceMeters": 11830.8,
+      "durationMs": 2280000,
+      "drivingDurationMs": 1783282,
+      "idlingDurationMs": 496718,
+      "fuelConsumedMl": 1503,
+      "fuelConsumedGallons": 0.397,
+      "maxSpeedMph": 32.8,
+      "averageSpeedMph": 11.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250704_494",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1751644555000,
+      "endMs": 1751668076000,
+      "startAddress": "65119 Christopher Village",
+      "endAddress": "4452 Linda Canyon Apt. 769",
+      "startCoords": {
+        "latitude": 39.727015,
+        "longitude": -104.980332
+      },
+      "endCoords": {
+        "latitude": 39.765755,
+        "longitude": -105.046788
+      },
+      "distanceMeters": 171624.1,
+      "durationMs": 23521000,
+      "drivingDurationMs": 20287367,
+      "idlingDurationMs": 3233633,
+      "fuelConsumedMl": 21819,
+      "fuelConsumedGallons": 5.764,
+      "maxSpeedMph": 29.4,
+      "averageSpeedMph": 16.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250704_532",
+      "vehicleId": "46232361",
+      "driverId": "20000008",
+      "startMs": 1751669942000,
+      "endMs": 1751672928000,
+      "startAddress": "628 Steven Turnpike Apt. 722",
+      "endAddress": "310 Lisa Stravenue Suite 008",
+      "startCoords": {
+        "latitude": 39.816201,
+        "longitude": -104.957844
+      },
+      "endCoords": {
+        "latitude": 39.813987,
+        "longitude": -105.000456
+      },
+      "distanceMeters": 15969.3,
+      "durationMs": 2986000,
+      "drivingDurationMs": 2612831,
+      "idlingDurationMs": 373169,
+      "fuelConsumedMl": 2029,
+      "fuelConsumedGallons": 0.536,
+      "maxSpeedMph": 29.9,
+      "averageSpeedMph": 12.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250705_562",
+      "vehicleId": "46232361",
+      "driverId": "20000018",
+      "startMs": 1751688280000,
+      "endMs": 1751690080000,
+      "startAddress": "847 Mullins Rapids",
+      "endAddress": "530 Peter Walks",
+      "startCoords": {
+        "latitude": 39.730912,
+        "longitude": -104.942874
+      },
+      "endCoords": {
+        "latitude": 39.69789,
+        "longitude": -104.902819
+      },
+      "distanceMeters": 9522.5,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1384053,
+      "idlingDurationMs": 415947,
+      "fuelConsumedMl": 1211,
+      "fuelConsumedGallons": 0.32,
+      "maxSpeedMph": 30.2,
+      "averageSpeedMph": 11.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250705_592",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1751710027000,
+      "endMs": 1751711767000,
+      "startAddress": "08597 Shelly Parkway Suite 794",
+      "endAddress": "364 Stephenson Center",
+      "startCoords": {
+        "latitude": 39.688551,
+        "longitude": -105.08059
+      },
+      "endCoords": {
+        "latitude": 39.753388,
+        "longitude": -105.018338
+      },
+      "distanceMeters": 8007.3,
+      "durationMs": 1740000,
+      "drivingDurationMs": 1324167,
+      "idlingDurationMs": 415833,
+      "fuelConsumedMl": 1018,
+      "fuelConsumedGallons": 0.269,
+      "maxSpeedMph": 33.9,
+      "averageSpeedMph": 10.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250705_618",
+      "vehicleId": "46232361",
+      "driverId": "20000005",
+      "startMs": 1751721595000,
+      "endMs": 1751723635000,
+      "startAddress": "5314 Fry Square Apt. 417",
+      "endAddress": "54558 Kristy Knoll",
+      "startCoords": {
+        "latitude": 39.755469,
+        "longitude": -104.964825
+      },
+      "endCoords": {
+        "latitude": 39.683853,
+        "longitude": -105.080596
+      },
+      "distanceMeters": 12512.6,
+      "durationMs": 2040000,
+      "drivingDurationMs": 1598165,
+      "idlingDurationMs": 441835,
+      "fuelConsumedMl": 1590,
+      "fuelConsumedGallons": 0.42,
+      "maxSpeedMph": 26.1,
+      "averageSpeedMph": 13.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250705_651",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1751740622000,
+      "endMs": 1751742482000,
+      "startAddress": "0075 Roger Summit",
+      "endAddress": "867 Michael Crest Apt. 177",
+      "startCoords": {
+        "latitude": 39.813206,
+        "longitude": -105.009078
+      },
+      "endCoords": {
+        "latitude": 39.690103,
+        "longitude": -104.901125
+      },
+      "distanceMeters": 12135.6,
+      "durationMs": 1860000,
+      "drivingDurationMs": 1409996,
+      "idlingDurationMs": 450004,
+      "fuelConsumedMl": 1544,
+      "fuelConsumedGallons": 0.408,
+      "maxSpeedMph": 38.6,
+      "averageSpeedMph": 14.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250706_679",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1751762252000,
+      "endMs": 1751763932000,
+      "startAddress": "51109 Jimenez Junctions Apt. 363",
+      "endAddress": "9050 Brown Freeway Suite 223",
+      "startCoords": {
+        "latitude": 39.806171,
+        "longitude": -104.96027
+      },
+      "endCoords": {
+        "latitude": 39.821764,
+        "longitude": -104.90403
+      },
+      "distanceMeters": 11676.8,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1462680,
+      "idlingDurationMs": 217320,
+      "fuelConsumedMl": 1484,
+      "fuelConsumedGallons": 0.392,
+      "maxSpeedMph": 27.0,
+      "averageSpeedMph": 15.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250706_703",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1751787431000,
+      "endMs": 1751788931000,
+      "startAddress": "735 Kramer View",
+      "endAddress": "52477 Olson Heights Suite 964",
+      "startCoords": {
+        "latitude": 39.768427,
+        "longitude": -105.050066
+      },
+      "endCoords": {
+        "latitude": 39.780391,
+        "longitude": -105.08221
+      },
+      "distanceMeters": 7106.9,
+      "durationMs": 1500000,
+      "drivingDurationMs": 1322146,
+      "idlingDurationMs": 177854,
+      "fuelConsumedMl": 905,
+      "fuelConsumedGallons": 0.239,
+      "maxSpeedMph": 34.2,
+      "averageSpeedMph": 10.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250706_734",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1751808418000,
+      "endMs": 1751810878000,
+      "startAddress": "75049 Moreno Ramp",
+      "endAddress": "75442 Adam Club Suite 069",
+      "startCoords": {
+        "latitude": 39.726958,
+        "longitude": -104.962832
+      },
+      "endCoords": {
+        "latitude": 39.728896,
+        "longitude": -105.009729
+      },
+      "distanceMeters": 10119.6,
+      "durationMs": 2460000,
+      "drivingDurationMs": 1910040,
+      "idlingDurationMs": 549960,
+      "fuelConsumedMl": 1287,
+      "fuelConsumedGallons": 0.34,
+      "maxSpeedMph": 32.9,
+      "averageSpeedMph": 9.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250706_764",
+      "vehicleId": "46232361",
+      "driverId": "20000001",
+      "startMs": 1751832773000,
+      "endMs": 1751839772000,
+      "startAddress": "318 Amy Crossing",
+      "endAddress": "347 Richards Unions Apt. 377",
+      "startCoords": {
+        "latitude": 39.754957,
+        "longitude": -105.045462
+      },
+      "endCoords": {
+        "latitude": 39.71301,
+        "longitude": -104.909637
+      },
+      "distanceMeters": 42636.3,
+      "durationMs": 6999000,
+      "drivingDurationMs": 5324540,
+      "idlingDurationMs": 1674460,
+      "fuelConsumedMl": 5421,
+      "fuelConsumedGallons": 1.432,
+      "maxSpeedMph": 37.4,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250707_791",
+      "vehicleId": "46232361",
+      "driverId": "20000007",
+      "startMs": 1751879657000,
+      "endMs": 1751887411000,
+      "startAddress": "18790 Morgan Manors",
+      "endAddress": "7159 Curtis Expressway",
+      "startCoords": {
+        "latitude": 39.727028,
+        "longitude": -104.902459
+      },
+      "endCoords": {
+        "latitude": 39.782368,
+        "longitude": -105.03117
+      },
+      "distanceMeters": 46971.8,
+      "durationMs": 7754000,
+      "drivingDurationMs": 6886502,
+      "idlingDurationMs": 867498,
+      "fuelConsumedMl": 5973,
+      "fuelConsumedGallons": 1.578,
+      "maxSpeedMph": 37.0,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250707_817",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1751893756000,
+      "endMs": 1751901107000,
+      "startAddress": "69748 Riley Plaza",
+      "endAddress": "798 Stevenson Corner Suite 305",
+      "startCoords": {
+        "latitude": 39.700745,
+        "longitude": -105.049057
+      },
+      "endCoords": {
+        "latitude": 39.735856,
+        "longitude": -104.950617
+      },
+      "distanceMeters": 43530.6,
+      "durationMs": 7351000,
+      "drivingDurationMs": 6056519,
+      "idlingDurationMs": 1294481,
+      "fuelConsumedMl": 5534,
+      "fuelConsumedGallons": 1.462,
+      "maxSpeedMph": 28.2,
+      "averageSpeedMph": 13.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250707_851",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1751912621000,
+      "endMs": 1751914841000,
+      "startAddress": "941 Sarah Squares",
+      "endAddress": "80625 Gina Glen",
+      "startCoords": {
+        "latitude": 39.818337,
+        "longitude": -105.023726
+      },
+      "endCoords": {
+        "latitude": 39.709747,
+        "longitude": -105.083189
+      },
+      "distanceMeters": 11254.9,
+      "durationMs": 2220000,
+      "drivingDurationMs": 1801899,
+      "idlingDurationMs": 418101,
+      "fuelConsumedMl": 1431,
+      "fuelConsumedGallons": 0.378,
+      "maxSpeedMph": 32.7,
+      "averageSpeedMph": 11.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250707_882",
+      "vehicleId": "46232361",
+      "driverId": "20000012",
+      "startMs": 1751930118000,
+      "endMs": 1751932196000,
+      "startAddress": "96822 Curry Inlet Apt. 734",
+      "endAddress": "799 Paula Landing Apt. 973",
+      "startCoords": {
+        "latitude": 39.697518,
+        "longitude": -105.003679
+      },
+      "endCoords": {
+        "latitude": 39.701721,
+        "longitude": -104.904278
+      },
+      "distanceMeters": 8893.2,
+      "durationMs": 2078000,
+      "drivingDurationMs": 1683191,
+      "idlingDurationMs": 394809,
+      "fuelConsumedMl": 1132,
+      "fuelConsumedGallons": 0.299,
+      "maxSpeedMph": 32.0,
+      "averageSpeedMph": 9.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250708_911",
+      "vehicleId": "46232361",
+      "driverId": "20000017",
+      "startMs": 1751948874000,
+      "endMs": 1751950314000,
+      "startAddress": "885 Christopher Haven",
+      "endAddress": "0363 Brandi Locks Suite 884",
+      "startCoords": {
+        "latitude": 39.81367,
+        "longitude": -105.032279
+      },
+      "endCoords": {
+        "latitude": 39.756054,
+        "longitude": -104.984818
+      },
+      "distanceMeters": 8320.7,
+      "durationMs": 1440000,
+      "drivingDurationMs": 1238625,
+      "idlingDurationMs": 201375,
+      "fuelConsumedMl": 1056,
+      "fuelConsumedGallons": 0.279,
+      "maxSpeedMph": 26.9,
+      "averageSpeedMph": 12.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250708_010",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1751967798000,
+      "endMs": 1751972629000,
+      "startAddress": "1281 Velez Isle Apt. 239",
+      "endAddress": "781 Cox Drives Suite 097",
+      "startCoords": {
+        "latitude": 39.767255,
+        "longitude": -104.959504
+      },
+      "endCoords": {
+        "latitude": 39.81087,
+        "longitude": -104.966684
+      },
+      "distanceMeters": 29855.1,
+      "durationMs": 4831000,
+      "drivingDurationMs": 4011696,
+      "idlingDurationMs": 819304,
+      "fuelConsumedMl": 3797,
+      "fuelConsumedGallons": 1.003,
+      "maxSpeedMph": 33.7,
+      "averageSpeedMph": 13.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250708_944",
+      "vehicleId": "46232361",
+      "driverId": "20000014",
+      "startMs": 1751982316000,
+      "endMs": 1751984176000,
+      "startAddress": "2962 Gina Brook",
+      "endAddress": "322 Kelly Mission Apt. 546",
+      "startCoords": {
+        "latitude": 39.78809,
+        "longitude": -105.079433
+      },
+      "endCoords": {
+        "latitude": 39.757602,
+        "longitude": -104.934188
+      },
+      "distanceMeters": 7746.0,
+      "durationMs": 1860000,
+      "drivingDurationMs": 1440928,
+      "idlingDurationMs": 419072,
+      "fuelConsumedMl": 984,
+      "fuelConsumedGallons": 0.26,
+      "maxSpeedMph": 35.1,
+      "averageSpeedMph": 9.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250708_040",
+      "vehicleId": "46232361",
+      "driverId": "20000010",
+      "startMs": 1751984321000,
+      "endMs": 1751987990000,
+      "startAddress": "19360 Robert Brooks Apt. 770",
+      "endAddress": "4616 Thomas Mews Apt. 643",
+      "startCoords": {
+        "latitude": 39.73451,
+        "longitude": -105.023991
+      },
+      "endCoords": {
+        "latitude": 39.776383,
+        "longitude": -104.93141
+      },
+      "distanceMeters": 20958.4,
+      "durationMs": 3669000,
+      "drivingDurationMs": 2885662,
+      "idlingDurationMs": 783338,
+      "fuelConsumedMl": 2665,
+      "fuelConsumedGallons": 0.704,
+      "maxSpeedMph": 27.7,
+      "averageSpeedMph": 12.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250708_070",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1752000435000,
+      "endMs": 1752002415000,
+      "startAddress": "82353 Ashley Oval",
+      "endAddress": "9194 Martinez Port Apt. 568",
+      "startCoords": {
+        "latitude": 39.813791,
+        "longitude": -104.934592
+      },
+      "endCoords": {
+        "latitude": 39.818323,
+        "longitude": -104.951976
+      },
+      "distanceMeters": 13860.4,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1657814,
+      "idlingDurationMs": 322186,
+      "fuelConsumedMl": 1764,
+      "fuelConsumedGallons": 0.466,
+      "maxSpeedMph": 39.2,
+      "averageSpeedMph": 15.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250709_101",
+      "vehicleId": "46232361",
+      "driverId": "20000005",
+      "startMs": 1752019966000,
+      "endMs": 1752022186000,
+      "startAddress": "740 Rachael Groves",
+      "endAddress": "675 Ronnie Manor",
+      "startCoords": {
+        "latitude": 39.825232,
+        "longitude": -104.997844
+      },
+      "endCoords": {
+        "latitude": 39.818622,
+        "longitude": -105.086432
+      },
+      "distanceMeters": 11700.4,
+      "durationMs": 2220000,
+      "drivingDurationMs": 1864523,
+      "idlingDurationMs": 355477,
+      "fuelConsumedMl": 1488,
+      "fuelConsumedGallons": 0.393,
+      "maxSpeedMph": 27.2,
+      "averageSpeedMph": 11.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250709_127",
+      "vehicleId": "46232361",
+      "driverId": "20000005",
+      "startMs": 1752041110000,
+      "endMs": 1752043990000,
+      "startAddress": "503 Nichols Mills",
+      "endAddress": "6891 Brandi Mill",
+      "startCoords": {
+        "latitude": 39.713838,
+        "longitude": -104.916982
+      },
+      "endCoords": {
+        "latitude": 39.727431,
+        "longitude": -104.916613
+      },
+      "distanceMeters": 16769.7,
+      "durationMs": 2880000,
+      "drivingDurationMs": 2301933,
+      "idlingDurationMs": 578067,
+      "fuelConsumedMl": 2131,
+      "fuelConsumedGallons": 0.563,
+      "maxSpeedMph": 28.9,
+      "averageSpeedMph": 13.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250709_158",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1752055776000,
+      "endMs": 1752057756000,
+      "startAddress": "33344 Thomas Shores",
+      "endAddress": "3481 Williams Port Suite 101",
+      "startCoords": {
+        "latitude": 39.808009,
+        "longitude": -105.004852
+      },
+      "endCoords": {
+        "latitude": 39.745799,
+        "longitude": -104.932699
+      },
+      "distanceMeters": 10017.7,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1532041,
+      "idlingDurationMs": 447959,
+      "fuelConsumedMl": 1272,
+      "fuelConsumedGallons": 0.336,
+      "maxSpeedMph": 31.1,
+      "averageSpeedMph": 11.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250709_188",
+      "vehicleId": "46232361",
+      "driverId": "20000001",
+      "startMs": 1752069883000,
+      "endMs": 1752072706000,
+      "startAddress": "26848 Gutierrez Parks",
+      "endAddress": "42943 Billy Summit",
+      "startCoords": {
+        "latitude": 39.745446,
+        "longitude": -104.971736
+      },
+      "endCoords": {
+        "latitude": 39.796859,
+        "longitude": -104.934583
+      },
+      "distanceMeters": 16712.3,
+      "durationMs": 2823000,
+      "drivingDurationMs": 2176089,
+      "idlingDurationMs": 646911,
+      "fuelConsumedMl": 2124,
+      "fuelConsumedGallons": 0.561,
+      "maxSpeedMph": 34.3,
+      "averageSpeedMph": 13.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250709_219",
+      "vehicleId": "46232361",
+      "driverId": "20000010",
+      "startMs": 1752087198000,
+      "endMs": 1752089178000,
+      "startAddress": "43766 John Mall",
+      "endAddress": "80812 Emily Meadow Apt. 594",
+      "startCoords": {
+        "latitude": 39.721631,
+        "longitude": -104.904179
+      },
+      "endCoords": {
+        "latitude": 39.774183,
+        "longitude": -104.994325
+      },
+      "distanceMeters": 10428.0,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1654491,
+      "idlingDurationMs": 325509,
+      "fuelConsumedMl": 1325,
+      "fuelConsumedGallons": 0.35,
+      "maxSpeedMph": 33.1,
+      "averageSpeedMph": 11.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250709_248",
+      "vehicleId": "46232361",
+      "driverId": "20000015",
+      "startMs": 1752101659000,
+      "endMs": 1752103879000,
+      "startAddress": "68810 Pamela Village",
+      "endAddress": "2105 John Harbors",
+      "startCoords": {
+        "latitude": 39.760656,
+        "longitude": -104.938779
+      },
+      "endCoords": {
+        "latitude": 39.789971,
+        "longitude": -104.943897
+      },
+      "distanceMeters": 10766.4,
+      "durationMs": 2220000,
+      "drivingDurationMs": 1915464,
+      "idlingDurationMs": 304536,
+      "fuelConsumedMl": 1370,
+      "fuelConsumedGallons": 0.362,
+      "maxSpeedMph": 29.2,
+      "averageSpeedMph": 10.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250710_280",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1752126875000,
+      "endMs": 1752128075000,
+      "startAddress": "449 James Square Apt. 596",
+      "endAddress": "45056 Vincent Ports Apt. 754",
+      "startCoords": {
+        "latitude": 39.822803,
+        "longitude": -105.068856
+      },
+      "endCoords": {
+        "latitude": 39.698955,
+        "longitude": -104.94098
+      },
+      "distanceMeters": 5459.2,
+      "durationMs": 1200000,
+      "drivingDurationMs": 978013,
+      "idlingDurationMs": 221987,
+      "fuelConsumedMl": 693,
+      "fuelConsumedGallons": 0.183,
+      "maxSpeedMph": 34.0,
+      "averageSpeedMph": 10.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250710_309",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1752141098000,
+      "endMs": 1752143418000,
+      "startAddress": "887 Bailey Square Apt. 136",
+      "endAddress": "2290 Victoria Union",
+      "startCoords": {
+        "latitude": 39.702381,
+        "longitude": -105.006078
+      },
+      "endCoords": {
+        "latitude": 39.745625,
+        "longitude": -105.00696
+      },
+      "distanceMeters": 10191.9,
+      "durationMs": 2320000,
+      "drivingDurationMs": 1814747,
+      "idlingDurationMs": 505253,
+      "fuelConsumedMl": 1295,
+      "fuelConsumedGallons": 0.342,
+      "maxSpeedMph": 36.7,
+      "averageSpeedMph": 9.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250710_340",
+      "vehicleId": "46232361",
+      "driverId": "20000015",
+      "startMs": 1752157398000,
+      "endMs": 1752160185000,
+      "startAddress": "471 Reyes Dale",
+      "endAddress": "14833 Mario Circle",
+      "startCoords": {
+        "latitude": 39.684045,
+        "longitude": -105.020868
+      },
+      "endCoords": {
+        "latitude": 39.775066,
+        "longitude": -104.937146
+      },
+      "distanceMeters": 16680.4,
+      "durationMs": 2787000,
+      "drivingDurationMs": 2467566,
+      "idlingDurationMs": 319434,
+      "fuelConsumedMl": 2120,
+      "fuelConsumedGallons": 0.56,
+      "maxSpeedMph": 35.0,
+      "averageSpeedMph": 13.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250710_366",
+      "vehicleId": "46232361",
+      "driverId": "20000021",
+      "startMs": 1752173808000,
+      "endMs": 1752183732000,
+      "startAddress": "232 Washington Grove Suite 819",
+      "endAddress": "15019 Crawford Vista Suite 209",
+      "startCoords": {
+        "latitude": 39.811391,
+        "longitude": -105.01593
+      },
+      "endCoords": {
+        "latitude": 39.798496,
+        "longitude": -105.066377
+      },
+      "distanceMeters": 73453.5,
+      "durationMs": 9924000,
+      "drivingDurationMs": 8568639,
+      "idlingDurationMs": 1355361,
+      "fuelConsumedMl": 9339,
+      "fuelConsumedGallons": 2.467,
+      "maxSpeedMph": 26.4,
+      "averageSpeedMph": 16.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250711_402",
+      "vehicleId": "46232361",
+      "driverId": "20000010",
+      "startMs": 1752197526000,
+      "endMs": 1752201064000,
+      "startAddress": "569 Pamela Stream",
+      "endAddress": "8834 Tanya Forges Suite 141",
+      "startCoords": {
+        "latitude": 39.771155,
+        "longitude": -104.998981
+      },
+      "endCoords": {
+        "latitude": 39.753158,
+        "longitude": -105.046426
+      },
+      "distanceMeters": 21972.0,
+      "durationMs": 3538000,
+      "drivingDurationMs": 2681492,
+      "idlingDurationMs": 856508,
+      "fuelConsumedMl": 2794,
+      "fuelConsumedGallons": 0.738,
+      "maxSpeedMph": 28.9,
+      "averageSpeedMph": 13.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250711_431",
+      "vehicleId": "46232361",
+      "driverId": "20000012",
+      "startMs": 1752218390000,
+      "endMs": 1752220130000,
+      "startAddress": "95551 Andrew Lakes",
+      "endAddress": "81948 Mckinney Crossroad",
+      "startCoords": {
+        "latitude": 39.735047,
+        "longitude": -104.941094
+      },
+      "endCoords": {
+        "latitude": 39.701008,
+        "longitude": -105.072944
+      },
+      "distanceMeters": 7942.0,
+      "durationMs": 1740000,
+      "drivingDurationMs": 1348081,
+      "idlingDurationMs": 391919,
+      "fuelConsumedMl": 1011,
+      "fuelConsumedGallons": 0.267,
+      "maxSpeedMph": 37.5,
+      "averageSpeedMph": 10.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250711_458",
+      "vehicleId": "46232361",
+      "driverId": "20000001",
+      "startMs": 1752234065000,
+      "endMs": 1752236045000,
+      "startAddress": "83774 Shawn Center",
+      "endAddress": "9857 Mccormick Plaza Apt. 063",
+      "startCoords": {
+        "latitude": 39.76275,
+        "longitude": -105.052222
+      },
+      "endCoords": {
+        "latitude": 39.810886,
+        "longitude": -105.005439
+      },
+      "distanceMeters": 13003.1,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1604690,
+      "idlingDurationMs": 375310,
+      "fuelConsumedMl": 1654,
+      "fuelConsumedGallons": 0.437,
+      "maxSpeedMph": 36.9,
+      "averageSpeedMph": 14.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250711_489",
+      "vehicleId": "46232361",
+      "driverId": "20000012",
+      "startMs": 1752245879000,
+      "endMs": 1752248039000,
+      "startAddress": "770 Donna Manors Apt. 394",
+      "endAddress": "942 Hill Oval Suite 089",
+      "startCoords": {
+        "latitude": 39.775006,
+        "longitude": -104.932206
+      },
+      "endCoords": {
+        "latitude": 39.730351,
+        "longitude": -105.042405
+      },
+      "distanceMeters": 14826.4,
+      "durationMs": 2160000,
+      "drivingDurationMs": 1670267,
+      "idlingDurationMs": 489733,
+      "fuelConsumedMl": 1885,
+      "fuelConsumedGallons": 0.498,
+      "maxSpeedMph": 31.6,
+      "averageSpeedMph": 15.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250711_520",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1752262342000,
+      "endMs": 1752264322000,
+      "startAddress": "42355 Kristin Via Apt. 372",
+      "endAddress": "567 Donna Causeway Apt. 656",
+      "startCoords": {
+        "latitude": 39.765147,
+        "longitude": -105.057967
+      },
+      "endCoords": {
+        "latitude": 39.693503,
+        "longitude": -104.987395
+      },
+      "distanceMeters": 13257.4,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1553295,
+      "idlingDurationMs": 426705,
+      "fuelConsumedMl": 1685,
+      "fuelConsumedGallons": 0.445,
+      "maxSpeedMph": 35.0,
+      "averageSpeedMph": 15.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250712_552",
+      "vehicleId": "46232361",
+      "driverId": "20000012",
+      "startMs": 1752284387000,
+      "endMs": 1752289787000,
+      "startAddress": "65055 Barbara Skyway",
+      "endAddress": "687 Walter Underpass",
+      "startCoords": {
+        "latitude": 39.78319,
+        "longitude": -105.039827
+      },
+      "endCoords": {
+        "latitude": 39.693506,
+        "longitude": -105.031194
+      },
+      "distanceMeters": 38135.1,
+      "durationMs": 5400000,
+      "drivingDurationMs": 4688006,
+      "idlingDurationMs": 711994,
+      "fuelConsumedMl": 4849,
+      "fuelConsumedGallons": 1.281,
+      "maxSpeedMph": 34.8,
+      "averageSpeedMph": 15.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250712_584",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1752306462000,
+      "endMs": 1752315347000,
+      "startAddress": "65955 Armstrong Green",
+      "endAddress": "93793 Jason Walk",
+      "startCoords": {
+        "latitude": 39.771871,
+        "longitude": -104.991638
+      },
+      "endCoords": {
+        "latitude": 39.80591,
+        "longitude": -104.927246
+      },
+      "distanceMeters": 57144.4,
+      "durationMs": 8885000,
+      "drivingDurationMs": 6676692,
+      "idlingDurationMs": 2208308,
+      "fuelConsumedMl": 7264,
+      "fuelConsumedGallons": 1.919,
+      "maxSpeedMph": 34.0,
+      "averageSpeedMph": 14.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250712_611",
+      "vehicleId": "46232361",
+      "driverId": "20000001",
+      "startMs": 1752322687000,
+      "endMs": 1752324367000,
+      "startAddress": "518 Lopez Lake",
+      "endAddress": "768 Matthew Junction Apt. 308",
+      "startCoords": {
+        "latitude": 39.812588,
+        "longitude": -105.046904
+      },
+      "endCoords": {
+        "latitude": 39.770126,
+        "longitude": -105.064792
+      },
+      "distanceMeters": 11095.9,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1497666,
+      "idlingDurationMs": 182334,
+      "fuelConsumedMl": 1412,
+      "fuelConsumedGallons": 0.373,
+      "maxSpeedMph": 34.1,
+      "averageSpeedMph": 14.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250712_642",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1752337110000,
+      "endMs": 1752339750000,
+      "startAddress": "336 Kathryn Avenue Suite 754",
+      "endAddress": "0098 Wilson Trail",
+      "startCoords": {
+        "latitude": 39.691289,
+        "longitude": -104.986567
+      },
+      "endCoords": {
+        "latitude": 39.706509,
+        "longitude": -105.082247
+      },
+      "distanceMeters": 18586.0,
+      "durationMs": 2640000,
+      "drivingDurationMs": 2196554,
+      "idlingDurationMs": 443446,
+      "fuelConsumedMl": 2362,
+      "fuelConsumedGallons": 0.624,
+      "maxSpeedMph": 27.3,
+      "averageSpeedMph": 15.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250712_671",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1752356206000,
+      "endMs": 1752357706000,
+      "startAddress": "022 Foster Lock Suite 132",
+      "endAddress": "53423 Alexander Canyon",
+      "startCoords": {
+        "latitude": 39.709005,
+        "longitude": -104.954426
+      },
+      "endCoords": {
+        "latitude": 39.814137,
+        "longitude": -104.938173
+      },
+      "distanceMeters": 6916.6,
+      "durationMs": 1500000,
+      "drivingDurationMs": 1229554,
+      "idlingDurationMs": 270446,
+      "fuelConsumedMl": 878,
+      "fuelConsumedGallons": 0.232,
+      "maxSpeedMph": 28.4,
+      "averageSpeedMph": 10.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250713_698",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1752382179000,
+      "endMs": 1752390747000,
+      "startAddress": "3743 Michael Light",
+      "endAddress": "0536 Leslie Wells Apt. 311",
+      "startCoords": {
+        "latitude": 39.73392,
+        "longitude": -104.957638
+      },
+      "endCoords": {
+        "latitude": 39.703766,
+        "longitude": -105.004529
+      },
+      "distanceMeters": 41131.8,
+      "durationMs": 8568000,
+      "drivingDurationMs": 7542540,
+      "idlingDurationMs": 1025460,
+      "fuelConsumedMl": 5231,
+      "fuelConsumedGallons": 1.382,
+      "maxSpeedMph": 26.1,
+      "averageSpeedMph": 10.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250713_724",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1752405414000,
+      "endMs": 1752407214000,
+      "startAddress": "5187 Long Prairie",
+      "endAddress": "9203 Terrence Fords",
+      "startCoords": {
+        "latitude": 39.738185,
+        "longitude": -104.960379
+      },
+      "endCoords": {
+        "latitude": 39.79421,
+        "longitude": -105.034176
+      },
+      "distanceMeters": 8080.2,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1548884,
+      "idlingDurationMs": 251116,
+      "fuelConsumedMl": 1026,
+      "fuelConsumedGallons": 0.271,
+      "maxSpeedMph": 34.1,
+      "averageSpeedMph": 10.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250713_754",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1752427326000,
+      "endMs": 1752437148000,
+      "startAddress": "415 Goodman Street Apt. 517",
+      "endAddress": "3518 Rodriguez Stream Suite 696",
+      "startCoords": {
+        "latitude": 39.723229,
+        "longitude": -105.072641
+      },
+      "endCoords": {
+        "latitude": 39.796082,
+        "longitude": -104.995164
+      },
+      "distanceMeters": 64375.4,
+      "durationMs": 9822000,
+      "drivingDurationMs": 7890362,
+      "idlingDurationMs": 1931638,
+      "fuelConsumedMl": 8184,
+      "fuelConsumedGallons": 2.162,
+      "maxSpeedMph": 36.8,
+      "averageSpeedMph": 14.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250714_784",
+      "vehicleId": "46232361",
+      "driverId": "20000018",
+      "startMs": 1752474978000,
+      "endMs": 1752476778000,
+      "startAddress": "73533 Jacobson Loaf",
+      "endAddress": "16633 Chan Crescent",
+      "startCoords": {
+        "latitude": 39.724514,
+        "longitude": -104.937478
+      },
+      "endCoords": {
+        "latitude": 39.790942,
+        "longitude": -104.984724
+      },
+      "distanceMeters": 7632.1,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1386915,
+      "idlingDurationMs": 413085,
+      "fuelConsumedMl": 969,
+      "fuelConsumedGallons": 0.256,
+      "maxSpeedMph": 37.0,
+      "averageSpeedMph": 9.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250714_812",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1752491290000,
+      "endMs": 1752493210000,
+      "startAddress": "8554 Zamora Turnpike Apt. 897",
+      "endAddress": "501 Bennett Cape Apt. 672",
+      "startCoords": {
+        "latitude": 39.735445,
+        "longitude": -105.038624
+      },
+      "endCoords": {
+        "latitude": 39.781303,
+        "longitude": -105.05483
+      },
+      "distanceMeters": 9269.1,
+      "durationMs": 1920000,
+      "drivingDurationMs": 1567633,
+      "idlingDurationMs": 352367,
+      "fuelConsumedMl": 1177,
+      "fuelConsumedGallons": 0.311,
+      "maxSpeedMph": 39.8,
+      "averageSpeedMph": 10.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250714_844",
+      "vehicleId": "46232361",
+      "driverId": "20000010",
+      "startMs": 1752511085000,
+      "endMs": 1752513365000,
+      "startAddress": "5713 Campbell Ville Suite 745",
+      "endAddress": "453 Kelly Fall",
+      "startCoords": {
+        "latitude": 39.80401,
+        "longitude": -104.930789
+      },
+      "endCoords": {
+        "latitude": 39.702872,
+        "longitude": -105.061643
+      },
+      "distanceMeters": 13089.0,
+      "durationMs": 2280000,
+      "drivingDurationMs": 1936464,
+      "idlingDurationMs": 343536,
+      "fuelConsumedMl": 1666,
+      "fuelConsumedGallons": 0.44,
+      "maxSpeedMph": 31.1,
+      "averageSpeedMph": 12.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250714_868",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1752522091000,
+      "endMs": 1752523771000,
+      "startAddress": "159 Mary Crest Apt. 377",
+      "endAddress": "09074 Scott Ports",
+      "startCoords": {
+        "latitude": 39.770403,
+        "longitude": -105.014917
+      },
+      "endCoords": {
+        "latitude": 39.804686,
+        "longitude": -104.934895
+      },
+      "distanceMeters": 6943.3,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1267046,
+      "idlingDurationMs": 412954,
+      "fuelConsumedMl": 882,
+      "fuelConsumedGallons": 0.233,
+      "maxSpeedMph": 31.1,
+      "averageSpeedMph": 9.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250715_900",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1752541376000,
+      "endMs": 1752543836000,
+      "startAddress": "836 Brett Viaduct Suite 988",
+      "endAddress": "591 Paul Wall Apt. 033",
+      "startCoords": {
+        "latitude": 39.737009,
+        "longitude": -105.017628
+      },
+      "endCoords": {
+        "latitude": 39.708428,
+        "longitude": -104.988531
+      },
+      "distanceMeters": 13493.5,
+      "durationMs": 2460000,
+      "drivingDurationMs": 2136422,
+      "idlingDurationMs": 323578,
+      "fuelConsumedMl": 1715,
+      "fuelConsumedGallons": 0.453,
+      "maxSpeedMph": 32.2,
+      "averageSpeedMph": 12.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250715_929",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1752564708000,
+      "endMs": 1752566568000,
+      "startAddress": "21368 Jones Parks Suite 129",
+      "endAddress": "425 Jennifer Knoll",
+      "startCoords": {
+        "latitude": 39.731136,
+        "longitude": -104.980569
+      },
+      "endCoords": {
+        "latitude": 39.754497,
+        "longitude": -105.000622
+      },
+      "distanceMeters": 12353.1,
+      "durationMs": 1860000,
+      "drivingDurationMs": 1505247,
+      "idlingDurationMs": 354753,
+      "fuelConsumedMl": 1571,
+      "fuelConsumedGallons": 0.415,
+      "maxSpeedMph": 29.3,
+      "averageSpeedMph": 14.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250715_011",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1752579049000,
+      "endMs": 1752587471000,
+      "startAddress": "60244 Chang Ville",
+      "endAddress": "6772 Michael Mills Apt. 073",
+      "startCoords": {
+        "latitude": 39.729297,
+        "longitude": -105.004939
+      },
+      "endCoords": {
+        "latitude": 39.75132,
+        "longitude": -104.968869
+      },
+      "distanceMeters": 63371.0,
+      "durationMs": 8422000,
+      "drivingDurationMs": 7171491,
+      "idlingDurationMs": 1250509,
+      "fuelConsumedMl": 8055,
+      "fuelConsumedGallons": 2.128,
+      "maxSpeedMph": 39.4,
+      "averageSpeedMph": 16.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250715_039",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1752588205000,
+      "endMs": 1752595216000,
+      "startAddress": "21740 Jennifer Ridges Apt. 019",
+      "endAddress": "53892 Ethan Villages",
+      "startCoords": {
+        "latitude": 39.693466,
+        "longitude": -105.042329
+      },
+      "endCoords": {
+        "latitude": 39.778446,
+        "longitude": -105.068204
+      },
+      "distanceMeters": 35639.3,
+      "durationMs": 7011000,
+      "drivingDurationMs": 5523985,
+      "idlingDurationMs": 1487015,
+      "fuelConsumedMl": 4531,
+      "fuelConsumedGallons": 1.197,
+      "maxSpeedMph": 30.8,
+      "averageSpeedMph": 11.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250715_068",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1752603925000,
+      "endMs": 1752606145000,
+      "startAddress": "00144 Denise Shoals Suite 629",
+      "endAddress": "3049 Jeff Crest",
+      "startCoords": {
+        "latitude": 39.733511,
+        "longitude": -105.012665
+      },
+      "endCoords": {
+        "latitude": 39.793373,
+        "longitude": -104.99078
+      },
+      "distanceMeters": 15795.8,
+      "durationMs": 2220000,
+      "drivingDurationMs": 1891668,
+      "idlingDurationMs": 328332,
+      "fuelConsumedMl": 2010,
+      "fuelConsumedGallons": 0.531,
+      "maxSpeedMph": 39.6,
+      "averageSpeedMph": 15.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250715_099",
+      "vehicleId": "46232361",
+      "driverId": "20000014",
+      "startMs": 1752623327000,
+      "endMs": 1752628649000,
+      "startAddress": "226 Robin Park",
+      "endAddress": "7331 Tanner Parkways Apt. 664",
+      "startCoords": {
+        "latitude": 39.777174,
+        "longitude": -104.952452
+      },
+      "endCoords": {
+        "latitude": 39.685758,
+        "longitude": -105.024261
+      },
+      "distanceMeters": 36864.5,
+      "durationMs": 5322000,
+      "drivingDurationMs": 4525815,
+      "idlingDurationMs": 796185,
+      "fuelConsumedMl": 4686,
+      "fuelConsumedGallons": 1.238,
+      "maxSpeedMph": 36.0,
+      "averageSpeedMph": 15.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250716_126",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1752644609000,
+      "endMs": 1752646409000,
+      "startAddress": "18799 Zachary Station Suite 404",
+      "endAddress": "831 Larry Inlet Suite 012",
+      "startCoords": {
+        "latitude": 39.770931,
+        "longitude": -105.080273
+      },
+      "endCoords": {
+        "latitude": 39.694219,
+        "longitude": -104.936254
+      },
+      "distanceMeters": 13210.8,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1606085,
+      "idlingDurationMs": 193915,
+      "fuelConsumedMl": 1681,
+      "fuelConsumedGallons": 0.444,
+      "maxSpeedMph": 31.1,
+      "averageSpeedMph": 16.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250716_157",
+      "vehicleId": "46232361",
+      "driverId": "20000015",
+      "startMs": 1752660355000,
+      "endMs": 1752662695000,
+      "startAddress": "068 Jeffery Forges Apt. 016",
+      "endAddress": "59016 Ashley Groves",
+      "startCoords": {
+        "latitude": 39.772617,
+        "longitude": -105.001532
+      },
+      "endCoords": {
+        "latitude": 39.703258,
+        "longitude": -105.086444
+      },
+      "distanceMeters": 16068.9,
+      "durationMs": 2340000,
+      "drivingDurationMs": 1852964,
+      "idlingDurationMs": 487036,
+      "fuelConsumedMl": 2044,
+      "fuelConsumedGallons": 0.54,
+      "maxSpeedMph": 32.7,
+      "averageSpeedMph": 15.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250716_187",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1752674335000,
+      "endMs": 1752679815000,
+      "startAddress": "190 David Cliff Apt. 678",
+      "endAddress": "67635 Derek Flat Suite 185",
+      "startCoords": {
+        "latitude": 39.700648,
+        "longitude": -104.934891
+      },
+      "endCoords": {
+        "latitude": 39.713981,
+        "longitude": -104.948873
+      },
+      "distanceMeters": 40599.7,
+      "durationMs": 5480000,
+      "drivingDurationMs": 4860500,
+      "idlingDurationMs": 619500,
+      "fuelConsumedMl": 5163,
+      "fuelConsumedGallons": 1.364,
+      "maxSpeedMph": 37.9,
+      "averageSpeedMph": 16.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250716_217",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1752691451000,
+      "endMs": 1752725572000,
+      "startAddress": "9301 Brian Camp",
+      "endAddress": "993 Angela Pike",
+      "startCoords": {
+        "latitude": 39.755283,
+        "longitude": -105.022456
+      },
+      "endCoords": {
+        "latitude": 39.758283,
+        "longitude": -104.932893
+      },
+      "distanceMeters": 151511.1,
+      "durationMs": 34121000,
+      "drivingDurationMs": 30006629,
+      "idlingDurationMs": 4114371,
+      "fuelConsumedMl": 19264,
+      "fuelConsumedGallons": 5.089,
+      "maxSpeedMph": 26.0,
+      "averageSpeedMph": 9.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250717_273",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1752729368000,
+      "endMs": 1752731468000,
+      "startAddress": "83909 Krista Inlet",
+      "endAddress": "2406 Nunez Passage",
+      "startCoords": {
+        "latitude": 39.792767,
+        "longitude": -105.044892
+      },
+      "endCoords": {
+        "latitude": 39.692518,
+        "longitude": -105.014851
+      },
+      "distanceMeters": 12426.5,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1635423,
+      "idlingDurationMs": 464577,
+      "fuelConsumedMl": 1579,
+      "fuelConsumedGallons": 0.417,
+      "maxSpeedMph": 31.6,
+      "averageSpeedMph": 13.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250717_301",
+      "vehicleId": "46232361",
+      "driverId": "20000021",
+      "startMs": 1752743641000,
+      "endMs": 1752755776000,
+      "startAddress": "14613 Christopher Row Suite 530",
+      "endAddress": "3030 Phillips Mission",
+      "startCoords": {
+        "latitude": 39.81932,
+        "longitude": -105.020236
+      },
+      "endCoords": {
+        "latitude": 39.726999,
+        "longitude": -105.05572
+      },
+      "distanceMeters": 74846.6,
+      "durationMs": 12135000,
+      "drivingDurationMs": 9759610,
+      "idlingDurationMs": 2375390,
+      "fuelConsumedMl": 9517,
+      "fuelConsumedGallons": 2.514,
+      "maxSpeedMph": 32.5,
+      "averageSpeedMph": 13.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250717_333",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1752757179000,
+      "endMs": 1752759970000,
+      "startAddress": "215 Elizabeth Trail Suite 763",
+      "endAddress": "67355 Williams Centers Suite 228",
+      "startCoords": {
+        "latitude": 39.802854,
+        "longitude": -104.9198
+      },
+      "endCoords": {
+        "latitude": 39.772076,
+        "longitude": -105.085526
+      },
+      "distanceMeters": 17007.3,
+      "durationMs": 2791000,
+      "drivingDurationMs": 2243376,
+      "idlingDurationMs": 547624,
+      "fuelConsumedMl": 2161,
+      "fuelConsumedGallons": 0.571,
+      "maxSpeedMph": 27.9,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250717_360",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1752775138000,
+      "endMs": 1752777238000,
+      "startAddress": "76425 Owen Neck Suite 887",
+      "endAddress": "20392 David Club Suite 019",
+      "startCoords": {
+        "latitude": 39.721817,
+        "longitude": -105.057425
+      },
+      "endCoords": {
+        "latitude": 39.805676,
+        "longitude": -105.086655
+      },
+      "distanceMeters": 10257.3,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1877200,
+      "idlingDurationMs": 222800,
+      "fuelConsumedMl": 1306,
+      "fuelConsumedGallons": 0.345,
+      "maxSpeedMph": 29.7,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250718_396",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1752799198000,
+      "endMs": 1752811235000,
+      "startAddress": "5600 David Camp",
+      "endAddress": "40567 Castaneda Cove",
+      "startCoords": {
+        "latitude": 39.742228,
+        "longitude": -104.933885
+      },
+      "endCoords": {
+        "latitude": 39.733462,
+        "longitude": -104.938512
+      },
+      "distanceMeters": 54266.4,
+      "durationMs": 12037000,
+      "drivingDurationMs": 9077088,
+      "idlingDurationMs": 2959912,
+      "fuelConsumedMl": 6901,
+      "fuelConsumedGallons": 1.823,
+      "maxSpeedMph": 29.0,
+      "averageSpeedMph": 10.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250718_424",
+      "vehicleId": "46232361",
+      "driverId": "20000018",
+      "startMs": 1752818085000,
+      "endMs": 1752820545000,
+      "startAddress": "98058 Mendoza Ville Suite 559",
+      "endAddress": "627 Hickman Center",
+      "startCoords": {
+        "latitude": 39.756257,
+        "longitude": -105.023724
+      },
+      "endCoords": {
+        "latitude": 39.700594,
+        "longitude": -104.991099
+      },
+      "distanceMeters": 11515.9,
+      "durationMs": 2460000,
+      "drivingDurationMs": 2027198,
+      "idlingDurationMs": 432802,
+      "fuelConsumedMl": 1465,
+      "fuelConsumedGallons": 0.387,
+      "maxSpeedMph": 33.6,
+      "averageSpeedMph": 10.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250718_453",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1752834596000,
+      "endMs": 1752836396000,
+      "startAddress": "045 Nguyen Junctions",
+      "endAddress": "26356 Vincent Oval Suite 332",
+      "startCoords": {
+        "latitude": 39.751071,
+        "longitude": -104.923784
+      },
+      "endCoords": {
+        "latitude": 39.818482,
+        "longitude": -104.984462
+      },
+      "distanceMeters": 8769.5,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1372876,
+      "idlingDurationMs": 427124,
+      "fuelConsumedMl": 1117,
+      "fuelConsumedGallons": 0.295,
+      "maxSpeedMph": 37.9,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250718_484",
+      "vehicleId": "46232361",
+      "driverId": "20000008",
+      "startMs": 1752848738000,
+      "endMs": 1752851098000,
+      "startAddress": "786 Ronald Plains Suite 272",
+      "endAddress": "603 Adam Orchard Suite 834",
+      "startCoords": {
+        "latitude": 39.772655,
+        "longitude": -104.988137
+      },
+      "endCoords": {
+        "latitude": 39.789573,
+        "longitude": -104.930643
+      },
+      "distanceMeters": 15105.3,
+      "durationMs": 2360000,
+      "drivingDurationMs": 1842836,
+      "idlingDurationMs": 517164,
+      "fuelConsumedMl": 1919,
+      "fuelConsumedGallons": 0.507,
+      "maxSpeedMph": 26.7,
+      "averageSpeedMph": 14.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250718_513",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1752861036000,
+      "endMs": 1752871218000,
+      "startAddress": "545 Craig Turnpike Suite 003",
+      "endAddress": "19622 Rowe Forges",
+      "startCoords": {
+        "latitude": 39.764548,
+        "longitude": -104.953606
+      },
+      "endCoords": {
+        "latitude": 39.689458,
+        "longitude": -104.914114
+      },
+      "distanceMeters": 47333.1,
+      "durationMs": 10182000,
+      "drivingDurationMs": 8860058,
+      "idlingDurationMs": 1321942,
+      "fuelConsumedMl": 6019,
+      "fuelConsumedGallons": 1.59,
+      "maxSpeedMph": 39.3,
+      "averageSpeedMph": 10.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250719_546",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1752884125000,
+      "endMs": 1752895865000,
+      "startAddress": "380 Moore Islands Apt. 230",
+      "endAddress": "6924 Kenneth Well Apt. 548",
+      "startCoords": {
+        "latitude": 39.701317,
+        "longitude": -104.925947
+      },
+      "endCoords": {
+        "latitude": 39.731181,
+        "longitude": -105.009834
+      },
+      "distanceMeters": 86535.0,
+      "durationMs": 11740000,
+      "drivingDurationMs": 10451666,
+      "idlingDurationMs": 1288334,
+      "fuelConsumedMl": 11004,
+      "fuelConsumedGallons": 2.907,
+      "maxSpeedMph": 32.4,
+      "averageSpeedMph": 16.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250719_577",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1752906495000,
+      "endMs": 1752908595000,
+      "startAddress": "8586 Jessica Pine Apt. 786",
+      "endAddress": "215 Victor Glens",
+      "startCoords": {
+        "latitude": 39.69325,
+        "longitude": -105.04852
+      },
+      "endCoords": {
+        "latitude": 39.783773,
+        "longitude": -105.00656
+      },
+      "distanceMeters": 10943.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1839909,
+      "idlingDurationMs": 260091,
+      "fuelConsumedMl": 1393,
+      "fuelConsumedGallons": 0.368,
+      "maxSpeedMph": 32.6,
+      "averageSpeedMph": 11.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250719_605",
+      "vehicleId": "46232361",
+      "driverId": "20000017",
+      "startMs": 1752924979000,
+      "endMs": 1752926959000,
+      "startAddress": "167 Reese Parkway",
+      "endAddress": "4088 Barajas Radial Apt. 032",
+      "startCoords": {
+        "latitude": 39.721584,
+        "longitude": -104.98787
+      },
+      "endCoords": {
+        "latitude": 39.746392,
+        "longitude": -105.033357
+      },
+      "distanceMeters": 9329.8,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1578998,
+      "idlingDurationMs": 401002,
+      "fuelConsumedMl": 1185,
+      "fuelConsumedGallons": 0.313,
+      "maxSpeedMph": 31.3,
+      "averageSpeedMph": 10.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250719_637",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1752938570000,
+      "endMs": 1752940850000,
+      "startAddress": "65580 Farmer Glen Suite 555",
+      "endAddress": "7203 Soto Mountains",
+      "startCoords": {
+        "latitude": 39.783429,
+        "longitude": -104.975478
+      },
+      "endCoords": {
+        "latitude": 39.787108,
+        "longitude": -104.972508
+      },
+      "distanceMeters": 13301.9,
+      "durationMs": 2280000,
+      "drivingDurationMs": 1970175,
+      "idlingDurationMs": 309825,
+      "fuelConsumedMl": 1692,
+      "fuelConsumedGallons": 0.447,
+      "maxSpeedMph": 28.3,
+      "averageSpeedMph": 13.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250719_667",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1752955949000,
+      "endMs": 1752958349000,
+      "startAddress": "141 Smith Corner Apt. 856",
+      "endAddress": "142 Morris Avenue",
+      "startCoords": {
+        "latitude": 39.686904,
+        "longitude": -104.936755
+      },
+      "endCoords": {
+        "latitude": 39.804081,
+        "longitude": -104.989907
+      },
+      "distanceMeters": 16935.9,
+      "durationMs": 2400000,
+      "drivingDurationMs": 2152266,
+      "idlingDurationMs": 247734,
+      "fuelConsumedMl": 2154,
+      "fuelConsumedGallons": 0.569,
+      "maxSpeedMph": 28.5,
+      "averageSpeedMph": 15.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250720_693",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1752982325000,
+      "endMs": 1752984425000,
+      "startAddress": "757 Patricia Harbors",
+      "endAddress": "48667 Alejandra Glens",
+      "startCoords": {
+        "latitude": 39.793953,
+        "longitude": -104.975009
+      },
+      "endCoords": {
+        "latitude": 39.70782,
+        "longitude": -105.026992
+      },
+      "distanceMeters": 9691.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1828948,
+      "idlingDurationMs": 271052,
+      "fuelConsumedMl": 1234,
+      "fuelConsumedGallons": 0.326,
+      "maxSpeedMph": 34.6,
+      "averageSpeedMph": 10.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250720_718",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1753005804000,
+      "endMs": 1753007304000,
+      "startAddress": "75024 Stacey Burg Apt. 788",
+      "endAddress": "5875 Vega Junction Apt. 959",
+      "startCoords": {
+        "latitude": 39.730857,
+        "longitude": -105.030729
+      },
+      "endCoords": {
+        "latitude": 39.773563,
+        "longitude": -104.944627
+      },
+      "distanceMeters": 6684.8,
+      "durationMs": 1500000,
+      "drivingDurationMs": 1309703,
+      "idlingDurationMs": 190297,
+      "fuelConsumedMl": 852,
+      "fuelConsumedGallons": 0.225,
+      "maxSpeedMph": 34.3,
+      "averageSpeedMph": 10.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250720_750",
+      "vehicleId": "46232361",
+      "driverId": "20000018",
+      "startMs": 1753030190000,
+      "endMs": 1753032530000,
+      "startAddress": "591 Adam Harbor Suite 364",
+      "endAddress": "4443 Kaitlyn Port",
+      "startCoords": {
+        "latitude": 39.798891,
+        "longitude": -105.077426
+      },
+      "endCoords": {
+        "latitude": 39.815974,
+        "longitude": -104.961299
+      },
+      "distanceMeters": 17839.7,
+      "durationMs": 2340000,
+      "drivingDurationMs": 2093782,
+      "idlingDurationMs": 246218,
+      "fuelConsumedMl": 2267,
+      "fuelConsumedGallons": 0.599,
+      "maxSpeedMph": 36.1,
+      "averageSpeedMph": 17.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250721_778",
+      "vehicleId": "46232361",
+      "driverId": "20000007",
+      "startMs": 1753062490000,
+      "endMs": 1753065070000,
+      "startAddress": "74711 Williams Lock",
+      "endAddress": "579 Gaines Point Suite 312",
+      "startCoords": {
+        "latitude": 39.713095,
+        "longitude": -105.034237
+      },
+      "endCoords": {
+        "latitude": 39.804082,
+        "longitude": -104.946553
+      },
+      "distanceMeters": 17662.6,
+      "durationMs": 2580000,
+      "drivingDurationMs": 2264703,
+      "idlingDurationMs": 315297,
+      "fuelConsumedMl": 2245,
+      "fuelConsumedGallons": 0.593,
+      "maxSpeedMph": 30.7,
+      "averageSpeedMph": 15.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250721_808",
+      "vehicleId": "46232361",
+      "driverId": "20000001",
+      "startMs": 1753094391000,
+      "endMs": 1753096491000,
+      "startAddress": "26406 Lauren Manors Apt. 674",
+      "endAddress": "1448 Kim Coves",
+      "startCoords": {
+        "latitude": 39.782463,
+        "longitude": -104.914214
+      },
+      "endCoords": {
+        "latitude": 39.806748,
+        "longitude": -104.953092
+      },
+      "distanceMeters": 11598.1,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1730095,
+      "idlingDurationMs": 369905,
+      "fuelConsumedMl": 1476,
+      "fuelConsumedGallons": 0.39,
+      "maxSpeedMph": 34.0,
+      "averageSpeedMph": 12.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250721_834",
+      "vehicleId": "46232361",
+      "driverId": "20000014",
+      "startMs": 1753109802000,
+      "endMs": 1753132423000,
+      "startAddress": "873 Kari Path Suite 810",
+      "endAddress": "3129 Roberto Manor",
+      "startCoords": {
+        "latitude": 39.766289,
+        "longitude": -105.06137
+      },
+      "endCoords": {
+        "latitude": 39.738166,
+        "longitude": -104.948892
+      },
+      "distanceMeters": 111535.4,
+      "durationMs": 22621000,
+      "drivingDurationMs": 18095932,
+      "idlingDurationMs": 4525068,
+      "fuelConsumedMl": 14180,
+      "fuelConsumedGallons": 3.746,
+      "maxSpeedMph": 37.2,
+      "averageSpeedMph": 11.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250721_879",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1753133737000,
+      "endMs": 1753135417000,
+      "startAddress": "78988 Buck Expressway",
+      "endAddress": "919 Johnson Pines Suite 158",
+      "startCoords": {
+        "latitude": 39.815907,
+        "longitude": -105.050658
+      },
+      "endCoords": {
+        "latitude": 39.731184,
+        "longitude": -105.075888
+      },
+      "distanceMeters": 7865.4,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1338234,
+      "idlingDurationMs": 341766,
+      "fuelConsumedMl": 999,
+      "fuelConsumedGallons": 0.264,
+      "maxSpeedMph": 39.2,
+      "averageSpeedMph": 10.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250722_906",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1753152456000,
+      "endMs": 1753154076000,
+      "startAddress": "399 Sanford Roads",
+      "endAddress": "022 Christopher Motorway Suite 106",
+      "startCoords": {
+        "latitude": 39.759472,
+        "longitude": -104.996744
+      },
+      "endCoords": {
+        "latitude": 39.821494,
+        "longitude": -104.99854
+      },
+      "distanceMeters": 9926.9,
+      "durationMs": 1620000,
+      "drivingDurationMs": 1414503,
+      "idlingDurationMs": 205497,
+      "fuelConsumedMl": 1261,
+      "fuelConsumedGallons": 0.333,
+      "maxSpeedMph": 35.8,
+      "averageSpeedMph": 13.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250722_939",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1753179389000,
+      "endMs": 1753181489000,
+      "startAddress": "3721 Jeffrey Harbor Suite 756",
+      "endAddress": "189 Rivera Park",
+      "startCoords": {
+        "latitude": 39.708009,
+        "longitude": -104.961338
+      },
+      "endCoords": {
+        "latitude": 39.685344,
+        "longitude": -105.036282
+      },
+      "distanceMeters": 10530.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1850892,
+      "idlingDurationMs": 249108,
+      "fuelConsumedMl": 1340,
+      "fuelConsumedGallons": 0.354,
+      "maxSpeedMph": 36.2,
+      "averageSpeedMph": 11.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250722_011",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1753183849000,
+      "endMs": 1753192271000,
+      "startAddress": "60244 Chang Ville",
+      "endAddress": "6772 Michael Mills Apt. 073",
+      "startCoords": {
+        "latitude": 39.729297,
+        "longitude": -105.004939
+      },
+      "endCoords": {
+        "latitude": 39.75132,
+        "longitude": -104.968869
+      },
+      "distanceMeters": 63371.0,
+      "durationMs": 8422000,
+      "drivingDurationMs": 7171491,
+      "idlingDurationMs": 1250509,
+      "fuelConsumedMl": 8055,
+      "fuelConsumedGallons": 2.128,
+      "maxSpeedMph": 39.4,
+      "averageSpeedMph": 16.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250722_039",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1753193005000,
+      "endMs": 1753200016000,
+      "startAddress": "21740 Jennifer Ridges Apt. 019",
+      "endAddress": "53892 Ethan Villages",
+      "startCoords": {
+        "latitude": 39.693466,
+        "longitude": -105.042329
+      },
+      "endCoords": {
+        "latitude": 39.778446,
+        "longitude": -105.068204
+      },
+      "distanceMeters": 35639.3,
+      "durationMs": 7011000,
+      "drivingDurationMs": 5523985,
+      "idlingDurationMs": 1487015,
+      "fuelConsumedMl": 4531,
+      "fuelConsumedGallons": 1.197,
+      "maxSpeedMph": 30.8,
+      "averageSpeedMph": 11.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250722_068",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1753208725000,
+      "endMs": 1753210945000,
+      "startAddress": "00144 Denise Shoals Suite 629",
+      "endAddress": "3049 Jeff Crest",
+      "startCoords": {
+        "latitude": 39.733511,
+        "longitude": -105.012665
+      },
+      "endCoords": {
+        "latitude": 39.793373,
+        "longitude": -104.99078
+      },
+      "distanceMeters": 15795.8,
+      "durationMs": 2220000,
+      "drivingDurationMs": 1891668,
+      "idlingDurationMs": 328332,
+      "fuelConsumedMl": 2010,
+      "fuelConsumedGallons": 0.531,
+      "maxSpeedMph": 39.6,
+      "averageSpeedMph": 15.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250722_099",
+      "vehicleId": "46232361",
+      "driverId": "20000014",
+      "startMs": 1753228127000,
+      "endMs": 1753233449000,
+      "startAddress": "226 Robin Park",
+      "endAddress": "7331 Tanner Parkways Apt. 664",
+      "startCoords": {
+        "latitude": 39.777174,
+        "longitude": -104.952452
+      },
+      "endCoords": {
+        "latitude": 39.685758,
+        "longitude": -105.024261
+      },
+      "distanceMeters": 36864.5,
+      "durationMs": 5322000,
+      "drivingDurationMs": 4525815,
+      "idlingDurationMs": 796185,
+      "fuelConsumedMl": 4686,
+      "fuelConsumedGallons": 1.238,
+      "maxSpeedMph": 36.0,
+      "averageSpeedMph": 15.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250723_126",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1753249409000,
+      "endMs": 1753251209000,
+      "startAddress": "18799 Zachary Station Suite 404",
+      "endAddress": "831 Larry Inlet Suite 012",
+      "startCoords": {
+        "latitude": 39.770931,
+        "longitude": -105.080273
+      },
+      "endCoords": {
+        "latitude": 39.694219,
+        "longitude": -104.936254
+      },
+      "distanceMeters": 13210.8,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1606085,
+      "idlingDurationMs": 193915,
+      "fuelConsumedMl": 1681,
+      "fuelConsumedGallons": 0.444,
+      "maxSpeedMph": 31.1,
+      "averageSpeedMph": 16.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250723_157",
+      "vehicleId": "46232361",
+      "driverId": "20000015",
+      "startMs": 1753265155000,
+      "endMs": 1753267495000,
+      "startAddress": "068 Jeffery Forges Apt. 016",
+      "endAddress": "59016 Ashley Groves",
+      "startCoords": {
+        "latitude": 39.772617,
+        "longitude": -105.001532
+      },
+      "endCoords": {
+        "latitude": 39.703258,
+        "longitude": -105.086444
+      },
+      "distanceMeters": 16068.9,
+      "durationMs": 2340000,
+      "drivingDurationMs": 1852964,
+      "idlingDurationMs": 487036,
+      "fuelConsumedMl": 2044,
+      "fuelConsumedGallons": 0.54,
+      "maxSpeedMph": 32.7,
+      "averageSpeedMph": 15.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250723_187",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1753279135000,
+      "endMs": 1753284615000,
+      "startAddress": "190 David Cliff Apt. 678",
+      "endAddress": "67635 Derek Flat Suite 185",
+      "startCoords": {
+        "latitude": 39.700648,
+        "longitude": -104.934891
+      },
+      "endCoords": {
+        "latitude": 39.713981,
+        "longitude": -104.948873
+      },
+      "distanceMeters": 40599.7,
+      "durationMs": 5480000,
+      "drivingDurationMs": 4860500,
+      "idlingDurationMs": 619500,
+      "fuelConsumedMl": 5163,
+      "fuelConsumedGallons": 1.364,
+      "maxSpeedMph": 37.9,
+      "averageSpeedMph": 16.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250723_217",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1753296251000,
+      "endMs": 1753330372000,
+      "startAddress": "9301 Brian Camp",
+      "endAddress": "993 Angela Pike",
+      "startCoords": {
+        "latitude": 39.755283,
+        "longitude": -105.022456
+      },
+      "endCoords": {
+        "latitude": 39.758283,
+        "longitude": -104.932893
+      },
+      "distanceMeters": 151511.1,
+      "durationMs": 34121000,
+      "drivingDurationMs": 30006629,
+      "idlingDurationMs": 4114371,
+      "fuelConsumedMl": 19264,
+      "fuelConsumedGallons": 5.089,
+      "maxSpeedMph": 26.0,
+      "averageSpeedMph": 9.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250724_273",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1753334168000,
+      "endMs": 1753336268000,
+      "startAddress": "83909 Krista Inlet",
+      "endAddress": "2406 Nunez Passage",
+      "startCoords": {
+        "latitude": 39.792767,
+        "longitude": -105.044892
+      },
+      "endCoords": {
+        "latitude": 39.692518,
+        "longitude": -105.014851
+      },
+      "distanceMeters": 12426.5,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1635423,
+      "idlingDurationMs": 464577,
+      "fuelConsumedMl": 1579,
+      "fuelConsumedGallons": 0.417,
+      "maxSpeedMph": 31.6,
+      "averageSpeedMph": 13.2,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250724_301",
+      "vehicleId": "46232361",
+      "driverId": "20000021",
+      "startMs": 1753348441000,
+      "endMs": 1753360576000,
+      "startAddress": "14613 Christopher Row Suite 530",
+      "endAddress": "3030 Phillips Mission",
+      "startCoords": {
+        "latitude": 39.81932,
+        "longitude": -105.020236
+      },
+      "endCoords": {
+        "latitude": 39.726999,
+        "longitude": -105.05572
+      },
+      "distanceMeters": 74846.6,
+      "durationMs": 12135000,
+      "drivingDurationMs": 9759610,
+      "idlingDurationMs": 2375390,
+      "fuelConsumedMl": 9517,
+      "fuelConsumedGallons": 2.514,
+      "maxSpeedMph": 32.5,
+      "averageSpeedMph": 13.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250724_333",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1753361979000,
+      "endMs": 1753364770000,
+      "startAddress": "215 Elizabeth Trail Suite 763",
+      "endAddress": "67355 Williams Centers Suite 228",
+      "startCoords": {
+        "latitude": 39.802854,
+        "longitude": -104.9198
+      },
+      "endCoords": {
+        "latitude": 39.772076,
+        "longitude": -105.085526
+      },
+      "distanceMeters": 17007.3,
+      "durationMs": 2791000,
+      "drivingDurationMs": 2243376,
+      "idlingDurationMs": 547624,
+      "fuelConsumedMl": 2161,
+      "fuelConsumedGallons": 0.571,
+      "maxSpeedMph": 27.9,
+      "averageSpeedMph": 13.6,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250724_360",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1753379938000,
+      "endMs": 1753382038000,
+      "startAddress": "76425 Owen Neck Suite 887",
+      "endAddress": "20392 David Club Suite 019",
+      "startCoords": {
+        "latitude": 39.721817,
+        "longitude": -105.057425
+      },
+      "endCoords": {
+        "latitude": 39.805676,
+        "longitude": -105.086655
+      },
+      "distanceMeters": 10257.3,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1877200,
+      "idlingDurationMs": 222800,
+      "fuelConsumedMl": 1306,
+      "fuelConsumedGallons": 0.345,
+      "maxSpeedMph": 29.7,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250725_396",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1753403998000,
+      "endMs": 1753416035000,
+      "startAddress": "5600 David Camp",
+      "endAddress": "40567 Castaneda Cove",
+      "startCoords": {
+        "latitude": 39.742228,
+        "longitude": -104.933885
+      },
+      "endCoords": {
+        "latitude": 39.733462,
+        "longitude": -104.938512
+      },
+      "distanceMeters": 54266.4,
+      "durationMs": 12037000,
+      "drivingDurationMs": 9077088,
+      "idlingDurationMs": 2959912,
+      "fuelConsumedMl": 6901,
+      "fuelConsumedGallons": 1.823,
+      "maxSpeedMph": 29.0,
+      "averageSpeedMph": 10.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250725_424",
+      "vehicleId": "46232361",
+      "driverId": "20000018",
+      "startMs": 1753422885000,
+      "endMs": 1753425345000,
+      "startAddress": "98058 Mendoza Ville Suite 559",
+      "endAddress": "627 Hickman Center",
+      "startCoords": {
+        "latitude": 39.756257,
+        "longitude": -105.023724
+      },
+      "endCoords": {
+        "latitude": 39.700594,
+        "longitude": -104.991099
+      },
+      "distanceMeters": 11515.9,
+      "durationMs": 2460000,
+      "drivingDurationMs": 2027198,
+      "idlingDurationMs": 432802,
+      "fuelConsumedMl": 1465,
+      "fuelConsumedGallons": 0.387,
+      "maxSpeedMph": 33.6,
+      "averageSpeedMph": 10.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250725_453",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1753439396000,
+      "endMs": 1753441196000,
+      "startAddress": "045 Nguyen Junctions",
+      "endAddress": "26356 Vincent Oval Suite 332",
+      "startCoords": {
+        "latitude": 39.751071,
+        "longitude": -104.923784
+      },
+      "endCoords": {
+        "latitude": 39.818482,
+        "longitude": -104.984462
+      },
+      "distanceMeters": 8769.5,
+      "durationMs": 1800000,
+      "drivingDurationMs": 1372876,
+      "idlingDurationMs": 427124,
+      "fuelConsumedMl": 1117,
+      "fuelConsumedGallons": 0.295,
+      "maxSpeedMph": 37.9,
+      "averageSpeedMph": 10.9,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250725_484",
+      "vehicleId": "46232361",
+      "driverId": "20000008",
+      "startMs": 1753453538000,
+      "endMs": 1753455898000,
+      "startAddress": "786 Ronald Plains Suite 272",
+      "endAddress": "603 Adam Orchard Suite 834",
+      "startCoords": {
+        "latitude": 39.772655,
+        "longitude": -104.988137
+      },
+      "endCoords": {
+        "latitude": 39.789573,
+        "longitude": -104.930643
+      },
+      "distanceMeters": 15105.3,
+      "durationMs": 2360000,
+      "drivingDurationMs": 1842836,
+      "idlingDurationMs": 517164,
+      "fuelConsumedMl": 1919,
+      "fuelConsumedGallons": 0.507,
+      "maxSpeedMph": 26.7,
+      "averageSpeedMph": 14.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250725_513",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1753465836000,
+      "endMs": 1753476018000,
+      "startAddress": "545 Craig Turnpike Suite 003",
+      "endAddress": "19622 Rowe Forges",
+      "startCoords": {
+        "latitude": 39.764548,
+        "longitude": -104.953606
+      },
+      "endCoords": {
+        "latitude": 39.689458,
+        "longitude": -104.914114
+      },
+      "distanceMeters": 47333.1,
+      "durationMs": 10182000,
+      "drivingDurationMs": 8860058,
+      "idlingDurationMs": 1321942,
+      "fuelConsumedMl": 6019,
+      "fuelConsumedGallons": 1.59,
+      "maxSpeedMph": 39.3,
+      "averageSpeedMph": 10.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250726_546",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1753488925000,
+      "endMs": 1753500665000,
+      "startAddress": "380 Moore Islands Apt. 230",
+      "endAddress": "6924 Kenneth Well Apt. 548",
+      "startCoords": {
+        "latitude": 39.701317,
+        "longitude": -104.925947
+      },
+      "endCoords": {
+        "latitude": 39.731181,
+        "longitude": -105.009834
+      },
+      "distanceMeters": 86535.0,
+      "durationMs": 11740000,
+      "drivingDurationMs": 10451666,
+      "idlingDurationMs": 1288334,
+      "fuelConsumedMl": 11004,
+      "fuelConsumedGallons": 2.907,
+      "maxSpeedMph": 32.4,
+      "averageSpeedMph": 16.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250726_577",
+      "vehicleId": "46232361",
+      "driverId": "20000004",
+      "startMs": 1753511295000,
+      "endMs": 1753513395000,
+      "startAddress": "8586 Jessica Pine Apt. 786",
+      "endAddress": "215 Victor Glens",
+      "startCoords": {
+        "latitude": 39.69325,
+        "longitude": -105.04852
+      },
+      "endCoords": {
+        "latitude": 39.783773,
+        "longitude": -105.00656
+      },
+      "distanceMeters": 10943.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1839909,
+      "idlingDurationMs": 260091,
+      "fuelConsumedMl": 1393,
+      "fuelConsumedGallons": 0.368,
+      "maxSpeedMph": 32.6,
+      "averageSpeedMph": 11.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250726_605",
+      "vehicleId": "46232361",
+      "driverId": "20000017",
+      "startMs": 1753529779000,
+      "endMs": 1753531759000,
+      "startAddress": "167 Reese Parkway",
+      "endAddress": "4088 Barajas Radial Apt. 032",
+      "startCoords": {
+        "latitude": 39.721584,
+        "longitude": -104.98787
+      },
+      "endCoords": {
+        "latitude": 39.746392,
+        "longitude": -105.033357
+      },
+      "distanceMeters": 9329.8,
+      "durationMs": 1980000,
+      "drivingDurationMs": 1578998,
+      "idlingDurationMs": 401002,
+      "fuelConsumedMl": 1185,
+      "fuelConsumedGallons": 0.313,
+      "maxSpeedMph": 31.3,
+      "averageSpeedMph": 10.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250726_637",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1753543370000,
+      "endMs": 1753545650000,
+      "startAddress": "65580 Farmer Glen Suite 555",
+      "endAddress": "7203 Soto Mountains",
+      "startCoords": {
+        "latitude": 39.783429,
+        "longitude": -104.975478
+      },
+      "endCoords": {
+        "latitude": 39.787108,
+        "longitude": -104.972508
+      },
+      "distanceMeters": 13301.9,
+      "durationMs": 2280000,
+      "drivingDurationMs": 1970175,
+      "idlingDurationMs": 309825,
+      "fuelConsumedMl": 1692,
+      "fuelConsumedGallons": 0.447,
+      "maxSpeedMph": 28.3,
+      "averageSpeedMph": 13.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250726_667",
+      "vehicleId": "46232361",
+      "driverId": "20000002",
+      "startMs": 1753560749000,
+      "endMs": 1753563149000,
+      "startAddress": "141 Smith Corner Apt. 856",
+      "endAddress": "142 Morris Avenue",
+      "startCoords": {
+        "latitude": 39.686904,
+        "longitude": -104.936755
+      },
+      "endCoords": {
+        "latitude": 39.804081,
+        "longitude": -104.989907
+      },
+      "distanceMeters": 16935.9,
+      "durationMs": 2400000,
+      "drivingDurationMs": 2152266,
+      "idlingDurationMs": 247734,
+      "fuelConsumedMl": 2154,
+      "fuelConsumedGallons": 0.569,
+      "maxSpeedMph": 28.5,
+      "averageSpeedMph": 15.8,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250727_693",
+      "vehicleId": "46232361",
+      "driverId": "20000013",
+      "startMs": 1753587125000,
+      "endMs": 1753589225000,
+      "startAddress": "757 Patricia Harbors",
+      "endAddress": "48667 Alejandra Glens",
+      "startCoords": {
+        "latitude": 39.793953,
+        "longitude": -104.975009
+      },
+      "endCoords": {
+        "latitude": 39.70782,
+        "longitude": -105.026992
+      },
+      "distanceMeters": 9691.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1828948,
+      "idlingDurationMs": 271052,
+      "fuelConsumedMl": 1234,
+      "fuelConsumedGallons": 0.326,
+      "maxSpeedMph": 34.6,
+      "averageSpeedMph": 10.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250727_718",
+      "vehicleId": "46232361",
+      "driverId": "20000022",
+      "startMs": 1753610604000,
+      "endMs": 1753612104000,
+      "startAddress": "75024 Stacey Burg Apt. 788",
+      "endAddress": "5875 Vega Junction Apt. 959",
+      "startCoords": {
+        "latitude": 39.730857,
+        "longitude": -105.030729
+      },
+      "endCoords": {
+        "latitude": 39.773563,
+        "longitude": -104.944627
+      },
+      "distanceMeters": 6684.8,
+      "durationMs": 1500000,
+      "drivingDurationMs": 1309703,
+      "idlingDurationMs": 190297,
+      "fuelConsumedMl": 852,
+      "fuelConsumedGallons": 0.225,
+      "maxSpeedMph": 34.3,
+      "averageSpeedMph": 10.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250727_750",
+      "vehicleId": "46232361",
+      "driverId": "20000018",
+      "startMs": 1753634990000,
+      "endMs": 1753637330000,
+      "startAddress": "591 Adam Harbor Suite 364",
+      "endAddress": "4443 Kaitlyn Port",
+      "startCoords": {
+        "latitude": 39.798891,
+        "longitude": -105.077426
+      },
+      "endCoords": {
+        "latitude": 39.815974,
+        "longitude": -104.961299
+      },
+      "distanceMeters": 17839.7,
+      "durationMs": 2340000,
+      "drivingDurationMs": 2093782,
+      "idlingDurationMs": 246218,
+      "fuelConsumedMl": 2267,
+      "fuelConsumedGallons": 0.599,
+      "maxSpeedMph": 36.1,
+      "averageSpeedMph": 17.1,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250728_778",
+      "vehicleId": "46232361",
+      "driverId": "20000007",
+      "startMs": 1753667290000,
+      "endMs": 1753669870000,
+      "startAddress": "74711 Williams Lock",
+      "endAddress": "579 Gaines Point Suite 312",
+      "startCoords": {
+        "latitude": 39.713095,
+        "longitude": -105.034237
+      },
+      "endCoords": {
+        "latitude": 39.804082,
+        "longitude": -104.946553
+      },
+      "distanceMeters": 17662.6,
+      "durationMs": 2580000,
+      "drivingDurationMs": 2264703,
+      "idlingDurationMs": 315297,
+      "fuelConsumedMl": 2245,
+      "fuelConsumedGallons": 0.593,
+      "maxSpeedMph": 30.7,
+      "averageSpeedMph": 15.3,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250728_808",
+      "vehicleId": "46232361",
+      "driverId": "20000001",
+      "startMs": 1753699191000,
+      "endMs": 1753701291000,
+      "startAddress": "26406 Lauren Manors Apt. 674",
+      "endAddress": "1448 Kim Coves",
+      "startCoords": {
+        "latitude": 39.782463,
+        "longitude": -104.914214
+      },
+      "endCoords": {
+        "latitude": 39.806748,
+        "longitude": -104.953092
+      },
+      "distanceMeters": 11598.1,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1730095,
+      "idlingDurationMs": 369905,
+      "fuelConsumedMl": 1476,
+      "fuelConsumedGallons": 0.39,
+      "maxSpeedMph": 34.0,
+      "averageSpeedMph": 12.4,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250728_834",
+      "vehicleId": "46232361",
+      "driverId": "20000014",
+      "startMs": 1753714602000,
+      "endMs": 1753737223000,
+      "startAddress": "873 Kari Path Suite 810",
+      "endAddress": "3129 Roberto Manor",
+      "startCoords": {
+        "latitude": 39.766289,
+        "longitude": -105.06137
+      },
+      "endCoords": {
+        "latitude": 39.738166,
+        "longitude": -104.948892
+      },
+      "distanceMeters": 111535.4,
+      "durationMs": 22621000,
+      "drivingDurationMs": 18095932,
+      "idlingDurationMs": 4525068,
+      "fuelConsumedMl": 14180,
+      "fuelConsumedGallons": 3.746,
+      "maxSpeedMph": 37.2,
+      "averageSpeedMph": 11.0,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250728_879",
+      "vehicleId": "46232361",
+      "driverId": "20000009",
+      "startMs": 1753738537000,
+      "endMs": 1753740217000,
+      "startAddress": "78988 Buck Expressway",
+      "endAddress": "919 Johnson Pines Suite 158",
+      "startCoords": {
+        "latitude": 39.815907,
+        "longitude": -105.050658
+      },
+      "endCoords": {
+        "latitude": 39.731184,
+        "longitude": -105.075888
+      },
+      "distanceMeters": 7865.4,
+      "durationMs": 1680000,
+      "drivingDurationMs": 1338234,
+      "idlingDurationMs": 341766,
+      "fuelConsumedMl": 999,
+      "fuelConsumedGallons": 0.264,
+      "maxSpeedMph": 39.2,
+      "averageSpeedMph": 10.5,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250729_906",
+      "vehicleId": "46232361",
+      "driverId": "20000016",
+      "startMs": 1753757256000,
+      "endMs": 1753758876000,
+      "startAddress": "399 Sanford Roads",
+      "endAddress": "022 Christopher Motorway Suite 106",
+      "startCoords": {
+        "latitude": 39.759472,
+        "longitude": -104.996744
+      },
+      "endCoords": {
+        "latitude": 39.821494,
+        "longitude": -104.99854
+      },
+      "distanceMeters": 9926.9,
+      "durationMs": 1620000,
+      "drivingDurationMs": 1414503,
+      "idlingDurationMs": 205497,
+      "fuelConsumedMl": 1261,
+      "fuelConsumedGallons": 0.333,
+      "maxSpeedMph": 35.8,
+      "averageSpeedMph": 13.7,
+      "safetyEvents": []
+    },
+    {
+      "id": "trip_46232361_20250729_939",
+      "vehicleId": "46232361",
+      "driverId": "20000011",
+      "startMs": 1753784189000,
+      "endMs": 1753786289000,
+      "startAddress": "3721 Jeffrey Harbor Suite 756",
+      "endAddress": "189 Rivera Park",
+      "startCoords": {
+        "latitude": 39.708009,
+        "longitude": -104.961338
+      },
+      "endCoords": {
+        "latitude": 39.685344,
+        "longitude": -105.036282
+      },
+      "distanceMeters": 10530.2,
+      "durationMs": 2100000,
+      "drivingDurationMs": 1850892,
+      "idlingDurationMs": 249108,
+      "fuelConsumedMl": 1340,
+      "fuelConsumedGallons": 0.354,
+      "maxSpeedMph": 36.2,
+      "averageSpeedMph": 11.2,
+      "safetyEvents": []
+    }
+  ]
+}

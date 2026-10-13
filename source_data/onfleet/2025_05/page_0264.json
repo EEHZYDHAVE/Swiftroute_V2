@@ -1,0 +1,3279 @@
+{
+  "lastId": null,
+  "tasks": [
+    {
+      "id": "pWHmHy4Bm6*6h7LT4Z92M3Kq",
+      "timeCreated": 1748709886000,
+      "timeLastModified": 1748721106000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "13c9a228",
+      "trackingURL": "https://onfleet.com/track/13c9a228",
+      "worker": "drv_ic_015",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_015",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748709886000,
+      "completeBefore": 1748730648226,
+      "pickupTask": false,
+      "notes": "Fragile — handle with care.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_SznZaHJj5l",
+        "photoUploadIds": [
+          "ph_SznZaHJj5l"
+        ],
+        "signatureUploadId": null,
+        "time": 1748721106000,
+        "firstPhotoUploadId": "ph_SznZaHJj5l",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 8787.7,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_044",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 23.99,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 10,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_015"
+      },
+      "recipients": [
+        {
+          "id": "yuLl4AzQYyD~nb",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1745599486000,
+          "timeLastModified": 1748709886000,
+          "name": "Annette Zimmerman",
+          "phone": "+16901698331",
+          "notes": "Leave with concierge",
+          "skipSMSNotifications": false,
+          "hashedPhone": "mWJElRfF~ZvcOp16"
+        }
+      ],
+      "destination": {
+        "id": "VCoR2O1NSrct",
+        "timeCreated": 1748709886000,
+        "timeLastModified": 1748709886000,
+        "location": [
+          -106.735441,
+          35.185274
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Smith Bypass",
+          "number": "1146",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748720806000,
+      "estimatedCompletionTime": 1748721106000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "Gw8D0RjpwytaANHTc4sMVSff",
+      "timeCreated": 1748711576000,
+      "timeLastModified": 1748715776000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "dba3af09",
+      "trackingURL": "https://onfleet.com/track/dba3af09",
+      "worker": "drv_fte_032",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_032",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748711576000,
+      "completeBefore": 1748800543615,
+      "pickupTask": false,
+      "notes": "Call recipient 10 min before arrival.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_~y1K0qnkoo",
+        "photoUploadIds": [
+          "ph_~y1K0qnkoo"
+        ],
+        "signatureUploadId": null,
+        "time": 1748715776000,
+        "firstPhotoUploadId": "ph_~y1K0qnkoo",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 473.5,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_003",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 7.56,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_4",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "motorcycle",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_032"
+      },
+      "recipients": [
+        {
+          "id": "aL96lI5i*J3hJ1",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1747415576000,
+          "timeLastModified": 1748711576000,
+          "name": "Melanie Johnson",
+          "phone": "+14552445021",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "SQOFdFWK*WxPvwpo"
+        }
+      ],
+      "destination": {
+        "id": "IgJuISOnXV3K",
+        "timeCreated": 1748711576000,
+        "timeLastModified": 1748711576000,
+        "location": [
+          -106.625948,
+          35.197335
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87470",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Kennedy Track",
+          "number": "9310",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748715476000,
+      "estimatedCompletionTime": 1748715776000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "TC2SU2nlgS3XgSWOIcpQjQgb",
+      "timeCreated": 1748706947000,
+      "timeLastModified": 1748725787000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "1bf6fbf0",
+      "trackingURL": "https://onfleet.com/track/1bf6fbf0",
+      "worker": "drv_fte_031",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_031",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748706947000,
+      "completeBefore": 1748798909061,
+      "pickupTask": false,
+      "notes": "Fragile — handle with care.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_T6dBWust4C",
+        "photoUploadIds": [
+          "ph_T6dBWust4C"
+        ],
+        "signatureUploadId": null,
+        "time": 1748725787000,
+        "firstPhotoUploadId": "ph_T6dBWust4C",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 8749.3,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 16.67,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_4",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_031"
+      },
+      "recipients": [
+        {
+          "id": "X19SsW7PH58gfc",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1748620547000,
+          "timeLastModified": 1748706947000,
+          "name": "Philip Hill",
+          "phone": "+17931256447",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "aUkO2rg3E8tXVyfO"
+        }
+      ],
+      "destination": {
+        "id": "iK5oda9Phk4J",
+        "timeCreated": 1748706947000,
+        "timeLastModified": 1748706947000,
+        "location": [
+          -106.618856,
+          35.208621
+        ],
+        "address": {
+          "apartment": "Apt 196",
+          "state": "New Mexico",
+          "postalCode": "87590",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Erika Common",
+          "number": "1606",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748725487000,
+      "estimatedCompletionTime": 1748725787000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "ScYt*lLdDzYCq1HZrIKPakgM",
+      "timeCreated": 1748672961000,
+      "timeLastModified": 1748700081000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "f461750d",
+      "trackingURL": "https://onfleet.com/track/f461750d",
+      "worker": "drv_fte_031",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_031",
+      "dependencies": [
+        "TC2SU2nlgS3XgSWOIcpQjQgb"
+      ],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748765461970,
+      "pickupTask": true,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_CImA4KDu1P",
+        "photoUploadIds": [
+          "ph_CImA4KDu1P"
+        ],
+        "signatureUploadId": null,
+        "time": 1748700081000,
+        "firstPhotoUploadId": "ph_CImA4KDu1P",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 778.0,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 22.29,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_4",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_031"
+      },
+      "recipients": [
+        {
+          "id": "8w3TKkxc2YEBUf",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1744355361000,
+          "timeLastModified": 1748675361000,
+          "name": "Jesse Cherry",
+          "phone": "+14676990551",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "0Jr5B70VMwl*iHg1"
+        }
+      ],
+      "destination": {
+        "id": "gC5fh1zNgXH5",
+        "timeCreated": 1748675361000,
+        "timeLastModified": 1748675361000,
+        "location": [
+          -106.629526,
+          35.19289
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87470",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Pena Brook",
+          "number": "5533",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748699781000,
+      "estimatedCompletionTime": 1748700081000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "iFME99NMAL9tagVq2O~5MWMV",
+      "timeCreated": 1748721115000,
+      "timeLastModified": 1748726515000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "2ec01e28",
+      "trackingURL": "https://onfleet.com/track/2ec01e28",
+      "worker": "drv_ic_015",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_015",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748738988206,
+      "pickupTask": false,
+      "notes": "Leave at front door if no answer.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_nmr44mgsLu",
+        "photoUploadIds": [
+          "ph_nmr44mgsLu"
+        ],
+        "signatureUploadId": null,
+        "time": 1748726515000,
+        "firstPhotoUploadId": "ph_nmr44mgsLu",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 1728.0,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 18.78,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_2",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_015"
+      },
+      "recipients": [
+        {
+          "id": "8KSAVI6jKMrIoS",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1746301915000,
+          "timeLastModified": 1748721115000,
+          "name": "Gary Hill",
+          "phone": "+15972207371",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "Yk9z3NN*3OHWXgMz"
+        }
+      ],
+      "destination": {
+        "id": "iOXBJIPSWcCr",
+        "timeCreated": 1748721115000,
+        "timeLastModified": 1748721115000,
+        "location": [
+          -106.607467,
+          35.15475
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87287",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Fuller Corner",
+          "number": "7338",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748726215000,
+      "estimatedCompletionTime": 1748726515000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "8aXkkjGEjdZZD*rbGEsREQ2C",
+      "timeCreated": 1748691323000,
+      "timeLastModified": 1748695523000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "9fc6bf59",
+      "trackingURL": "https://onfleet.com/track/9fc6bf59",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748691323000,
+      "completeBefore": 1748779666615,
+      "pickupTask": false,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_eUDFsVswmu",
+        "photoUploadIds": [
+          "ph_eUDFsVswmu"
+        ],
+        "signatureUploadId": null,
+        "time": 1748695523000,
+        "firstPhotoUploadId": "ph_eUDFsVswmu",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 1249.4,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_003",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 17.25,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_2",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "tKgGp8aiVKACAY",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1743593723000,
+          "timeLastModified": 1748691323000,
+          "name": "Kimberly Herrera",
+          "phone": "+18701804581",
+          "notes": "",
+          "skipSMSNotifications": true,
+          "hashedPhone": "Z4T*dvMP4qnCLr19"
+        }
+      ],
+      "destination": {
+        "id": "K75XAdoFBHrl",
+        "timeCreated": 1748691323000,
+        "timeLastModified": 1748691323000,
+        "location": [
+          -106.64688,
+          35.171017
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87379",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Taylor Haven",
+          "number": "620",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748695223000,
+      "estimatedCompletionTime": 1748695523000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "wkGwez3iiQJbW5x*LQLItIk5",
+      "timeCreated": 1748699022000,
+      "timeLastModified": 1748713962000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "04a4e2b6",
+      "trackingURL": "https://onfleet.com/track/04a4e2b6",
+      "worker": "drv_fte_032",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_032",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748699022000,
+      "completeBefore": 1748790512351,
+      "pickupTask": false,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_5~1uUL2HOk",
+        "photoUploadIds": [
+          "ph_5~1uUL2HOk"
+        ],
+        "signatureUploadId": null,
+        "time": 1748713962000,
+        "firstPhotoUploadId": "ph_5~1uUL2HOk",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 6442.9,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 18.55,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_3",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "motorcycle",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 2,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_032"
+      },
+      "recipients": [
+        {
+          "id": "WHVeitr4zHlAu5",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1747230222000,
+          "timeLastModified": 1748699022000,
+          "name": "Melissa Clements",
+          "phone": "+18877813961",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "J3odnOPteSTKAUwD"
+        }
+      ],
+      "destination": {
+        "id": "Ewl2*XXPYEuR",
+        "timeCreated": 1748699022000,
+        "timeLastModified": 1748699022000,
+        "location": [
+          -106.617066,
+          34.919508
+        ],
+        "address": {
+          "apartment": "Ste 833",
+          "state": "New Mexico",
+          "postalCode": "87602",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Michael Inlet",
+          "number": "7428",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748713662000,
+      "estimatedCompletionTime": 1748713962000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "hnc6rMZ044UJpQoUDb1~dX3g",
+      "timeCreated": 1748691750000,
+      "timeLastModified": 1748764650000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "0d282c8d",
+      "trackingURL": "https://onfleet.com/track/0d282c8d",
+      "worker": "drv_fte_032",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_032",
+      "dependencies": [
+        "wkGwez3iiQJbW5x*LQLItIk5"
+      ],
+      "state": 3,
+      "completeAfter": 1748695890000,
+      "completeBefore": 1748786897772,
+      "pickupTask": true,
+      "notes": "Call recipient 10 min before arrival.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_LnkrJ7KyxG",
+        "photoUploadIds": [
+          "ph_LnkrJ7KyxG"
+        ],
+        "signatureUploadId": null,
+        "time": 1748764650000,
+        "firstPhotoUploadId": "ph_LnkrJ7KyxG",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 2170.5,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 6.55,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_3",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "motorcycle",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_032"
+      },
+      "recipients": [
+        {
+          "id": "87Y~mtIUIUhFJS",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1743943890000,
+          "timeLastModified": 1748695890000,
+          "name": "Tanya Good",
+          "phone": "+19911900699",
+          "notes": "Call on arrival",
+          "skipSMSNotifications": false,
+          "hashedPhone": "IcRVpoCXF0DVktn*"
+        }
+      ],
+      "destination": {
+        "id": "bMoKlQlwi~PL",
+        "timeCreated": 1748695890000,
+        "timeLastModified": 1748695890000,
+        "location": [
+          -106.560754,
+          34.907502
+        ],
+        "address": {
+          "apartment": "Ste 310",
+          "state": "New Mexico",
+          "postalCode": "87318",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Gary Ford",
+          "number": "5848",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748764350000,
+      "estimatedCompletionTime": 1748764650000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "NjbixL*w*UteP1ene7sikRi7",
+      "timeCreated": 1748686729000,
+      "timeLastModified": 1748695909000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "82f00971",
+      "trackingURL": "https://onfleet.com/track/82f00971",
+      "worker": "drv_fte_032",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_032",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748686729000,
+      "completeBefore": 1748705302309,
+      "pickupTask": false,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_~3~8UyX3ju",
+        "photoUploadIds": [
+          "ph_~3~8UyX3ju"
+        ],
+        "signatureUploadId": null,
+        "time": 1748695909000,
+        "firstPhotoUploadId": "ph_~3~8UyX3ju",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 5993.8,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_062",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_4",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "motorcycle",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_032"
+      },
+      "recipients": [
+        {
+          "id": "X7x38OGRfIglsQ",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1745749129000,
+          "timeLastModified": 1748686729000,
+          "name": "Frank Walton",
+          "phone": "+13732628755",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "mZSjOw~*RwO6zVdh"
+        }
+      ],
+      "destination": {
+        "id": "sueP4D9V3aN8",
+        "timeCreated": 1748686729000,
+        "timeLastModified": 1748686729000,
+        "location": [
+          -106.610965,
+          35.206214
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87590",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Branch Mission",
+          "number": "1059",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748695609000,
+      "estimatedCompletionTime": 1748695909000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "~*ThAtfEV3kzRm0Dm90FwuzN",
+      "timeCreated": 1748691137000,
+      "timeLastModified": 1748701097000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "0373b8fd",
+      "trackingURL": "https://onfleet.com/track/0373b8fd",
+      "worker": "drv_fte_032",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_032",
+      "dependencies": [
+        "NjbixL*w*UteP1ene7sikRi7"
+      ],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748710752368,
+      "pickupTask": true,
+      "notes": "Leave at front door if no answer.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_JZ4hfLHIxB",
+        "photoUploadIds": [
+          "ph_JZ4hfLHIxB"
+        ],
+        "signatureUploadId": null,
+        "time": 1748701097000,
+        "firstPhotoUploadId": "ph_JZ4hfLHIxB",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 7148.4,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_062",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 20.71,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_4",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "motorcycle",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 2,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_032"
+      },
+      "recipients": [
+        {
+          "id": "F2GKj0SNBf0s2H",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1745582717000,
+          "timeLastModified": 1748693117000,
+          "name": "Jonathan Daniels",
+          "phone": "+12934682209",
+          "notes": "Leave with concierge",
+          "skipSMSNotifications": false,
+          "hashedPhone": "treXXvGfnRuRrBUq"
+        }
+      ],
+      "destination": {
+        "id": "xeP2CWM9vGDb",
+        "timeCreated": 1748693117000,
+        "timeLastModified": 1748693117000,
+        "location": [
+          -106.537308,
+          35.208075
+        ],
+        "address": {
+          "apartment": "Apt 244",
+          "state": "New Mexico",
+          "postalCode": "87590",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Mccormick Station",
+          "number": "6978",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748700797000,
+      "estimatedCompletionTime": 1748701097000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "e6*Zis5FP*GQ4fj9wo5Bj6Jn",
+      "timeCreated": 1748684712000,
+      "timeLastModified": 1748704020000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "82e42fcf",
+      "trackingURL": "https://onfleet.com/track/82e42fcf",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748684712000,
+      "completeBefore": 1748701315682,
+      "pickupTask": false,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_n2EKEC0wp0",
+        "photoUploadIds": [
+          "ph_n2EKEC0wp0"
+        ],
+        "signatureUploadId": null,
+        "time": 1748704020000,
+        "firstPhotoUploadId": "ph_n2EKEC0wp0",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 5868.2,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_054",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 11.9,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_2",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "*vKCQkC7DCt5vw",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1745487912000,
+          "timeLastModified": 1748684712000,
+          "name": "James Tran",
+          "phone": "+19022641707",
+          "notes": "Call on arrival",
+          "skipSMSNotifications": false,
+          "hashedPhone": "J~n*zVGEO2I90W18"
+        }
+      ],
+      "destination": {
+        "id": "3mpzULyTMEHX",
+        "timeCreated": 1748684712000,
+        "timeLastModified": 1748684712000,
+        "location": [
+          -106.585724,
+          35.129698
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87087",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Davis Hill",
+          "number": "7229",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748703720000,
+      "estimatedCompletionTime": 1748704020000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "k6yb4cuE3vgNmyrgHyhgIiaa",
+      "timeCreated": 1748683605000,
+      "timeLastModified": 1748686425000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "3cd0b725",
+      "trackingURL": "https://onfleet.com/track/3cd0b725",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748700179333,
+      "pickupTask": false,
+      "notes": "Leave at front door if no answer.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_d~3ehQWZz~",
+        "photoUploadIds": [
+          "ph_d~3ehQWZz~"
+        ],
+        "signatureUploadId": null,
+        "time": 1748686425000,
+        "firstPhotoUploadId": "ph_d~3ehQWZz~",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 7128.5,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 16.18,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_2",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 3,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "2HyqutslZwijhy",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1744795605000,
+          "timeLastModified": 1748683605000,
+          "name": "Wendy Pittman",
+          "phone": "+14496126460",
+          "notes": "Leave with concierge",
+          "skipSMSNotifications": false,
+          "hashedPhone": "fpUllv2D3k6hjsDR"
+        }
+      ],
+      "destination": {
+        "id": "BCQGC2R75Hqs",
+        "timeCreated": 1748683605000,
+        "timeLastModified": 1748683605000,
+        "location": [
+          -106.60968,
+          35.227594
+        ],
+        "address": {
+          "apartment": "Apt 256",
+          "state": "New Mexico",
+          "postalCode": "87087",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Marie Canyon",
+          "number": "1786",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748686125000,
+      "estimatedCompletionTime": 1748686425000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "5ildI0cGCJ*WiJYbMq0zuJPV",
+      "timeCreated": 1748698536000,
+      "timeLastModified": 1748707476000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "a9862f9b",
+      "trackingURL": "https://onfleet.com/track/a9862f9b",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [
+        "k6yb4cuE3vgNmyrgHyhgIiaa"
+      ],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748723264969,
+      "pickupTask": true,
+      "notes": "Fragile — handle with care.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_ArUtCytO0t",
+        "photoUploadIds": [
+          "ph_ArUtCytO0t"
+        ],
+        "signatureUploadId": null,
+        "time": 1748707476000,
+        "firstPhotoUploadId": "ph_ArUtCytO0t",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 5547.5,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 12.86,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_2",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "PTpKJyT0H7p~hR",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1748616636000,
+          "timeLastModified": 1748703036000,
+          "name": "Eric Ochoa",
+          "phone": "+17833379161",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "PI~RkCJetYekT8LN"
+        }
+      ],
+      "destination": {
+        "id": "TKOqHicnATQi",
+        "timeCreated": 1748703036000,
+        "timeLastModified": 1748703036000,
+        "location": [
+          -106.570702,
+          35.15757
+        ],
+        "address": {
+          "apartment": "Apt 359",
+          "state": "New Mexico",
+          "postalCode": "87379",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Toni Dale",
+          "number": "809",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748707176000,
+      "estimatedCompletionTime": 1748707476000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "GwZRUgVkE5IhECtqVRWMMVUw",
+      "timeCreated": 1748717220000,
+      "timeLastModified": 1748704020000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "1ac68e25",
+      "trackingURL": "https://onfleet.com/track/1ac68e25",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748808682647,
+      "pickupTask": false,
+      "notes": "Call recipient 10 min before arrival.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_skwEoU0HWx",
+        "photoUploadIds": [
+          "ph_skwEoU0HWx"
+        ],
+        "signatureUploadId": null,
+        "time": 1748704020000,
+        "firstPhotoUploadId": "ph_skwEoU0HWx",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 4561.8,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_044",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 22.61,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 3,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "3cjM4HsPuIzUDq",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1744915620000,
+          "timeLastModified": 1748717220000,
+          "name": "Belinda Smith",
+          "phone": "+18117297645",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "vaGIEzey4cMIcnw9"
+        }
+      ],
+      "destination": {
+        "id": "mGK0YBf59W0O",
+        "timeCreated": 1748717220000,
+        "timeLastModified": 1748717220000,
+        "location": [
+          -106.779226,
+          35.16792
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Timothy Forest",
+          "number": "4223",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748703720000,
+      "estimatedCompletionTime": 1748704020000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "Tz8K9vw8c*rTumKn2CsDcBXd",
+      "timeCreated": 1748681156000,
+      "timeLastModified": 1748690336000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "331eff29",
+      "trackingURL": "https://onfleet.com/track/331eff29",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748681156000,
+      "completeBefore": 1748699728013,
+      "pickupTask": false,
+      "notes": "Gate code 1071",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_sYpbSO60wb",
+        "photoUploadIds": [
+          "ph_sYpbSO60wb"
+        ],
+        "signatureUploadId": null,
+        "time": 1748690336000,
+        "firstPhotoUploadId": "ph_sYpbSO60wb",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 1433.8,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 30.54,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_4",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 10,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "G7nJdsdiAeOnXt",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1747298756000,
+          "timeLastModified": 1748681156000,
+          "name": "Lori Cruz",
+          "phone": "+17131700855",
+          "notes": "Call on arrival",
+          "skipSMSNotifications": false,
+          "hashedPhone": "zI1MIIskOBq0NbyV"
+        }
+      ],
+      "destination": {
+        "id": "gyyALcYsPjxk",
+        "timeCreated": 1748681156000,
+        "timeLastModified": 1748681156000,
+        "location": [
+          -106.539243,
+          35.218956
+        ],
+        "address": {
+          "apartment": "Ste 146",
+          "state": "New Mexico",
+          "postalCode": "87590",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Hartman Stream",
+          "number": "4973",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748690036000,
+      "estimatedCompletionTime": 1748690336000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "rlsEkFq5gHwyM5su*0xs0~oO",
+      "timeCreated": 1748688263000,
+      "timeLastModified": 1748698463000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "e604bac6",
+      "trackingURL": "https://onfleet.com/track/e604bac6",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [
+        "Tz8K9vw8c*rTumKn2CsDcBXd"
+      ],
+      "state": 3,
+      "completeAfter": 1748690243000,
+      "completeBefore": 1748707084454,
+      "pickupTask": true,
+      "notes": "Fragile — handle with care.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_IJXbH9Y3P5",
+        "photoUploadIds": [
+          "ph_IJXbH9Y3P5"
+        ],
+        "signatureUploadId": null,
+        "time": 1748698463000,
+        "firstPhotoUploadId": "ph_IJXbH9Y3P5",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 2917.2,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 10.34,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_4",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 2,
+      "serviceTime": 3,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "RumgmIPfCUZMyu",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1745320643000,
+          "timeLastModified": 1748690243000,
+          "name": "Joel Perez",
+          "phone": "+18514703502",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "CZHGDs7WVFsqEtDC"
+        }
+      ],
+      "destination": {
+        "id": "BP7METR2gXOX",
+        "timeCreated": 1748690243000,
+        "timeLastModified": 1748690243000,
+        "location": [
+          -106.564529,
+          35.184534
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87470",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Winters Harbor",
+          "number": "3551",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748698163000,
+      "estimatedCompletionTime": 1748698463000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "FDU4kKVkI1pi4T~hZmDCz07L",
+      "timeCreated": 1748695732000,
+      "timeLastModified": 1748706232000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "95f27dac",
+      "trackingURL": "https://onfleet.com/track/95f27dac",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748695732000,
+      "completeBefore": 1748715591478,
+      "pickupTask": false,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_6qeFdDevoB",
+        "photoUploadIds": [
+          "ph_6qeFdDevoB"
+        ],
+        "signatureUploadId": null,
+        "time": 1748706232000,
+        "firstPhotoUploadId": "ph_6qeFdDevoB",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 7520.1,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_078",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 12.2,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_2",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 3,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "0bSWskpzFX2Z6h",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1744894132000,
+          "timeLastModified": 1748695732000,
+          "name": "Mark Parker",
+          "phone": "+16619815268",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "lOEh6xHAX1LYHcmC"
+        }
+      ],
+      "destination": {
+        "id": "P5WlfrW5fBMj",
+        "timeCreated": 1748695732000,
+        "timeLastModified": 1748695732000,
+        "location": [
+          -106.575009,
+          35.193437
+        ],
+        "address": {
+          "apartment": "Apt 335",
+          "state": "New Mexico",
+          "postalCode": "87087",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Sanchez Divide",
+          "number": "7834",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748705932000,
+      "estimatedCompletionTime": 1748706232000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "L1Fuwulpi3amIswXNS*UrTMm",
+      "timeCreated": 1748680688000,
+      "timeLastModified": 1748687528000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "a2186815",
+      "trackingURL": "https://onfleet.com/track/a2186815",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748771201062,
+      "pickupTask": false,
+      "notes": "Fragile — handle with care.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_rIpc6JjoNz",
+        "photoUploadIds": [
+          "ph_rIpc6JjoNz"
+        ],
+        "signatureUploadId": null,
+        "time": 1748687528000,
+        "firstPhotoUploadId": "ph_rIpc6JjoNz",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 5123.5,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_016",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 11.91,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 2,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "I3Zvt~3YQJPmXX",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1745656688000,
+          "timeLastModified": 1748680688000,
+          "name": "Ricky Moore",
+          "phone": "+17257864895",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "waDaeUGX3queqV*A"
+        }
+      ],
+      "destination": {
+        "id": "qE71jFgS97pF",
+        "timeCreated": 1748680688000,
+        "timeLastModified": 1748680688000,
+        "location": [
+          -106.807761,
+          35.175163
+        ],
+        "address": {
+          "apartment": "Apt 305",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Joseph Skyway",
+          "number": "2528",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748687228000,
+      "estimatedCompletionTime": 1748687528000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "Jkmu5wPbcWHMTZHEZnOUlaE4",
+      "timeCreated": 1748686150000,
+      "timeLastModified": 1748766310000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "5100796d",
+      "trackingURL": "https://onfleet.com/track/5100796d",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [
+        "L1Fuwulpi3amIswXNS*UrTMm"
+      ],
+      "state": 3,
+      "completeAfter": 1748690650000,
+      "completeBefore": 1748782989554,
+      "pickupTask": true,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_Ca1GWEnHnZ",
+        "photoUploadIds": [
+          "ph_Ca1GWEnHnZ"
+        ],
+        "signatureUploadId": null,
+        "time": 1748766310000,
+        "firstPhotoUploadId": "ph_Ca1GWEnHnZ",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 8001.0,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_016",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 11.36,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "UNe3PeY7Q7APu9",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1747308250000,
+          "timeLastModified": 1748690650000,
+          "name": "Brian Nguyen",
+          "phone": "+19273692884",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "w8hFtPiHb~knKDQX"
+        }
+      ],
+      "destination": {
+        "id": "sveEsRB3oOLj",
+        "timeCreated": 1748690650000,
+        "timeLastModified": 1748690650000,
+        "location": [
+          -106.762741,
+          35.179066
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Frank Lock",
+          "number": "7174",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748766010000,
+      "estimatedCompletionTime": 1748766310000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "hsEv*A2kneRyW1gbgdNDEsXN",
+      "timeCreated": 1748682440000,
+      "timeLastModified": 1748699420000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "9087c63d",
+      "trackingURL": "https://onfleet.com/track/9087c63d",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748716308240,
+      "pickupTask": false,
+      "notes": "Call recipient 10 min before arrival.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_RnzUc2BTf9",
+        "photoUploadIds": [
+          "ph_RnzUc2BTf9"
+        ],
+        "signatureUploadId": null,
+        "time": 1748699420000,
+        "firstPhotoUploadId": "ph_RnzUc2BTf9",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 4900.4,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "distribution_run",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 3,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "OIqnpN0r*a1rPr",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1747213640000,
+          "timeLastModified": 1748682440000,
+          "name": "Jimmy Lutz",
+          "phone": "+19948190964",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "wGaL59gch*jZ8VG~"
+        }
+      ],
+      "destination": {
+        "id": "yuiKtvw*qtZW",
+        "timeCreated": 1748682440000,
+        "timeLastModified": 1748682440000,
+        "location": [
+          -106.74444,
+          35.193862
+        ],
+        "address": {
+          "apartment": "Ste 919",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Natasha Mall",
+          "number": "7346",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748699120000,
+      "estimatedCompletionTime": 1748699420000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "FJbjUo11INRIHwvnHb8vqQ53",
+      "timeCreated": 1748712031000,
+      "timeLastModified": 1748734231000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "2fd9968a",
+      "trackingURL": "https://onfleet.com/track/2fd9968a",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [
+        "hsEv*A2kneRyW1gbgdNDEsXN"
+      ],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748751797729,
+      "pickupTask": true,
+      "notes": "Gate code 3132",
+      "completionDetails": {
+        "failureReason": "ADDRESS_ISSUE",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": null,
+        "photoUploadIds": [],
+        "signatureUploadId": null,
+        "time": 1748734231000,
+        "firstPhotoUploadId": null,
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 8542.9,
+        "result": "failure"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "distribution_run",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_023",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 50.85,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 3,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "SGRfwhMiDx9sr0",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1747161991000,
+          "timeLastModified": 1748717191000,
+          "name": "Carolyn Taylor",
+          "phone": "+13738978528",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "72RWObxpe4u735wt"
+        }
+      ],
+      "destination": {
+        "id": "6sifAfro3*2c",
+        "timeCreated": 1748717191000,
+        "timeLastModified": 1748717191000,
+        "location": [
+          -106.827687,
+          35.209965
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Adrian Lodge",
+          "number": "320",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748733931000,
+      "estimatedCompletionTime": 1748734231000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "9O9tDCoINv4YglGPDvF9Qffh",
+      "timeCreated": 1748684298000,
+      "timeLastModified": 1748699898000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "2bbcc319",
+      "trackingURL": "https://onfleet.com/track/2bbcc319",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748715312256,
+      "pickupTask": false,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_kuwM81RDz~",
+        "photoUploadIds": [
+          "ph_kuwM81RDz~"
+        ],
+        "signatureUploadId": null,
+        "time": 1748699898000,
+        "firstPhotoUploadId": "ph_kuwM81RDz~",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 6941.8,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "distribution_run",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_035",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 37.31,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 3,
+      "serviceTime": 10,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "71Bh6CCfJ5sWXR",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1746697098000,
+          "timeLastModified": 1748684298000,
+          "name": "Daniel Carrillo",
+          "phone": "+18895167737",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "ALJALaKvm0ah80rX"
+        }
+      ],
+      "destination": {
+        "id": "nw*bpbHDcrko",
+        "timeCreated": 1748684298000,
+        "timeLastModified": 1748684298000,
+        "location": [
+          -106.837932,
+          35.142536
+        ],
+        "address": {
+          "apartment": "",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Brown Wall",
+          "number": "2657",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748699598000,
+      "estimatedCompletionTime": 1748699898000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "1GYgRCNEkW4wPgsGQTVJvet4",
+      "timeCreated": 1748690546000,
+      "timeLastModified": 1748720786000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "9480d348",
+      "trackingURL": "https://onfleet.com/track/9480d348",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": 1748690546000,
+      "completeBefore": 1748780779023,
+      "pickupTask": false,
+      "notes": "Call recipient 10 min before arrival.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_mFBTobbVvF",
+        "photoUploadIds": [
+          "ph_mFBTobbVvF"
+        ],
+        "signatureUploadId": null,
+        "time": 1748720786000,
+        "firstPhotoUploadId": "ph_mFBTobbVvF",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 5141.2,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_016",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 22.33,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 3,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "NXQ7sDI5m3PaFP",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1745407346000,
+          "timeLastModified": 1748690546000,
+          "name": "Miss Sandra Ortiz MD",
+          "phone": "+14065791855",
+          "notes": "Call on arrival",
+          "skipSMSNotifications": false,
+          "hashedPhone": "111f9QmrCnopjzYu"
+        }
+      ],
+      "destination": {
+        "id": "0pKJVyVt4DL9",
+        "timeCreated": 1748690546000,
+        "timeLastModified": 1748690546000,
+        "location": [
+          -106.7877,
+          35.111993
+        ],
+        "address": {
+          "apartment": "Apt 339",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Jackson Well",
+          "number": "9280",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748720486000,
+      "estimatedCompletionTime": 1748720786000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "WXObe1*4UD02vVpEQxLFGXCc",
+      "timeCreated": 1748709895000,
+      "timeLastModified": 1748747875000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "14173762",
+      "trackingURL": "https://onfleet.com/track/14173762",
+      "worker": "drv_ic_016",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_ic_016",
+      "dependencies": [
+        "1GYgRCNEkW4wPgsGQTVJvet4"
+      ],
+      "state": 3,
+      "completeAfter": 1748714035000,
+      "completeBefore": 1748806600445,
+      "pickupTask": true,
+      "notes": "Leave at front door if no answer.",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_0TUkMWqts1",
+        "photoUploadIds": [
+          "ph_0TUkMWqts1"
+        ],
+        "signatureUploadId": null,
+        "time": 1748747875000,
+        "firstPhotoUploadId": "ph_0TUkMWqts1",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 7375.8,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "next_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_016",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 10.62,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_1",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 5,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_ic_016"
+      },
+      "recipients": [
+        {
+          "id": "mRunRGysOgPvB6",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1743616435000,
+          "timeLastModified": 1748714035000,
+          "name": "Brittany Clarke",
+          "phone": "+12711314660",
+          "notes": "Leave with concierge",
+          "skipSMSNotifications": false,
+          "hashedPhone": "IcEfMkDg4boeM38D"
+        }
+      ],
+      "destination": {
+        "id": "orYKs1wvkfCJ",
+        "timeCreated": 1748714035000,
+        "timeLastModified": 1748714035000,
+        "location": [
+          -106.800159,
+          35.157498
+        ],
+        "address": {
+          "apartment": "Apt 42",
+          "state": "New Mexico",
+          "postalCode": "87301",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Wood Heights",
+          "number": "7771",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748747575000,
+      "estimatedCompletionTime": 1748747875000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    },
+    {
+      "id": "YNdyorUiABSEJl7Edy74DqJz",
+      "timeCreated": 1748709345000,
+      "timeLastModified": 1748714205000,
+      "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "shortId": "a9daf467",
+      "trackingURL": "https://onfleet.com/track/a9daf467",
+      "worker": "drv_fte_030",
+      "merchant": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "executor": "yAM*fDkztrT3gUcz9mNDgNOL",
+      "creator": "drv_fte_030",
+      "dependencies": [],
+      "state": 3,
+      "completeAfter": null,
+      "completeBefore": 1748727023285,
+      "pickupTask": false,
+      "notes": "",
+      "completionDetails": {
+        "failureReason": "",
+        "successNotes": "",
+        "successEvidence": "",
+        "photoUploadId": "ph_k0sGRWvb2d",
+        "photoUploadIds": [
+          "ph_k0sGRWvb2d"
+        ],
+        "signatureUploadId": null,
+        "time": 1748714205000,
+        "firstPhotoUploadId": "ph_k0sGRWvb2d",
+        "unavailableAttachments": [],
+        "actions": {},
+        "distance": 528.6,
+        "result": "success"
+      },
+      "feedback": [],
+      "metadata": [
+        {
+          "name": "service_type",
+          "type": "string",
+          "value": "same_day",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "client_id",
+          "type": "string",
+          "value": "client_023",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "order_value",
+          "type": "number",
+          "value": 31.66,
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string",
+          "value": "zone_abq_3",
+          "visibility": [
+            "api"
+          ]
+        },
+        {
+          "name": "vehicle_type",
+          "type": "string",
+          "value": "van",
+          "visibility": [
+            "api"
+          ]
+        }
+      ],
+      "overrides": {},
+      "quantity": 1,
+      "serviceTime": 10,
+      "identity": {
+        "failedScanCount": 0,
+        "checksum": null
+      },
+      "appearance": {
+        "triangleColor": null
+      },
+      "container": {
+        "type": "WORKER",
+        "worker": "drv_fte_030"
+      },
+      "recipients": [
+        {
+          "id": "TuMbqCfSjvBsrK",
+          "organization": "yAM*fDkztrT3gUcz9mNDgNOL",
+          "timeCreated": 1747758945000,
+          "timeLastModified": 1748709345000,
+          "name": "Nicholas Thompson",
+          "phone": "+17512393022",
+          "notes": "",
+          "skipSMSNotifications": false,
+          "hashedPhone": "edE2Xva7vT8bhIZg"
+        }
+      ],
+      "destination": {
+        "id": "VMNqT5*Mp7cy",
+        "timeCreated": 1748709345000,
+        "timeLastModified": 1748709345000,
+        "location": [
+          -106.523264,
+          35.001445
+        ],
+        "address": {
+          "apartment": "Apt 241",
+          "state": "New Mexico",
+          "postalCode": "87318",
+          "country": "United States",
+          "city": "Albuquerque",
+          "street": "Jenna Keys",
+          "number": "6955",
+          "name": ""
+        },
+        "notes": "",
+        "metadata": []
+      },
+      "estimatedArrivalTime": 1748713905000,
+      "estimatedCompletionTime": 1748714205000,
+      "barcodes": {
+        "require": [],
+        "capture": [],
+        "captureMaxCount": null
+      }
+    }
+  ]
+}

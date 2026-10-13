@@ -1,0 +1,4049 @@
+{
+  "totalSize": 94,
+  "done": true,
+  "nextRecordsUrl": null,
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001P6cCFtcnn6HZvks"
+      },
+      "Id": "001P6cCFtcnn6HZvks",
+      "Name": "Perez, Todd and Guerrero",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "+1-479-707-7850x73930",
+      "Website": "https://www.thompson-turner.com",
+      "BillingAddress": {
+        "street": "27931 Haley Fall",
+        "city": "East Chelsea",
+        "state": "California",
+        "postalCode": "72141",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 22051,
+      "NumberOfEmployees": 654,
+      "LastActivityDate": "2025-05-06",
+      "LastModifiedDate": "2025-05-06T00:00:00.000+0000",
+      "CreatedDate": "2023-09-01T00:00:00.000+0000",
+      "OwnerId": "0058ckITgaFSoLeHGK",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0058ckITgaFSoLeHGK"
+        },
+        "Name": "Danielle Adams",
+        "Email": "justin09@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_001",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 158,
+      "Discount_Rate__c": 0.04,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0017UzSLLbcsu6PIBe"
+      },
+      "Id": "0017UzSLLbcsu6PIBe",
+      "Name": "Sanchez, Rivera and Martin",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "001-896-769-6920x8084",
+      "Website": "https://www.vaughan.info",
+      "BillingAddress": {
+        "street": "88705 Sexton Lake Suite 307",
+        "city": "Shaneside",
+        "state": "Arizona",
+        "postalCode": "08863",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 199568,
+      "NumberOfEmployees": 758,
+      "LastActivityDate": "2025-06-16",
+      "LastModifiedDate": "2025-06-16T00:00:00.000+0000",
+      "CreatedDate": "2023-08-08T00:00:00.000+0000",
+      "OwnerId": "005FbxvrHEmEs8cdfb",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005FbxvrHEmEs8cdfb"
+        },
+        "Name": "Richard Martin",
+        "Email": "cbrown@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_002",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 535,
+      "Discount_Rate__c": 0.16,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0014VLfNY6vKa3qJRW"
+      },
+      "Id": "0014VLfNY6vKa3qJRW",
+      "Name": "Kelley PLC",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "001-231-394-1536x0549",
+      "Website": "https://www.adams.com",
+      "BillingAddress": {
+        "street": "97241 Munoz Village Apt. 875",
+        "city": "Westchester",
+        "state": "Ohio",
+        "postalCode": "30478",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 32687,
+      "NumberOfEmployees": 686,
+      "LastActivityDate": "2025-05-18",
+      "LastModifiedDate": "2025-05-18T00:00:00.000+0000",
+      "CreatedDate": "2020-12-04T00:00:00.000+0000",
+      "OwnerId": "005XARMLlhLZ6c9vA6",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005XARMLlhLZ6c9vA6"
+        },
+        "Name": "Marie Stuart",
+        "Email": "zwhitehead@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_003",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 56,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001mclJw7JZ6jzvP5N"
+      },
+      "Id": "001mclJw7JZ6jzvP5N",
+      "Name": "Dyer-Reeves",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "980.912.3905",
+      "Website": "https://www.lane.biz",
+      "BillingAddress": {
+        "street": "53813 Angela Springs Suite 509",
+        "city": "Jasonland",
+        "state": "Massachusetts",
+        "postalCode": "96216",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 35981,
+      "NumberOfEmployees": 366,
+      "LastActivityDate": "2025-05-26",
+      "LastModifiedDate": "2025-05-26T00:00:00.000+0000",
+      "CreatedDate": "2021-01-03T00:00:00.000+0000",
+      "OwnerId": "005c3IXNaKnRuNUd9d",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005c3IXNaKnRuNUd9d"
+        },
+        "Name": "Natasha Williams",
+        "Email": "hbrown@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_004",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 113,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001ivZNmPgGhcOrdu5"
+      },
+      "Id": "001ivZNmPgGhcOrdu5",
+      "Name": "Rodriguez, Moreno and Aguilar",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "001-542-975-6251x431",
+      "Website": "https://www.brown.com",
+      "BillingAddress": {
+        "street": "1560 Sylvia Walks Apt. 675",
+        "city": "East Elizabeth",
+        "state": "Louisiana",
+        "postalCode": "50955",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 39479,
+      "NumberOfEmployees": 385,
+      "LastActivityDate": "2025-06-16",
+      "LastModifiedDate": "2025-06-16T00:00:00.000+0000",
+      "CreatedDate": "2021-01-14T00:00:00.000+0000",
+      "OwnerId": "005Sd71MAE1Givr2I2",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005Sd71MAE1Givr2I2"
+        },
+        "Name": "Shelly Ingram",
+        "Email": "hsmith@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_005",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 164,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0012oBQHAJ2rKSrmAH"
+      },
+      "Id": "0012oBQHAJ2rKSrmAH",
+      "Name": "Rose and Sons",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "(393)674-5860x946",
+      "Website": "https://www.mathews-franklin.net",
+      "BillingAddress": {
+        "street": "4473 Mueller Keys Suite 678",
+        "city": "Caitlinfort",
+        "state": "Minnesota",
+        "postalCode": "36877",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 456140,
+      "NumberOfEmployees": 159,
+      "LastActivityDate": "2025-06-14",
+      "LastModifiedDate": "2025-06-14T00:00:00.000+0000",
+      "CreatedDate": "2021-03-21T00:00:00.000+0000",
+      "OwnerId": "005trPOVntw7xCTOMK",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005trPOVntw7xCTOMK"
+        },
+        "Name": "Kelsey Hernandez",
+        "Email": "ukane@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_006",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 249,
+      "Discount_Rate__c": 0.16,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001xfLKSs8jLn4fBy6"
+      },
+      "Id": "001xfLKSs8jLn4fBy6",
+      "Name": "Grant Group",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "001-239-642-3983",
+      "Website": "https://www.raymond.org",
+      "BillingAddress": {
+        "street": "79348 Rodriguez Isle",
+        "city": "Cynthiaside",
+        "state": "New Mexico",
+        "postalCode": "25739",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 38034,
+      "NumberOfEmployees": 273,
+      "LastActivityDate": "2025-05-26",
+      "LastModifiedDate": "2025-05-26T00:00:00.000+0000",
+      "CreatedDate": "2024-02-05T00:00:00.000+0000",
+      "OwnerId": "005eE3MRH6gupD8DR3",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005eE3MRH6gupD8DR3"
+        },
+        "Name": "Stacy Cole",
+        "Email": "shelbyharris@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_007",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 16,
+      "Discount_Rate__c": 0.06,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001bs4xQgefMswJTpn"
+      },
+      "Id": "001bs4xQgefMswJTpn",
+      "Name": "Wright Inc",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "600-746-6713x119",
+      "Website": "https://www.riley-harmon.com",
+      "BillingAddress": {
+        "street": "5314 Oconnell Courts",
+        "city": "Garcialand",
+        "state": "New Hampshire",
+        "postalCode": "34163",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 166141,
+      "NumberOfEmployees": 761,
+      "LastActivityDate": "2025-05-28",
+      "LastModifiedDate": "2025-05-28T00:00:00.000+0000",
+      "CreatedDate": "2022-11-16T00:00:00.000+0000",
+      "OwnerId": "005vg2pO79DnQ1RBpb",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005vg2pO79DnQ1RBpb"
+        },
+        "Name": "Alex Dixon",
+        "Email": "hendersonsteven@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_008",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 511,
+      "Discount_Rate__c": 0.13,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001rN7kvJvN8DpvwPF"
+      },
+      "Id": "001rN7kvJvN8DpvwPF",
+      "Name": "Wallace LLC",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "844.722.1539",
+      "Website": "https://www.brown.com",
+      "BillingAddress": {
+        "street": "5908 Young Radial Suite 858",
+        "city": "Hallhaven",
+        "state": "Louisiana",
+        "postalCode": "09950",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 122656,
+      "NumberOfEmployees": 421,
+      "LastActivityDate": "2025-05-31",
+      "LastModifiedDate": "2025-05-31T00:00:00.000+0000",
+      "CreatedDate": "2022-04-10T00:00:00.000+0000",
+      "OwnerId": "005ULoKFNHVGy1qA3U",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005ULoKFNHVGy1qA3U"
+        },
+        "Name": "Steven Harmon",
+        "Email": "peterschmidt@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_009",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 656,
+      "Discount_Rate__c": 0.08,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001Xial9cFBC5v2viQ"
+      },
+      "Id": "001Xial9cFBC5v2viQ",
+      "Name": "Skinner-Fox",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "(542)706-2203x89771",
+      "Website": "https://www.dyer.com",
+      "BillingAddress": {
+        "street": "246 Franklin Islands Apt. 932",
+        "city": "Port Ericton",
+        "state": "Connecticut",
+        "postalCode": "34263",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 16522,
+      "NumberOfEmployees": 10,
+      "LastActivityDate": "2025-05-15",
+      "LastModifiedDate": "2025-05-15T00:00:00.000+0000",
+      "CreatedDate": "2020-08-08T00:00:00.000+0000",
+      "OwnerId": "005L48lYBU5LubMmaj",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005L48lYBU5LubMmaj"
+        },
+        "Name": "Casey Smith",
+        "Email": "michaeljohnson@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_010",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 184,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001oSzy4jRp0dkgM1W"
+      },
+      "Id": "001oSzy4jRp0dkgM1W",
+      "Name": "Stevens Ltd",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "(942)436-0201x9976",
+      "Website": "https://www.horton-smith.com",
+      "BillingAddress": {
+        "street": "24482 Mitchell Rapids Apt. 195",
+        "city": "Port Patricia",
+        "state": "Rhode Island",
+        "postalCode": "05573",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 7536,
+      "NumberOfEmployees": 4,
+      "LastActivityDate": "2025-04-17",
+      "LastModifiedDate": "2025-04-17T00:00:00.000+0000",
+      "CreatedDate": "2021-11-30T00:00:00.000+0000",
+      "OwnerId": "005iRbtdl627HE6MnK",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005iRbtdl627HE6MnK"
+        },
+        "Name": "Rick Brown",
+        "Email": "brett36@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_011",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 25,
+      "Discount_Rate__c": 0.0,
+      "Is_Fulfillment_Client__c": true,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001fuizZtS6CRPNd0t"
+      },
+      "Id": "001fuizZtS6CRPNd0t",
+      "Name": "Rivera Group",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "916-379-6505x14254",
+      "Website": "https://www.colon.com",
+      "BillingAddress": {
+        "street": "996 Brandon Overpass Suite 101",
+        "city": "South Nicholasport",
+        "state": "Arizona",
+        "postalCode": "91597",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 143586,
+      "NumberOfEmployees": 831,
+      "LastActivityDate": "2025-06-20",
+      "LastModifiedDate": "2025-06-20T00:00:00.000+0000",
+      "CreatedDate": "2022-07-08T00:00:00.000+0000",
+      "OwnerId": "005luE7YZex4KAcELf",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005luE7YZex4KAcELf"
+        },
+        "Name": "Margaret Santiago",
+        "Email": "spearscody@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_012",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 657,
+      "Discount_Rate__c": 0.11,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001cQNPbp7d89MEK51"
+      },
+      "Id": "001cQNPbp7d89MEK51",
+      "Name": "Kemp Inc",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "8647947898",
+      "Website": "https://www.riley-jackson.com",
+      "BillingAddress": {
+        "street": "1977 Romero Tunnel Apt. 357",
+        "city": "Roberthaven",
+        "state": "North Dakota",
+        "postalCode": "05647",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 26185,
+      "NumberOfEmployees": 380,
+      "LastActivityDate": "2025-04-15",
+      "LastModifiedDate": "2025-04-15T00:00:00.000+0000",
+      "CreatedDate": "2022-02-05T00:00:00.000+0000",
+      "OwnerId": "0056tJkeLDgW37EDr4",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0056tJkeLDgW37EDr4"
+        },
+        "Name": "Nancy Johnston",
+        "Email": "lthompson@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_013",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 139,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001GcOh3k23yU7JtfB"
+      },
+      "Id": "001GcOh3k23yU7JtfB",
+      "Name": "Mcbride, Smith and Davidson",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "(997)394-5176x1809",
+      "Website": "https://www.mckee-martin.org",
+      "BillingAddress": {
+        "street": "02512 Bell Courts Apt. 532",
+        "city": "Dawnfurt",
+        "state": "Iowa",
+        "postalCode": "23806",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 18712,
+      "NumberOfEmployees": 326,
+      "LastActivityDate": "2025-04-30",
+      "LastModifiedDate": "2025-04-30T00:00:00.000+0000",
+      "CreatedDate": "2020-07-29T00:00:00.000+0000",
+      "OwnerId": "005yQc3grb8sb7YeyF",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005yQc3grb8sb7YeyF"
+        },
+        "Name": "Rebecca Ramos",
+        "Email": "knelson@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_014",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 174,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001vnPXBx2PXcSQPeC"
+      },
+      "Id": "001vnPXBx2PXcSQPeC",
+      "Name": "Nelson PLC",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "+1-710-620-1107",
+      "Website": "https://www.holmes-gardner.biz",
+      "BillingAddress": {
+        "street": "380 Ramirez Plains Suite 199",
+        "city": "Jessicafort",
+        "state": "Washington",
+        "postalCode": "69620",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 16763,
+      "NumberOfEmployees": 739,
+      "LastActivityDate": "2025-05-08",
+      "LastModifiedDate": "2025-05-08T00:00:00.000+0000",
+      "CreatedDate": "2021-02-26T00:00:00.000+0000",
+      "OwnerId": "0051tEnxT5U8bvKZgT",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0051tEnxT5U8bvKZgT"
+        },
+        "Name": "Shaun Jackson",
+        "Email": "travis26@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_015",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 144,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001g2krzxnKyDVYXjE"
+      },
+      "Id": "001g2krzxnKyDVYXjE",
+      "Name": "Hernandez LLC",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "489.965.7422",
+      "Website": "https://www.franco.com",
+      "BillingAddress": {
+        "street": "79717 Navarro Row",
+        "city": "Brownchester",
+        "state": "Hawaii",
+        "postalCode": "16996",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 90829,
+      "NumberOfEmployees": 832,
+      "LastActivityDate": "2025-06-13",
+      "LastModifiedDate": "2025-06-13T00:00:00.000+0000",
+      "CreatedDate": "2022-04-24T00:00:00.000+0000",
+      "OwnerId": "0050hilSEDBG9dzh8o",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0050hilSEDBG9dzh8o"
+        },
+        "Name": "Brandon Davis",
+        "Email": "michaelsilva@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_016",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 1274,
+      "Discount_Rate__c": 0.11,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/00185SxvRWwEZl1pZv"
+      },
+      "Id": "00185SxvRWwEZl1pZv",
+      "Name": "Maldonado, Dunn and Steele",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "+1-993-295-8586x587",
+      "Website": "https://www.smith.com",
+      "BillingAddress": {
+        "street": "51927 Adam Bridge Suite 271",
+        "city": "Andrewsbury",
+        "state": "Alaska",
+        "postalCode": "74117",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 14084,
+      "NumberOfEmployees": 693,
+      "LastActivityDate": "2025-05-02",
+      "LastModifiedDate": "2025-05-02T00:00:00.000+0000",
+      "CreatedDate": "2023-05-20T00:00:00.000+0000",
+      "OwnerId": "005x9KEaal5hZJL4bt",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005x9KEaal5hZJL4bt"
+        },
+        "Name": "Martin Graham",
+        "Email": "lisa27@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_017",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 135,
+      "Discount_Rate__c": 0.03,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001cymbWfso2Kv4f2J"
+      },
+      "Id": "001cymbWfso2Kv4f2J",
+      "Name": "Davis, Martinez and Glover",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "(666)535-0441",
+      "Website": "https://www.vargas-gomez.com",
+      "BillingAddress": {
+        "street": "691 Mackenzie Mill",
+        "city": "North Luis",
+        "state": "Iowa",
+        "postalCode": "96518",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 89176,
+      "NumberOfEmployees": 354,
+      "LastActivityDate": "2025-06-06",
+      "LastModifiedDate": "2025-06-06T00:00:00.000+0000",
+      "CreatedDate": "2023-03-20T00:00:00.000+0000",
+      "OwnerId": "005AKNNZBPb1TozaOT",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005AKNNZBPb1TozaOT"
+        },
+        "Name": "Jennifer Schultz",
+        "Email": "curtisjill@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_018",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1291,
+      "Discount_Rate__c": 0.11,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001MWoK98QCDkUxBut"
+      },
+      "Id": "001MWoK98QCDkUxBut",
+      "Name": "Long and Sons",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "+1-944-752-8593x1906",
+      "Website": "https://www.hernandez-burns.info",
+      "BillingAddress": {
+        "street": "7556 Evelyn Knoll Apt. 876",
+        "city": "Christinafurt",
+        "state": "Colorado",
+        "postalCode": "63900",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 379035,
+      "NumberOfEmployees": 614,
+      "LastActivityDate": "2025-06-12",
+      "LastModifiedDate": "2025-06-12T00:00:00.000+0000",
+      "CreatedDate": "2021-01-19T00:00:00.000+0000",
+      "OwnerId": "005yQv2BrWyeJVx2IZ",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005yQv2BrWyeJVx2IZ"
+        },
+        "Name": "Patricia Hughes",
+        "Email": "cathycurry@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_019",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 38,
+      "Discount_Rate__c": 0.15,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001Higze5PMLdYHMFh"
+      },
+      "Id": "001Higze5PMLdYHMFh",
+      "Name": "Walker, Gilbert and Barr",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "+1-890-685-2176x31419",
+      "Website": "https://www.caldwell.net",
+      "BillingAddress": {
+        "street": "089 Elizabeth Lake Suite 942",
+        "city": "Williamsville",
+        "state": "Georgia",
+        "postalCode": "94427",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 137641,
+      "NumberOfEmployees": 744,
+      "LastActivityDate": "2025-06-07",
+      "LastModifiedDate": "2025-06-07T00:00:00.000+0000",
+      "CreatedDate": "2024-01-21T00:00:00.000+0000",
+      "OwnerId": "005e12J2lD6gSauWbE",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005e12J2lD6gSauWbE"
+        },
+        "Name": "Brittney Vargas",
+        "Email": "anthony73@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_020",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 492,
+      "Discount_Rate__c": 0.12,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001Iu60fp1DO6BLPON"
+      },
+      "Id": "001Iu60fp1DO6BLPON",
+      "Name": "Turner and Sons",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "235-938-8527x013",
+      "Website": "https://www.hopkins.info",
+      "BillingAddress": {
+        "street": "555 Pamela Harbor Suite 462",
+        "city": "Jenniferfort",
+        "state": "Idaho",
+        "postalCode": "66930",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 39704,
+      "NumberOfEmployees": 504,
+      "LastActivityDate": "2025-05-13",
+      "LastModifiedDate": "2025-05-13T00:00:00.000+0000",
+      "CreatedDate": "2023-09-18T00:00:00.000+0000",
+      "OwnerId": "005NQ9eCr2Z0rhlFmx",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005NQ9eCr2Z0rhlFmx"
+        },
+        "Name": "Melissa Carpenter",
+        "Email": "joshua37@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_021",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 130,
+      "Discount_Rate__c": 0.03,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001uEI9HIxcWRAr5Fy"
+      },
+      "Id": "001uEI9HIxcWRAr5Fy",
+      "Name": "Murphy Ltd",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "678-884-8760x64458",
+      "Website": "https://www.cantrell.info",
+      "BillingAddress": {
+        "street": "113 Amanda Light",
+        "city": "New Stevenside",
+        "state": "Rhode Island",
+        "postalCode": "19429",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 30297,
+      "NumberOfEmployees": 418,
+      "LastActivityDate": "2025-06-06",
+      "LastModifiedDate": "2025-06-06T00:00:00.000+0000",
+      "CreatedDate": "2021-02-08T00:00:00.000+0000",
+      "OwnerId": "0058R0CH0hpHx1JqZL",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0058R0CH0hpHx1JqZL"
+        },
+        "Name": "Briana Lynch MD",
+        "Email": "tgarrett@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_022",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 192,
+      "Discount_Rate__c": 0.0,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001MwY3K2l53kNgvH1"
+      },
+      "Id": "001MwY3K2l53kNgvH1",
+      "Name": "Walker-Roberson",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "(451)479-3830",
+      "Website": "https://www.schneider.net",
+      "BillingAddress": {
+        "street": "373 Trujillo Summit",
+        "city": "South Renee",
+        "state": "Tennessee",
+        "postalCode": "19987",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 29891,
+      "NumberOfEmployees": 512,
+      "LastActivityDate": "2025-05-28",
+      "LastModifiedDate": "2025-05-28T00:00:00.000+0000",
+      "CreatedDate": "2025-02-16T00:00:00.000+0000",
+      "OwnerId": "005clmXUj4OksXaqDE",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005clmXUj4OksXaqDE"
+        },
+        "Name": "Edwin Robles",
+        "Email": "pottertara@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_023",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 171,
+      "Discount_Rate__c": 0.04,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 60
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001ieAZeWUrbASaSPG"
+      },
+      "Id": "001ieAZeWUrbASaSPG",
+      "Name": "Santos-Jackson",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "226.320.6872x1146",
+      "Website": "https://www.davis.com",
+      "BillingAddress": {
+        "street": "0460 Jennifer Shore Suite 210",
+        "city": "Lake Brianna",
+        "state": "Nebraska",
+        "postalCode": "44543",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 12151,
+      "NumberOfEmployees": 23,
+      "LastActivityDate": "2025-04-12",
+      "LastModifiedDate": "2025-04-12T00:00:00.000+0000",
+      "CreatedDate": "2024-10-08T00:00:00.000+0000",
+      "OwnerId": "005GlS8nKzUnfQvoB2",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005GlS8nKzUnfQvoB2"
+        },
+        "Name": "Cindy Miller",
+        "Email": "trevor77@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_024",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 164,
+      "Discount_Rate__c": 0.03,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001hM4JATf77j4GOMp"
+      },
+      "Id": "001hM4JATf77j4GOMp",
+      "Name": "Rodriguez-Henson",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "2823811091",
+      "Website": "https://www.carroll-hamilton.com",
+      "BillingAddress": {
+        "street": "526 April Shoal",
+        "city": "East Jenniferstad",
+        "state": "Tennessee",
+        "postalCode": "19625",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 37065,
+      "NumberOfEmployees": 657,
+      "LastActivityDate": "2025-05-08",
+      "LastModifiedDate": "2025-05-08T00:00:00.000+0000",
+      "CreatedDate": "2021-05-11T00:00:00.000+0000",
+      "OwnerId": "005ROjHI4khAZjXv39",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005ROjHI4khAZjXv39"
+        },
+        "Name": "Vanessa Oliver",
+        "Email": "gerald19@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_025",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 199,
+      "Discount_Rate__c": 0.03,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001zzj1JJte1I5hY9F"
+      },
+      "Id": "001zzj1JJte1I5hY9F",
+      "Name": "Floyd-Henderson",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "(623)975-0707",
+      "Website": "https://www.fowler.biz",
+      "BillingAddress": {
+        "street": "1232 Berry Island Apt. 116",
+        "city": "Middletonberg",
+        "state": "Florida",
+        "postalCode": "68203",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 117964,
+      "NumberOfEmployees": 416,
+      "LastActivityDate": "2025-06-05",
+      "LastModifiedDate": "2025-06-05T00:00:00.000+0000",
+      "CreatedDate": "2020-12-30T00:00:00.000+0000",
+      "OwnerId": "005t1ThpovQlQlMHab",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005t1ThpovQlQlMHab"
+        },
+        "Name": "Ms. Emily Valencia",
+        "Email": "montgomerykristen@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_026",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1333,
+      "Discount_Rate__c": 0.13,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001TqKfwUcj8LSytlw"
+      },
+      "Id": "001TqKfwUcj8LSytlw",
+      "Name": "Tucker PLC",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "593-328-8369x88050",
+      "Website": "https://www.watts-turner.net",
+      "BillingAddress": {
+        "street": "6494 Jackson Mountains Apt. 625",
+        "city": "Jenniferfurt",
+        "state": "Nebraska",
+        "postalCode": "41825",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 432061,
+      "NumberOfEmployees": 717,
+      "LastActivityDate": "2025-06-16",
+      "LastModifiedDate": "2025-06-16T00:00:00.000+0000",
+      "CreatedDate": "2025-03-25T00:00:00.000+0000",
+      "OwnerId": "005GQflzHMAQlR5EgJ",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005GQflzHMAQlR5EgJ"
+        },
+        "Name": "Gina Jones",
+        "Email": "holtchristopher@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_027",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 1047,
+      "Discount_Rate__c": 0.15,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/00190GqtOzaURt2fsq"
+      },
+      "Id": "00190GqtOzaURt2fsq",
+      "Name": "Knight Inc",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "(268)849-6852x7719",
+      "Website": "https://www.garcia.com",
+      "BillingAddress": {
+        "street": "8456 Jeffery Lane Apt. 561",
+        "city": "West Gina",
+        "state": "New Mexico",
+        "postalCode": "57965",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 38041,
+      "NumberOfEmployees": 771,
+      "LastActivityDate": "2025-04-21",
+      "LastModifiedDate": "2025-04-21T00:00:00.000+0000",
+      "CreatedDate": "2024-08-15T00:00:00.000+0000",
+      "OwnerId": "005BcN11E5lPOMDze3",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005BcN11E5lPOMDze3"
+        },
+        "Name": "Nicole Smith",
+        "Email": "fbooth@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_028",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 183,
+      "Discount_Rate__c": 0.05,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001dXeqRCxhoeDmChe"
+      },
+      "Id": "001dXeqRCxhoeDmChe",
+      "Name": "Colon Group",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "691.771.6719",
+      "Website": "https://www.rodriguez-clark.com",
+      "BillingAddress": {
+        "street": "1244 Stevens Light",
+        "city": "Darrellbury",
+        "state": "Iowa",
+        "postalCode": "09707",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 75639,
+      "NumberOfEmployees": 306,
+      "LastActivityDate": "2025-05-19",
+      "LastModifiedDate": "2025-05-19T00:00:00.000+0000",
+      "CreatedDate": "2022-08-14T00:00:00.000+0000",
+      "OwnerId": "005J53P6uTJK0ym8o6",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005J53P6uTJK0ym8o6"
+        },
+        "Name": "Anthony Casey",
+        "Email": "emartinez@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_029",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 1740,
+      "Discount_Rate__c": 0.14,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001VLyd49PVBe8NRDc"
+      },
+      "Id": "001VLyd49PVBe8NRDc",
+      "Name": "Hughes LLC",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "001-854-895-2693",
+      "Website": "https://www.kelly.com",
+      "BillingAddress": {
+        "street": "917 Michelle Village Apt. 936",
+        "city": "Browntown",
+        "state": "Utah",
+        "postalCode": "04531",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 42484,
+      "NumberOfEmployees": 648,
+      "LastActivityDate": "2025-05-29",
+      "LastModifiedDate": "2025-05-29T00:00:00.000+0000",
+      "CreatedDate": "2022-01-30T00:00:00.000+0000",
+      "OwnerId": "005QPw177pMtUit2oG",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005QPw177pMtUit2oG"
+        },
+        "Name": "Jessica Jones",
+        "Email": "dawn73@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_030",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 130,
+      "Discount_Rate__c": 0.05,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0016MNtBiLSzcLsVhj"
+      },
+      "Id": "0016MNtBiLSzcLsVhj",
+      "Name": "Johnson LLC",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "(715)754-7954x5229",
+      "Website": "https://www.allen-mills.info",
+      "BillingAddress": {
+        "street": "917 Dean Row",
+        "city": "Christopherfurt",
+        "state": "Florida",
+        "postalCode": "79866",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 9294,
+      "NumberOfEmployees": 845,
+      "LastActivityDate": "2025-05-08",
+      "LastModifiedDate": "2025-05-08T00:00:00.000+0000",
+      "CreatedDate": "2023-05-29T00:00:00.000+0000",
+      "OwnerId": "005U0msHyp3OjXJAL3",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005U0msHyp3OjXJAL3"
+        },
+        "Name": "Ashley Jones",
+        "Email": "wcarter@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_031",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 156,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001tpFLNGCqAJyacZE"
+      },
+      "Id": "001tpFLNGCqAJyacZE",
+      "Name": "Arnold-Clarke",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "001-825-934-8263x44627",
+      "Website": "https://www.kramer.com",
+      "BillingAddress": {
+        "street": "434 Catherine Roads",
+        "city": "South Lawrencetown",
+        "state": "Nevada",
+        "postalCode": "75475",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 112948,
+      "NumberOfEmployees": 789,
+      "LastActivityDate": "2025-06-06",
+      "LastModifiedDate": "2025-06-06T00:00:00.000+0000",
+      "CreatedDate": "2023-10-09T00:00:00.000+0000",
+      "OwnerId": "0052LXai2vHu2noEZF",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0052LXai2vHu2noEZF"
+        },
+        "Name": "Megan Carpenter",
+        "Email": "maria73@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_032",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1686,
+      "Discount_Rate__c": 0.12,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001VFT1K1wyNa2mEIR"
+      },
+      "Id": "001VFT1K1wyNa2mEIR",
+      "Name": "Allen, Armstrong and Cox",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "+1-530-929-5188x513",
+      "Website": "https://www.clayton-hunter.info",
+      "BillingAddress": {
+        "street": "4407 Joyce Ways Apt. 915",
+        "city": "Gilbertstad",
+        "state": "Alabama",
+        "postalCode": "38817",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 34837,
+      "NumberOfEmployees": 677,
+      "LastActivityDate": "2025-04-21",
+      "LastModifiedDate": "2025-04-21T00:00:00.000+0000",
+      "CreatedDate": "2022-02-24T00:00:00.000+0000",
+      "OwnerId": "005K4BurpJn6vQHjEE",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005K4BurpJn6vQHjEE"
+        },
+        "Name": "Christine Burns",
+        "Email": "heathergarza@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_033",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 148,
+      "Discount_Rate__c": 0.05,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001M3TowwVyVumzE7Y"
+      },
+      "Id": "001M3TowwVyVumzE7Y",
+      "Name": "Smith and Sons",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "725.834.6396x385",
+      "Website": "https://www.ryan.com",
+      "BillingAddress": {
+        "street": "09787 Patricia Streets Suite 355",
+        "city": "Ashleyshire",
+        "state": "Missouri",
+        "postalCode": "41811",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 12701,
+      "NumberOfEmployees": 745,
+      "LastActivityDate": "2025-06-08",
+      "LastModifiedDate": "2025-06-08T00:00:00.000+0000",
+      "CreatedDate": "2021-09-13T00:00:00.000+0000",
+      "OwnerId": "005HCVeMuuCwTFvRsF",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005HCVeMuuCwTFvRsF"
+        },
+        "Name": "Erin Harris",
+        "Email": "xchoi@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_034",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 196,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001AEVF3xF0OFNC1yu"
+      },
+      "Id": "001AEVF3xF0OFNC1yu",
+      "Name": "Henderson-Davidson",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "+1-547-737-1995",
+      "Website": "https://www.murray.com",
+      "BillingAddress": {
+        "street": "443 Alvarez Greens Apt. 167",
+        "city": "Duranhaven",
+        "state": "Virginia",
+        "postalCode": "49934",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 135597,
+      "NumberOfEmployees": 184,
+      "LastActivityDate": "2025-05-18",
+      "LastModifiedDate": "2025-05-18T00:00:00.000+0000",
+      "CreatedDate": "2025-03-30T00:00:00.000+0000",
+      "OwnerId": "0050rlsNwrJeFkz3lk",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0050rlsNwrJeFkz3lk"
+        },
+        "Name": "Melissa Adams",
+        "Email": "phunter@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_035",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1207,
+      "Discount_Rate__c": 0.13,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001D4ldpgVJZohV2uV"
+      },
+      "Id": "001D4ldpgVJZohV2uV",
+      "Name": "Santos-Hess",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "765.482.4437x492",
+      "Website": "https://www.guzman-miles.com",
+      "BillingAddress": {
+        "street": "86522 Frederick Circle Suite 052",
+        "city": "Tuckerton",
+        "state": "Illinois",
+        "postalCode": "44072",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 35055,
+      "NumberOfEmployees": 284,
+      "LastActivityDate": "2025-06-06",
+      "LastModifiedDate": "2025-06-06T00:00:00.000+0000",
+      "CreatedDate": "2024-01-29T00:00:00.000+0000",
+      "OwnerId": "005L7u0FvPM9N0lbue",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005L7u0FvPM9N0lbue"
+        },
+        "Name": "David Garcia",
+        "Email": "mariayoung@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_036",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 194,
+      "Discount_Rate__c": 0.0,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 60
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001LhltJoxgUxHsU8d"
+      },
+      "Id": "001LhltJoxgUxHsU8d",
+      "Name": "Brown PLC",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "556-794-2598x25492",
+      "Website": "https://www.green.com",
+      "BillingAddress": {
+        "street": "1137 Hill Ridge Apt. 173",
+        "city": "Feliciabury",
+        "state": "North Dakota",
+        "postalCode": "49199",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 98783,
+      "NumberOfEmployees": 227,
+      "LastActivityDate": "2025-06-05",
+      "LastModifiedDate": "2025-06-05T00:00:00.000+0000",
+      "CreatedDate": "2024-10-09T00:00:00.000+0000",
+      "OwnerId": "005xNfUUVgwGAU76wL",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005xNfUUVgwGAU76wL"
+        },
+        "Name": "David Walker",
+        "Email": "amanda45@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_037",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 469,
+      "Discount_Rate__c": 0.08,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001PKoBFcoyRCygO9g"
+      },
+      "Id": "001PKoBFcoyRCygO9g",
+      "Name": "Wood-Stevens",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "001-300-966-1901x55864",
+      "Website": "https://www.hoffman-patel.com",
+      "BillingAddress": {
+        "street": "33193 Murphy Expressway",
+        "city": "Port Johnfurt",
+        "state": "Vermont",
+        "postalCode": "81617",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 25054,
+      "NumberOfEmployees": 539,
+      "LastActivityDate": "2025-05-05",
+      "LastModifiedDate": "2025-05-05T00:00:00.000+0000",
+      "CreatedDate": "2022-07-10T00:00:00.000+0000",
+      "OwnerId": "005jBqXSvvhcjl2CJy",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005jBqXSvvhcjl2CJy"
+        },
+        "Name": "James Davis",
+        "Email": "veronica12@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_038",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 86,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001qk23qLlXM3vJdof"
+      },
+      "Id": "001qk23qLlXM3vJdof",
+      "Name": "Collins Ltd",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "448.315.5454x101",
+      "Website": "https://www.sosa.info",
+      "BillingAddress": {
+        "street": "8757 Bender Lights",
+        "city": "Josephburgh",
+        "state": "Rhode Island",
+        "postalCode": "51105",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 256413,
+      "NumberOfEmployees": 596,
+      "LastActivityDate": "2025-06-24",
+      "LastModifiedDate": "2025-06-24T00:00:00.000+0000",
+      "CreatedDate": "2023-12-23T00:00:00.000+0000",
+      "OwnerId": "005emfECDRgXQeSbjl",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005emfECDRgXQeSbjl"
+        },
+        "Name": "Deborah Burke",
+        "Email": "jacquelinewilliams@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_039",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 491,
+      "Discount_Rate__c": 0.15,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001HWuBdL6kr5bbxhZ"
+      },
+      "Id": "001HWuBdL6kr5bbxhZ",
+      "Name": "Holland-Scott",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "(629)901-3910x131",
+      "Website": "https://www.marshall-kennedy.com",
+      "BillingAddress": {
+        "street": "04232 Christopher Forks",
+        "city": "New Bethany",
+        "state": "Ohio",
+        "postalCode": "70289",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 6416,
+      "NumberOfEmployees": 391,
+      "LastActivityDate": "2025-05-10",
+      "LastModifiedDate": "2025-05-10T00:00:00.000+0000",
+      "CreatedDate": "2024-04-28T00:00:00.000+0000",
+      "OwnerId": "005NAp3KTsZlEqqGPV",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005NAp3KTsZlEqqGPV"
+        },
+        "Name": "Erin Kim",
+        "Email": "sullivanmichael@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_040",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 142,
+      "Discount_Rate__c": 0.06,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001fLRZLVFyVW2lTuV"
+      },
+      "Id": "001fLRZLVFyVW2lTuV",
+      "Name": "Lloyd, Garcia and Ruiz",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "(224)800-6212",
+      "Website": "https://www.king.com",
+      "BillingAddress": {
+        "street": "5397 Watts Mountains Suite 383",
+        "city": "Frederickbury",
+        "state": "Missouri",
+        "postalCode": "68184",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 11004,
+      "NumberOfEmployees": 33,
+      "LastActivityDate": "2025-05-19",
+      "LastModifiedDate": "2025-05-19T00:00:00.000+0000",
+      "CreatedDate": "2021-02-25T00:00:00.000+0000",
+      "OwnerId": "005M08bOrCBxd5KcII",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005M08bOrCBxd5KcII"
+        },
+        "Name": "Kyle Padilla",
+        "Email": "myerskathleen@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_041",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 114,
+      "Discount_Rate__c": 0.0,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0017RzVeotpNZOWxvw"
+      },
+      "Id": "0017RzVeotpNZOWxvw",
+      "Name": "Love-Mays",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "(285)355-7930",
+      "Website": "https://www.howe-thornton.com",
+      "BillingAddress": {
+        "street": "09508 Angela Village Apt. 231",
+        "city": "North Sharon",
+        "state": "Nebraska",
+        "postalCode": "27751",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 454312,
+      "NumberOfEmployees": 249,
+      "LastActivityDate": "2025-06-28",
+      "LastModifiedDate": "2025-06-28T00:00:00.000+0000",
+      "CreatedDate": "2024-07-22T00:00:00.000+0000",
+      "OwnerId": "005pVpOjMvh1gZEVxP",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005pVpOjMvh1gZEVxP"
+        },
+        "Name": "Jennifer Mack",
+        "Email": "jamessherri@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_042",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 115,
+      "Discount_Rate__c": 0.17,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001FId5Ng8334gmFvc"
+      },
+      "Id": "001FId5Ng8334gmFvc",
+      "Name": "Lucas-Mcdaniel",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "+1-270-769-5254x4032",
+      "Website": "https://www.anderson.com",
+      "BillingAddress": {
+        "street": "796 Thomas Junction Apt. 518",
+        "city": "East Bobby",
+        "state": "Oklahoma",
+        "postalCode": "72587",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 32075,
+      "NumberOfEmployees": 485,
+      "LastActivityDate": "2025-06-07",
+      "LastModifiedDate": "2025-06-07T00:00:00.000+0000",
+      "CreatedDate": "2020-10-02T00:00:00.000+0000",
+      "OwnerId": "0051PerYeSqEj9lJXn",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0051PerYeSqEj9lJXn"
+        },
+        "Name": "Rachel Blake",
+        "Email": "lanekimberly@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_043",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 144,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001vsOLpsgDsM8H5aS"
+      },
+      "Id": "001vsOLpsgDsM8H5aS",
+      "Name": "Hernandez-Vincent",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "001-371-838-5902x1244",
+      "Website": "https://www.huang.com",
+      "BillingAddress": {
+        "street": "323 Laurie Loop Apt. 785",
+        "city": "West Tina",
+        "state": "Utah",
+        "postalCode": "80484",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 448853,
+      "NumberOfEmployees": 434,
+      "LastActivityDate": "2025-06-15",
+      "LastModifiedDate": "2025-06-15T00:00:00.000+0000",
+      "CreatedDate": "2022-09-28T00:00:00.000+0000",
+      "OwnerId": "0054rE0QGrd7nvakHl",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0054rE0QGrd7nvakHl"
+        },
+        "Name": "Erica Peterson",
+        "Email": "harrisonkevin@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_044",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1244,
+      "Discount_Rate__c": 0.2,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001uDvF0NvG9h8CU2v"
+      },
+      "Id": "001uDvF0NvG9h8CU2v",
+      "Name": "Williams Inc",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "5876708457",
+      "Website": "https://www.watson.com",
+      "BillingAddress": {
+        "street": "4072 Jennifer Valley Apt. 789",
+        "city": "Watkinsfort",
+        "state": "New Jersey",
+        "postalCode": "46062",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 27098,
+      "NumberOfEmployees": 247,
+      "LastActivityDate": "2025-04-12",
+      "LastModifiedDate": "2025-04-12T00:00:00.000+0000",
+      "CreatedDate": "2022-09-18T00:00:00.000+0000",
+      "OwnerId": "005tkxCAUTMIQqDX8v",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005tkxCAUTMIQqDX8v"
+        },
+        "Name": "Dominique Reese",
+        "Email": "erica17@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_045",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 79,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001VC0EmNWLn3wFTsr"
+      },
+      "Id": "001VC0EmNWLn3wFTsr",
+      "Name": "Castillo, Green and Brown",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "001-685-815-2576x3391",
+      "Website": "https://www.carroll-rhodes.com",
+      "BillingAddress": {
+        "street": "098 Rogers Garden Suite 374",
+        "city": "South Noahmouth",
+        "state": "Wyoming",
+        "postalCode": "79985",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 85748,
+      "NumberOfEmployees": 666,
+      "LastActivityDate": "2025-05-21",
+      "LastModifiedDate": "2025-05-21T00:00:00.000+0000",
+      "CreatedDate": "2021-01-18T00:00:00.000+0000",
+      "OwnerId": "005bfadGKGTEDaemHO",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005bfadGKGTEDaemHO"
+        },
+        "Name": "Alexa Ramos",
+        "Email": "denise30@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_046",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 354,
+      "Discount_Rate__c": 0.12,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001Gm6LR981Z8qlxf1"
+      },
+      "Id": "001Gm6LR981Z8qlxf1",
+      "Name": "Moore PLC",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "302-907-8493",
+      "Website": "https://www.taylor-moore.com",
+      "BillingAddress": {
+        "street": "060 Kara Bridge Apt. 837",
+        "city": "Jackiefort",
+        "state": "Hawaii",
+        "postalCode": "41824",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 93269,
+      "NumberOfEmployees": 128,
+      "LastActivityDate": "2025-06-08",
+      "LastModifiedDate": "2025-06-08T00:00:00.000+0000",
+      "CreatedDate": "2021-08-06T00:00:00.000+0000",
+      "OwnerId": "005kRyF1bvxrHsPgAo",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005kRyF1bvxrHsPgAo"
+        },
+        "Name": "Victoria Green",
+        "Email": "kylefrancis@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_047",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 374,
+      "Discount_Rate__c": 0.12,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001xW47Xtd2CrscgLz"
+      },
+      "Id": "001xW47Xtd2CrscgLz",
+      "Name": "Oliver, Meyer and Moyer",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "(624)760-8005x5458",
+      "Website": "https://www.evans-lane.biz",
+      "BillingAddress": {
+        "street": "87452 Gary Center",
+        "city": "West Leah",
+        "state": "Massachusetts",
+        "postalCode": "90394",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 9448,
+      "NumberOfEmployees": 431,
+      "LastActivityDate": "2025-05-30",
+      "LastModifiedDate": "2025-05-30T00:00:00.000+0000",
+      "CreatedDate": "2024-03-06T00:00:00.000+0000",
+      "OwnerId": "0058S9ksH75H0GgTAA",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0058S9ksH75H0GgTAA"
+        },
+        "Name": "Stephen Marshall",
+        "Email": "john01@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_048",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 173,
+      "Discount_Rate__c": 0.06,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001y2tKA3BTDspU0Vr"
+      },
+      "Id": "001y2tKA3BTDspU0Vr",
+      "Name": "Williams Group",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "+1-761-394-2243x888",
+      "Website": "https://www.taylor.com",
+      "BillingAddress": {
+        "street": "231 Patton Locks Suite 966",
+        "city": "Rachelchester",
+        "state": "Nevada",
+        "postalCode": "95802",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 9374,
+      "NumberOfEmployees": 88,
+      "LastActivityDate": "2025-05-08",
+      "LastModifiedDate": "2025-05-08T00:00:00.000+0000",
+      "CreatedDate": "2025-01-23T00:00:00.000+0000",
+      "OwnerId": "0059gEkR2CByuQJ505",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0059gEkR2CByuQJ505"
+        },
+        "Name": "Anthony Johnson",
+        "Email": "juliejefferson@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_049",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 49,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001fHuvpWyVpZl08VC"
+      },
+      "Id": "001fHuvpWyVpZl08VC",
+      "Name": "Figueroa-Brown",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "701.687.4277x0760",
+      "Website": "https://www.york.com",
+      "BillingAddress": {
+        "street": "71215 Mark Keys",
+        "city": "West David",
+        "state": "Arizona",
+        "postalCode": "51442",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 9231,
+      "NumberOfEmployees": 208,
+      "LastActivityDate": "2025-04-05",
+      "LastModifiedDate": "2025-04-05T00:00:00.000+0000",
+      "CreatedDate": "2024-09-26T00:00:00.000+0000",
+      "OwnerId": "005d8exnQuLdWbHVNR",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005d8exnQuLdWbHVNR"
+        },
+        "Name": "Brian Alvarez",
+        "Email": "wyattwright@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_050",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 135,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0014oAlyhIM8OUG6bJ"
+      },
+      "Id": "0014oAlyhIM8OUG6bJ",
+      "Name": "Morgan Group",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "001-687-260-7116x36529",
+      "Website": "https://www.frank.com",
+      "BillingAddress": {
+        "street": "599 Calvin Flats Suite 363",
+        "city": "Braunton",
+        "state": "Oklahoma",
+        "postalCode": "34909",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 30354,
+      "NumberOfEmployees": 830,
+      "LastActivityDate": "2025-05-15",
+      "LastModifiedDate": "2025-05-15T00:00:00.000+0000",
+      "CreatedDate": "2024-03-09T00:00:00.000+0000",
+      "OwnerId": "005D15h0PGvWtHmV9I",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005D15h0PGvWtHmV9I"
+        },
+        "Name": "Vanessa Barrett",
+        "Email": "andrewcunningham@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_051",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 135,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001bZa3ZQNcAdasJWE"
+      },
+      "Id": "001bZa3ZQNcAdasJWE",
+      "Name": "Garza and Sons",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "7457245853",
+      "Website": "https://www.burke.net",
+      "BillingAddress": {
+        "street": "043 Harrison Via",
+        "city": "Johnsontown",
+        "state": "Louisiana",
+        "postalCode": "31127",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 8101,
+      "NumberOfEmployees": 808,
+      "LastActivityDate": "2025-06-16",
+      "LastModifiedDate": "2025-06-16T00:00:00.000+0000",
+      "CreatedDate": "2024-08-21T00:00:00.000+0000",
+      "OwnerId": "005LsKjzrZ74lbOL62",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005LsKjzrZ74lbOL62"
+        },
+        "Name": "Melissa Schneider",
+        "Email": "wagnerkendra@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_052",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 57,
+      "Discount_Rate__c": 0.03,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001Y3cOSIqF5s2xbqu"
+      },
+      "Id": "001Y3cOSIqF5s2xbqu",
+      "Name": "Rodriguez, Wright and Richard",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "6044917795",
+      "Website": "https://www.ortiz.org",
+      "BillingAddress": {
+        "street": "086 Christine Coves",
+        "city": "East Mariaburgh",
+        "state": "West Virginia",
+        "postalCode": "77564",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 17946,
+      "NumberOfEmployees": 744,
+      "LastActivityDate": "2025-06-08",
+      "LastModifiedDate": "2025-06-08T00:00:00.000+0000",
+      "CreatedDate": "2022-08-26T00:00:00.000+0000",
+      "OwnerId": "005aGYgZNdi58BW5CB",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005aGYgZNdi58BW5CB"
+        },
+        "Name": "Matthew Page",
+        "Email": "gnelson@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_053",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 176,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001wIi38CpYINMH86A"
+      },
+      "Id": "001wIi38CpYINMH86A",
+      "Name": "Day PLC",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "260.454.0570x2814",
+      "Website": "https://www.khan.info",
+      "BillingAddress": {
+        "street": "4757 Jeffrey Cliff Suite 355",
+        "city": "New Jeffreyberg",
+        "state": "Mississippi",
+        "postalCode": "34852",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 91352,
+      "NumberOfEmployees": 81,
+      "LastActivityDate": "2025-05-21",
+      "LastModifiedDate": "2025-05-21T00:00:00.000+0000",
+      "CreatedDate": "2022-08-11T00:00:00.000+0000",
+      "OwnerId": "005FLAhxplIqhqfniI",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005FLAhxplIqhqfniI"
+        },
+        "Name": "David Cardenas",
+        "Email": "amyhooper@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_054",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 864,
+      "Discount_Rate__c": 0.11,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0013S2CJ7vpNvqJxPP"
+      },
+      "Id": "0013S2CJ7vpNvqJxPP",
+      "Name": "Chapman and Sons",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "(689)361-6032x32841",
+      "Website": "https://www.reid.net",
+      "BillingAddress": {
+        "street": "779 Scott Lodge Apt. 779",
+        "city": "Baileybury",
+        "state": "Rhode Island",
+        "postalCode": "83141",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 42776,
+      "NumberOfEmployees": 508,
+      "LastActivityDate": "2025-04-01",
+      "LastModifiedDate": "2025-04-01T00:00:00.000+0000",
+      "CreatedDate": "2021-02-23T00:00:00.000+0000",
+      "OwnerId": "005OLHoNdI8hr7wkeV",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005OLHoNdI8hr7wkeV"
+        },
+        "Name": "Jonathan Kidd",
+        "Email": "omar39@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_055",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 24,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001QnczA6XE8Jy0ynG"
+      },
+      "Id": "001QnczA6XE8Jy0ynG",
+      "Name": "Holden, Thompson and Meyer",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "+1-533-600-8831",
+      "Website": "https://www.rasmussen-diaz.com",
+      "BillingAddress": {
+        "street": "5199 Tristan Spur",
+        "city": "East Karenland",
+        "state": "Montana",
+        "postalCode": "80533",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 60051,
+      "NumberOfEmployees": 189,
+      "LastActivityDate": "2025-06-03",
+      "LastModifiedDate": "2025-06-03T00:00:00.000+0000",
+      "CreatedDate": "2022-03-21T00:00:00.000+0000",
+      "OwnerId": "005iUtVyeUotGiPiiI",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005iUtVyeUotGiPiiI"
+        },
+        "Name": "Todd Lara",
+        "Email": "creed@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_056",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 108,
+      "Discount_Rate__c": 0.13,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001z5dXp08UdPJds4V"
+      },
+      "Id": "001z5dXp08UdPJds4V",
+      "Name": "Robertson PLC",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "769.869.3180x201",
+      "Website": "https://www.gibson.com",
+      "BillingAddress": {
+        "street": "8221 Taylor Dale Apt. 833",
+        "city": "Melissaside",
+        "state": "Arkansas",
+        "postalCode": "22871",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 104998,
+      "NumberOfEmployees": 678,
+      "LastActivityDate": "2025-06-23",
+      "LastModifiedDate": "2025-06-23T00:00:00.000+0000",
+      "CreatedDate": "2023-12-18T00:00:00.000+0000",
+      "OwnerId": "005uZxr2ekE5fFaARt",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005uZxr2ekE5fFaARt"
+        },
+        "Name": "Jared House",
+        "Email": "snyderdonald@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_057",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 590,
+      "Discount_Rate__c": 0.09,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001CrMupLgSWRtZGlh"
+      },
+      "Id": "001CrMupLgSWRtZGlh",
+      "Name": "Kent-Pham",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "305.690.0458x526",
+      "Website": "https://www.henson.com",
+      "BillingAddress": {
+        "street": "6128 Dana Isle",
+        "city": "Mariaborough",
+        "state": "Arizona",
+        "postalCode": "47923",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 18734,
+      "NumberOfEmployees": 559,
+      "LastActivityDate": "2025-06-15",
+      "LastModifiedDate": "2025-06-15T00:00:00.000+0000",
+      "CreatedDate": "2023-11-22T00:00:00.000+0000",
+      "OwnerId": "005IStbylC9LGJmdxB",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005IStbylC9LGJmdxB"
+        },
+        "Name": "Henry Hill",
+        "Email": "wesley15@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_058",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 43,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001Dr7jU6iiseHfwam"
+      },
+      "Id": "001Dr7jU6iiseHfwam",
+      "Name": "Andrews, Love and Lucas",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "759.314.7345",
+      "Website": "https://www.thomas.com",
+      "BillingAddress": {
+        "street": "06247 Vanessa Ranch Apt. 879",
+        "city": "East Amandaborough",
+        "state": "Missouri",
+        "postalCode": "57581",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 7199,
+      "NumberOfEmployees": 408,
+      "LastActivityDate": "2025-04-25",
+      "LastModifiedDate": "2025-04-25T00:00:00.000+0000",
+      "CreatedDate": "2023-08-25T00:00:00.000+0000",
+      "OwnerId": "005BxPzuPGDCiCnxme",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005BxPzuPGDCiCnxme"
+        },
+        "Name": "Autumn Ball",
+        "Email": "nsmith@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_059",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 41,
+      "Discount_Rate__c": 0.06,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001GpNLWdTXUMU3ixG"
+      },
+      "Id": "001GpNLWdTXUMU3ixG",
+      "Name": "Ramirez Ltd",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "+1-427-654-9222",
+      "Website": "https://www.jones.com",
+      "BillingAddress": {
+        "street": "30736 Reese Springs Apt. 847",
+        "city": "Jacobsmouth",
+        "state": "Louisiana",
+        "postalCode": "29646",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 10074,
+      "NumberOfEmployees": 78,
+      "LastActivityDate": "2025-04-06",
+      "LastModifiedDate": "2025-04-06T00:00:00.000+0000",
+      "CreatedDate": "2022-02-12T00:00:00.000+0000",
+      "OwnerId": "005tL1ibsXq5UzEmXq",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005tL1ibsXq5UzEmXq"
+        },
+        "Name": "Jennifer Webb",
+        "Email": "sbell@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_060",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 82,
+      "Discount_Rate__c": 0.05,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0013Jg7MDWBHZoVY9z"
+      },
+      "Id": "0013Jg7MDWBHZoVY9z",
+      "Name": "Wilson, Jefferson and Miller",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "+1-261-984-8695",
+      "Website": "https://www.austin-curry.com",
+      "BillingAddress": {
+        "street": "8149 Taylor Burg",
+        "city": "West Jennifer",
+        "state": "Washington",
+        "postalCode": "35214",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 455150,
+      "NumberOfEmployees": 146,
+      "LastActivityDate": "2025-06-20",
+      "LastModifiedDate": "2025-06-20T00:00:00.000+0000",
+      "CreatedDate": "2024-05-02T00:00:00.000+0000",
+      "OwnerId": "005EkdqdMckf9eOlAn",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005EkdqdMckf9eOlAn"
+        },
+        "Name": "Jasmine Gentry",
+        "Email": "tedwards@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_061",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1152,
+      "Discount_Rate__c": 0.16,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001NFrXp5h9xwpM4xf"
+      },
+      "Id": "001NFrXp5h9xwpM4xf",
+      "Name": "Mendoza Group",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "694-338-8151x449",
+      "Website": "https://www.haley-weber.info",
+      "BillingAddress": {
+        "street": "785 Lee Plains Suite 742",
+        "city": "South Josephland",
+        "state": "South Carolina",
+        "postalCode": "29247",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 14235,
+      "NumberOfEmployees": 340,
+      "LastActivityDate": "2025-05-31",
+      "LastModifiedDate": "2025-05-31T00:00:00.000+0000",
+      "CreatedDate": "2020-11-10T00:00:00.000+0000",
+      "OwnerId": "005iFO9rcixUK1Vyx6",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005iFO9rcixUK1Vyx6"
+        },
+        "Name": "Christopher Miller",
+        "Email": "pjones@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_062",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 46,
+      "Discount_Rate__c": 0.04,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001sHKjrP4xLixLLzL"
+      },
+      "Id": "001sHKjrP4xLixLLzL",
+      "Name": "Ryan, Carter and Anderson",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "(436)523-3410",
+      "Website": "https://www.kelley.com",
+      "BillingAddress": {
+        "street": "116 Patrick Lake",
+        "city": "New Colleen",
+        "state": "North Carolina",
+        "postalCode": "49247",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 151879,
+      "NumberOfEmployees": 780,
+      "LastActivityDate": "2025-06-15",
+      "LastModifiedDate": "2025-06-15T00:00:00.000+0000",
+      "CreatedDate": "2024-06-13T00:00:00.000+0000",
+      "OwnerId": "005qQ1YwzJuvn2TrJm",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005qQ1YwzJuvn2TrJm"
+        },
+        "Name": "Jenna Bell",
+        "Email": "virginia44@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_063",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1098,
+      "Discount_Rate__c": 0.12,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001D7TDnH8lUoKXAmp"
+      },
+      "Id": "001D7TDnH8lUoKXAmp",
+      "Name": "Brown-Knapp",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "(896)319-8266",
+      "Website": "https://www.martinez-carey.com",
+      "BillingAddress": {
+        "street": "2458 Carlson Drive Suite 462",
+        "city": "East Kellyfort",
+        "state": "Rhode Island",
+        "postalCode": "02126",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 131806,
+      "NumberOfEmployees": 180,
+      "LastActivityDate": "2025-06-12",
+      "LastModifiedDate": "2025-06-12T00:00:00.000+0000",
+      "CreatedDate": "2022-11-17T00:00:00.000+0000",
+      "OwnerId": "005npja8wS81015lsP",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005npja8wS81015lsP"
+        },
+        "Name": "Jennifer Lawson",
+        "Email": "barbara16@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_064",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1562,
+      "Discount_Rate__c": 0.1,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001ZmpK8rdP8HEFtk1"
+      },
+      "Id": "001ZmpK8rdP8HEFtk1",
+      "Name": "Irwin-Riggs",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "(767)297-5053x534",
+      "Website": "https://www.bowen.org",
+      "BillingAddress": {
+        "street": "8790 Alvarez Fork",
+        "city": "New Patricia",
+        "state": "Minnesota",
+        "postalCode": "25291",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 35030,
+      "NumberOfEmployees": 793,
+      "LastActivityDate": "2025-05-25",
+      "LastModifiedDate": "2025-05-25T00:00:00.000+0000",
+      "CreatedDate": "2021-07-23T00:00:00.000+0000",
+      "OwnerId": "005XysRmBim7YiQ5At",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005XysRmBim7YiQ5At"
+        },
+        "Name": "Diamond Avila MD",
+        "Email": "ryanlee@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_065",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 61,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001xr7E6Tzxgc28s5A"
+      },
+      "Id": "001xr7E6Tzxgc28s5A",
+      "Name": "Spence-Davis",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "+1-633-882-0056x32629",
+      "Website": "https://www.tran.com",
+      "BillingAddress": {
+        "street": "37394 Sanchez Ranch Suite 877",
+        "city": "New Williambury",
+        "state": "Hawaii",
+        "postalCode": "74889",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 21390,
+      "NumberOfEmployees": 696,
+      "LastActivityDate": "2025-04-17",
+      "LastModifiedDate": "2025-04-17T00:00:00.000+0000",
+      "CreatedDate": "2021-05-22T00:00:00.000+0000",
+      "OwnerId": "005BkXE4kaNUXtfATM",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005BkXE4kaNUXtfATM"
+        },
+        "Name": "Rebecca Long",
+        "Email": "matthew33@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_066",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 31,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001BBlGPX0qwApNiIr"
+      },
+      "Id": "001BBlGPX0qwApNiIr",
+      "Name": "Rodriguez, Meyers and Thomas",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "(423)669-2226x155",
+      "Website": "https://www.barrett.info",
+      "BillingAddress": {
+        "street": "67475 Scott Street",
+        "city": "Robertfurt",
+        "state": "Florida",
+        "postalCode": "13427",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 7119,
+      "NumberOfEmployees": 589,
+      "LastActivityDate": "2025-04-06",
+      "LastModifiedDate": "2025-04-06T00:00:00.000+0000",
+      "CreatedDate": "2020-11-13T00:00:00.000+0000",
+      "OwnerId": "0053nNfkWMBM2qU1kX",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0053nNfkWMBM2qU1kX"
+        },
+        "Name": "Christina Carpenter",
+        "Email": "peter66@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_067",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 129,
+      "Discount_Rate__c": 0.04,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001YMtzBZwjJPrjEAI"
+      },
+      "Id": "001YMtzBZwjJPrjEAI",
+      "Name": "Foster Inc",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "(872)697-2007x98521",
+      "Website": "https://www.torres.info",
+      "BillingAddress": {
+        "street": "173 Summers Knolls Apt. 924",
+        "city": "Coxchester",
+        "state": "Florida",
+        "postalCode": "34074",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 73163,
+      "NumberOfEmployees": 735,
+      "LastActivityDate": "2025-06-03",
+      "LastModifiedDate": "2025-06-03T00:00:00.000+0000",
+      "CreatedDate": "2022-04-10T00:00:00.000+0000",
+      "OwnerId": "005uPcxoWqAbEjdzHy",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005uPcxoWqAbEjdzHy"
+        },
+        "Name": "Samuel Larsen",
+        "Email": "billy03@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_068",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 1737,
+      "Discount_Rate__c": 0.12,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001tr85JLmn9FMvDBA"
+      },
+      "Id": "001tr85JLmn9FMvDBA",
+      "Name": "Allen, Gilbert and Thompson",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "+1-916-223-9174x5127",
+      "Website": "https://www.berry-roth.org",
+      "BillingAddress": {
+        "street": "6697 Decker Knoll",
+        "city": "East Barbara",
+        "state": "Texas",
+        "postalCode": "54562",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 10506,
+      "NumberOfEmployees": 314,
+      "LastActivityDate": "2025-05-24",
+      "LastModifiedDate": "2025-05-24T00:00:00.000+0000",
+      "CreatedDate": "2024-03-28T00:00:00.000+0000",
+      "OwnerId": "0053tuJ2HyajUaSGel",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0053tuJ2HyajUaSGel"
+        },
+        "Name": "Charles Simpson",
+        "Email": "hperez@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_069",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 96,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0010ScFCd2G6R8XJV7"
+      },
+      "Id": "0010ScFCd2G6R8XJV7",
+      "Name": "Sanders, Sullivan and Jones",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "001-410-516-3354x68073",
+      "Website": "https://www.levine.net",
+      "BillingAddress": {
+        "street": "05681 Coffey Freeway Suite 999",
+        "city": "Jamieborough",
+        "state": "North Carolina",
+        "postalCode": "99754",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 6403,
+      "NumberOfEmployees": 18,
+      "LastActivityDate": "2025-06-01",
+      "LastModifiedDate": "2025-06-01T00:00:00.000+0000",
+      "CreatedDate": "2024-09-30T00:00:00.000+0000",
+      "OwnerId": "0053JvQHomf2yBzCRo",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0053JvQHomf2yBzCRo"
+        },
+        "Name": "Lori Bell",
+        "Email": "jclark@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_070",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 123,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001kUq1Ucv2bStc2b5"
+      },
+      "Id": "001kUq1Ucv2bStc2b5",
+      "Name": "Russell, Hebert and Cross",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "355-489-7864x02098",
+      "Website": "https://www.ray.com",
+      "BillingAddress": {
+        "street": "5930 Steven Centers",
+        "city": "Brennanhaven",
+        "state": "Connecticut",
+        "postalCode": "92783",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 24869,
+      "NumberOfEmployees": 446,
+      "LastActivityDate": "2025-05-05",
+      "LastModifiedDate": "2025-05-05T00:00:00.000+0000",
+      "CreatedDate": "2021-06-23T00:00:00.000+0000",
+      "OwnerId": "005xooz23XNH69G5sV",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005xooz23XNH69G5sV"
+        },
+        "Name": "Jeffrey Grimes",
+        "Email": "katie69@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_071",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 177,
+      "Discount_Rate__c": 0.03,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001R83TadoATdzmzTY"
+      },
+      "Id": "001R83TadoATdzmzTY",
+      "Name": "Smith and Sons",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "(887)633-6115x607",
+      "Website": "https://www.velasquez-rivas.com",
+      "BillingAddress": {
+        "street": "00721 Baker Wall",
+        "city": "Port Sandramouth",
+        "state": "Georgia",
+        "postalCode": "04129",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 43118,
+      "NumberOfEmployees": 482,
+      "LastActivityDate": "2025-05-03",
+      "LastModifiedDate": "2025-05-03T00:00:00.000+0000",
+      "CreatedDate": "2024-04-24T00:00:00.000+0000",
+      "OwnerId": "005RPDWj44WbE9hgOl",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005RPDWj44WbE9hgOl"
+        },
+        "Name": "Tracy Guzman",
+        "Email": "bbrennan@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_072",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 90,
+      "Discount_Rate__c": 0.05,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001ljUQOlldC7V4Fhz"
+      },
+      "Id": "001ljUQOlldC7V4Fhz",
+      "Name": "Taylor LLC",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "001-464-737-3860x56108",
+      "Website": "https://www.patel.com",
+      "BillingAddress": {
+        "street": "5496 Patricia Streets",
+        "city": "North Christinebury",
+        "state": "Minnesota",
+        "postalCode": "56561",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 37581,
+      "NumberOfEmployees": 520,
+      "LastActivityDate": "2025-04-03",
+      "LastModifiedDate": "2025-04-03T00:00:00.000+0000",
+      "CreatedDate": "2021-03-24T00:00:00.000+0000",
+      "OwnerId": "005whaFgG03pDjz9DY",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005whaFgG03pDjz9DY"
+        },
+        "Name": "Michael Esparza",
+        "Email": "edwardthompson@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_073",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 107,
+      "Discount_Rate__c": 0.04,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001PqUhXfvakmpM9Sv"
+      },
+      "Id": "001PqUhXfvakmpM9Sv",
+      "Name": "Larson, Moon and Whitaker",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "206-675-9289",
+      "Website": "https://www.freeman-bell.com",
+      "BillingAddress": {
+        "street": "129 Katherine Expressway Suite 753",
+        "city": "East Angela",
+        "state": "Florida",
+        "postalCode": "89449",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 27070,
+      "NumberOfEmployees": 228,
+      "LastActivityDate": "2025-04-29",
+      "LastModifiedDate": "2025-04-29T00:00:00.000+0000",
+      "CreatedDate": "2024-01-13T00:00:00.000+0000",
+      "OwnerId": "0052HBmgzv8uTW6gCb",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0052HBmgzv8uTW6gCb"
+        },
+        "Name": "Theodore Olson",
+        "Email": "boyerbrian@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_074",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 77,
+      "Discount_Rate__c": 0.04,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001HzFPM8i7gTLvmaJ"
+      },
+      "Id": "001HzFPM8i7gTLvmaJ",
+      "Name": "Smith-Gray",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "(681)462-5420x0851",
+      "Website": "https://www.king.com",
+      "BillingAddress": {
+        "street": "755 Mckee Way Suite 471",
+        "city": "North Rachelchester",
+        "state": "Alabama",
+        "postalCode": "13228",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 105192,
+      "NumberOfEmployees": 159,
+      "LastActivityDate": "2025-05-20",
+      "LastModifiedDate": "2025-05-20T00:00:00.000+0000",
+      "CreatedDate": "2021-06-02T00:00:00.000+0000",
+      "OwnerId": "0050FP1oh2xlDCrBH8",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0050FP1oh2xlDCrBH8"
+        },
+        "Name": "Dale Allen",
+        "Email": "tritter@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_075",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1636,
+      "Discount_Rate__c": 0.09,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001m2pFyUI33hZRbFG"
+      },
+      "Id": "001m2pFyUI33hZRbFG",
+      "Name": "Mendoza and Sons",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "388-770-3917x655",
+      "Website": "https://www.cross-bowers.com",
+      "BillingAddress": {
+        "street": "74022 Robinson Shoal",
+        "city": "West Amy",
+        "state": "Nebraska",
+        "postalCode": "57313",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 39108,
+      "NumberOfEmployees": 249,
+      "LastActivityDate": "2025-05-16",
+      "LastModifiedDate": "2025-05-16T00:00:00.000+0000",
+      "CreatedDate": "2021-03-05T00:00:00.000+0000",
+      "OwnerId": "005Jpl0xFGifOXGcwz",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005Jpl0xFGifOXGcwz"
+        },
+        "Name": "Mary Hanson",
+        "Email": "keithnewton@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_076",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 146,
+      "Discount_Rate__c": 0.06,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001mIbOro3KwO6V6Kq"
+      },
+      "Id": "001mIbOro3KwO6V6Kq",
+      "Name": "Davis, Ross and Jackson",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "001-795-730-9482x5631",
+      "Website": "https://www.lee.com",
+      "BillingAddress": {
+        "street": "4671 Tina Plain Suite 322",
+        "city": "West Nancy",
+        "state": "Kansas",
+        "postalCode": "57969",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 84934,
+      "NumberOfEmployees": 93,
+      "LastActivityDate": "2025-06-10",
+      "LastModifiedDate": "2025-06-10T00:00:00.000+0000",
+      "CreatedDate": "2020-11-08T00:00:00.000+0000",
+      "OwnerId": "005kcAsHhCL0KVybdm",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005kcAsHhCL0KVybdm"
+        },
+        "Name": "Jasmine Paul",
+        "Email": "hurstpamela@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_077",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 1774,
+      "Discount_Rate__c": 0.09,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001sYYPpqiwrVLd25l"
+      },
+      "Id": "001sYYPpqiwrVLd25l",
+      "Name": "Williams-Grant",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "(780)789-8995x431",
+      "Website": "https://www.wagner.com",
+      "BillingAddress": {
+        "street": "488 Brian Station Suite 683",
+        "city": "New James",
+        "state": "Oklahoma",
+        "postalCode": "54998",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 7622,
+      "NumberOfEmployees": 212,
+      "LastActivityDate": "2025-04-28",
+      "LastModifiedDate": "2025-04-28T00:00:00.000+0000",
+      "CreatedDate": "2023-08-20T00:00:00.000+0000",
+      "OwnerId": "005Dr14Be9QJrTUkSV",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005Dr14Be9QJrTUkSV"
+        },
+        "Name": "Matthew Mitchell",
+        "Email": "alechardy@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_078",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "albuquerque",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 182,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001VtDWD5aw2zuVoBV"
+      },
+      "Id": "001VtDWD5aw2zuVoBV",
+      "Name": "Ryan, Smith and Coleman",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "(692)999-1452x069",
+      "Website": "https://www.gross.com",
+      "BillingAddress": {
+        "street": "670 Greg Terrace",
+        "city": "Johnberg",
+        "state": "Wyoming",
+        "postalCode": "12068",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 45370,
+      "NumberOfEmployees": 51,
+      "LastActivityDate": "2025-06-09",
+      "LastModifiedDate": "2025-06-09T00:00:00.000+0000",
+      "CreatedDate": "2023-09-11T00:00:00.000+0000",
+      "OwnerId": "005tGwRc9l7QABwpOs",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005tGwRc9l7QABwpOs"
+        },
+        "Name": "Sara Nolan",
+        "Email": "pbarnett@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_079",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1604,
+      "Discount_Rate__c": 0.1,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001gIUExRhY73lCXjn"
+      },
+      "Id": "001gIUExRhY73lCXjn",
+      "Name": "Cannon, Smith and Henderson",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "912-258-4690x492",
+      "Website": "https://www.crawford-perez.com",
+      "BillingAddress": {
+        "street": "18690 Curry Terrace Apt. 119",
+        "city": "Robertsport",
+        "state": "Indiana",
+        "postalCode": "89024",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 44200,
+      "NumberOfEmployees": 727,
+      "LastActivityDate": "2025-04-17",
+      "LastModifiedDate": "2025-04-17T00:00:00.000+0000",
+      "CreatedDate": "2022-07-24T00:00:00.000+0000",
+      "OwnerId": "005WXaOocvDlpoVwZr",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005WXaOocvDlpoVwZr"
+        },
+        "Name": "Emily Ruiz",
+        "Email": "cmatthews@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_080",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 86,
+      "Discount_Rate__c": 0.03,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001KRwRZgLwgqTLA14"
+      },
+      "Id": "001KRwRZgLwgqTLA14",
+      "Name": "Love, Alexander and Rogers",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "(502)764-5283x775",
+      "Website": "https://www.stone-ward.biz",
+      "BillingAddress": {
+        "street": "2128 Hicks Overpass",
+        "city": "Terriberg",
+        "state": "Tennessee",
+        "postalCode": "20957",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 32345,
+      "NumberOfEmployees": 220,
+      "LastActivityDate": "2025-04-17",
+      "LastModifiedDate": "2025-04-17T00:00:00.000+0000",
+      "CreatedDate": "2022-07-05T00:00:00.000+0000",
+      "OwnerId": "005SpAFjnG8jCcI9vG",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005SpAFjnG8jCcI9vG"
+        },
+        "Name": "Robert Green",
+        "Email": "joshua70@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_081",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 35,
+      "Discount_Rate__c": 0.05,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001CRj0vne6xA7KKUa"
+      },
+      "Id": "001CRj0vne6xA7KKUa",
+      "Name": "Vargas-Smith",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "380-578-6911",
+      "Website": "https://www.bryant-norton.com",
+      "BillingAddress": {
+        "street": "65038 Andrew Burgs Suite 214",
+        "city": "Allenmouth",
+        "state": "Mississippi",
+        "postalCode": "28019",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 14782,
+      "NumberOfEmployees": 305,
+      "LastActivityDate": "2025-05-20",
+      "LastModifiedDate": "2025-05-20T00:00:00.000+0000",
+      "CreatedDate": "2022-08-25T00:00:00.000+0000",
+      "OwnerId": "005d9zoguVfEHFWpek",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005d9zoguVfEHFWpek"
+        },
+        "Name": "Donna Hall",
+        "Email": "vcastillo@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_082",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 139,
+      "Discount_Rate__c": 0.01,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001IMQyKamVyjHmSpd"
+      },
+      "Id": "001IMQyKamVyjHmSpd",
+      "Name": "Torres-Marshall",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "4497045018",
+      "Website": "https://www.rodriguez.net",
+      "BillingAddress": {
+        "street": "730 Mccoy Drives Apt. 368",
+        "city": "Thomasmouth",
+        "state": "Montana",
+        "postalCode": "06450",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 89452,
+      "NumberOfEmployees": 379,
+      "LastActivityDate": "2025-06-18",
+      "LastModifiedDate": "2025-06-18T00:00:00.000+0000",
+      "CreatedDate": "2021-11-15T00:00:00.000+0000",
+      "OwnerId": "005IRT7q3a8hjdFYBb",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005IRT7q3a8hjdFYBb"
+        },
+        "Name": "Troy Stokes II",
+        "Email": "jessica76@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_083",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 132,
+      "Discount_Rate__c": 0.09,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001qfpEsW0QecZr3tw"
+      },
+      "Id": "001qfpEsW0QecZr3tw",
+      "Name": "Smith, Cooper and Irwin",
+      "Type": "Customer",
+      "Industry": "Professional Services",
+      "Phone": "317.696.2583",
+      "Website": "https://www.reyes-barnes.com",
+      "BillingAddress": {
+        "street": "200 Chung Meadows Apt. 157",
+        "city": "South Kristenville",
+        "state": "North Dakota",
+        "postalCode": "41499",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 33158,
+      "NumberOfEmployees": 342,
+      "LastActivityDate": "2025-06-13",
+      "LastModifiedDate": "2025-06-13T00:00:00.000+0000",
+      "CreatedDate": "2024-11-15T00:00:00.000+0000",
+      "OwnerId": "005VmGh2Z0jOXZ5eL4",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005VmGh2Z0jOXZ5eL4"
+        },
+        "Name": "Danielle Miller",
+        "Email": "susanweiss@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_084",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 49,
+      "Discount_Rate__c": 0.0,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001a4XEgD8oTI62IMM"
+      },
+      "Id": "001a4XEgD8oTI62IMM",
+      "Name": "Powell-Campbell",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "(237)524-8899x3869",
+      "Website": "https://www.blake.net",
+      "BillingAddress": {
+        "street": "83503 Williams Points",
+        "city": "Jessicaview",
+        "state": "Ohio",
+        "postalCode": "19445",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 82296,
+      "NumberOfEmployees": 327,
+      "LastActivityDate": "2025-06-15",
+      "LastModifiedDate": "2025-06-15T00:00:00.000+0000",
+      "CreatedDate": "2021-10-07T00:00:00.000+0000",
+      "OwnerId": "005XiyBr4HRMFn40WM",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005XiyBr4HRMFn40WM"
+        },
+        "Name": "William Martinez",
+        "Email": "danielsherman@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_085",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 702,
+      "Discount_Rate__c": 0.08,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001TCXcaGTDwzjdJYa"
+      },
+      "Id": "001TCXcaGTDwzjdJYa",
+      "Name": "Hines-Velasquez",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "440.321.1921x504",
+      "Website": "https://www.sanchez.org",
+      "BillingAddress": {
+        "street": "6571 Brandon Village Apt. 415",
+        "city": "West Vicki",
+        "state": "Illinois",
+        "postalCode": "89504",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 390049,
+      "NumberOfEmployees": 598,
+      "LastActivityDate": "2025-06-17",
+      "LastModifiedDate": "2025-06-17T00:00:00.000+0000",
+      "CreatedDate": "2023-11-16T00:00:00.000+0000",
+      "OwnerId": "0057oiYKKNPzMEiYvn",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0057oiYKKNPzMEiYvn"
+        },
+        "Name": "Beth Suarez",
+        "Email": "eddiesantos@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_086",
+      "Account_Tier__c": "platinum",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 100,
+      "Discount_Rate__c": 0.17,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001RAVbJXPeSTXGikB"
+      },
+      "Id": "001RAVbJXPeSTXGikB",
+      "Name": "Nunez, Gray and Murray",
+      "Type": "Customer",
+      "Industry": "Food & Beverage",
+      "Phone": "+1-911-690-7201x6520",
+      "Website": "https://www.jordan-lopez.com",
+      "BillingAddress": {
+        "street": "980 Lisa Well Suite 642",
+        "city": "New Jerry",
+        "state": "South Dakota",
+        "postalCode": "07552",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 43701,
+      "NumberOfEmployees": 104,
+      "LastActivityDate": "2025-04-14",
+      "LastModifiedDate": "2025-04-14T00:00:00.000+0000",
+      "CreatedDate": "2021-12-19T00:00:00.000+0000",
+      "OwnerId": "0058GFkOkOMR1CMzJe",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/0058GFkOkOMR1CMzJe"
+        },
+        "Name": "Connie Moon",
+        "Email": "hamptonchristina@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_087",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 12,
+      "Discount_Rate__c": 0.02,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001YyzDhVNZn8X5Als"
+      },
+      "Id": "001YyzDhVNZn8X5Als",
+      "Name": "Hines-Harvey",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "(220)798-2755x670",
+      "Website": "https://www.hernandez.com",
+      "BillingAddress": {
+        "street": "0791 Smith Forge",
+        "city": "West Derek",
+        "state": "Pennsylvania",
+        "postalCode": "78116",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 127060,
+      "NumberOfEmployees": 802,
+      "LastActivityDate": "2025-05-30",
+      "LastModifiedDate": "2025-05-30T00:00:00.000+0000",
+      "CreatedDate": "2025-03-19T00:00:00.000+0000",
+      "OwnerId": "005xCdGI2mkmjQaKE9",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005xCdGI2mkmjQaKE9"
+        },
+        "Name": "Jason Jones",
+        "Email": "victoranderson@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_088",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1606,
+      "Discount_Rate__c": 0.12,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001DWAVDrMC9DG6UhI"
+      },
+      "Id": "001DWAVDrMC9DG6UhI",
+      "Name": "Myers-Wong",
+      "Type": "Customer",
+      "Industry": "E-Commerce",
+      "Phone": "939.461.8369x096",
+      "Website": "https://www.rodriguez.org",
+      "BillingAddress": {
+        "street": "319 Mark Estates",
+        "city": "Andersonside",
+        "state": "North Carolina",
+        "postalCode": "22611",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 63578,
+      "NumberOfEmployees": 311,
+      "LastActivityDate": "2025-06-21",
+      "LastModifiedDate": "2025-06-21T00:00:00.000+0000",
+      "CreatedDate": "2022-01-21T00:00:00.000+0000",
+      "OwnerId": "005YWPN56GbT26YrkZ",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005YWPN56GbT26YrkZ"
+        },
+        "Name": "Justin Harris",
+        "Email": "courtney77@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_089",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Fixed Rate",
+      "Contracted_Monthly_Volume__c": 1601,
+      "Discount_Rate__c": 0.11,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001Spwt4FL1Fmay6Hr"
+      },
+      "Id": "001Spwt4FL1Fmay6Hr",
+      "Name": "Kane, Price and Bell",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "297-369-9187x79991",
+      "Website": "https://www.wilson-smith.com",
+      "BillingAddress": {
+        "street": "0388 Daniels Hollow",
+        "city": "Raymondmouth",
+        "state": "Georgia",
+        "postalCode": "07488",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 19613,
+      "NumberOfEmployees": 558,
+      "LastActivityDate": "2025-04-30",
+      "LastModifiedDate": "2025-04-30T00:00:00.000+0000",
+      "CreatedDate": "2023-07-27T00:00:00.000+0000",
+      "OwnerId": "005zBULMC2PCfTucmq",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005zBULMC2PCfTucmq"
+        },
+        "Name": "John Martinez",
+        "Email": "harrisgarrett@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_090",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 75,
+      "Discount_Rate__c": 0.07,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001dlzvsqfPOWWtwTM"
+      },
+      "Id": "001dlzvsqfPOWWtwTM",
+      "Name": "Mcguire-Padilla",
+      "Type": "Customer",
+      "Industry": "Retail",
+      "Phone": "221.909.4796x50577",
+      "Website": "https://www.morales-nguyen.com",
+      "BillingAddress": {
+        "street": "973 House Rue Apt. 489",
+        "city": "Port Jessicamouth",
+        "state": "New Jersey",
+        "postalCode": "49840",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 57524,
+      "NumberOfEmployees": 370,
+      "LastActivityDate": "2025-05-25",
+      "LastModifiedDate": "2025-05-25T00:00:00.000+0000",
+      "CreatedDate": "2021-03-08T00:00:00.000+0000",
+      "OwnerId": "005cdWczsEJlYlpqFI",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005cdWczsEJlYlpqFI"
+        },
+        "Name": "Christopher Summers",
+        "Email": "kjones@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_091",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 667,
+      "Discount_Rate__c": 0.08,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/0014NIExTEnlLfPJ5X"
+      },
+      "Id": "0014NIExTEnlLfPJ5X",
+      "Name": "Harvey Ltd",
+      "Type": "Customer",
+      "Industry": "Healthcare",
+      "Phone": "(543)850-5838",
+      "Website": "https://www.alexander.com",
+      "BillingAddress": {
+        "street": "846 Davis Parkway",
+        "city": "Lake Kimberlyview",
+        "state": "Texas",
+        "postalCode": "61673",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 16864,
+      "NumberOfEmployees": 780,
+      "LastActivityDate": "2025-06-05",
+      "LastModifiedDate": "2025-06-05T00:00:00.000+0000",
+      "CreatedDate": "2025-03-26T00:00:00.000+0000",
+      "OwnerId": "005EN6bM0Ab2GcnZP1",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005EN6bM0Ab2GcnZP1"
+        },
+        "Name": "Tristan Sims",
+        "Email": "olsonsherri@example.org"
+      },
+      "SwiftRoute_Client_ID__c": "client_092",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 54,
+      "Discount_Rate__c": 0.04,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/00171NdWntubUCnfTS"
+      },
+      "Id": "00171NdWntubUCnfTS",
+      "Name": "Morales, Medina and Williams",
+      "Type": "Customer",
+      "Industry": "Technology",
+      "Phone": "715-543-5840",
+      "Website": "https://www.ortiz-reed.com",
+      "BillingAddress": {
+        "street": "0132 Kimberly Island",
+        "city": "West Sarahfort",
+        "state": "South Carolina",
+        "postalCode": "65723",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 109927,
+      "NumberOfEmployees": 258,
+      "LastActivityDate": "2025-05-19",
+      "LastModifiedDate": "2025-05-19T00:00:00.000+0000",
+      "CreatedDate": "2024-11-22T00:00:00.000+0000",
+      "OwnerId": "005oQjkNrB3Qy2d1lS",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005oQjkNrB3Qy2d1lS"
+        },
+        "Name": "Antonio Parsons",
+        "Email": "powellandrew@example.net"
+      },
+      "SwiftRoute_Client_ID__c": "client_093",
+      "Account_Tier__c": "gold",
+      "Primary_City__c": "salt_lake_city",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 1403,
+      "Discount_Rate__c": 0.14,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v58.0/sobjects/Account/001bk34UPW52P6YtCB"
+      },
+      "Id": "001bk34UPW52P6YtCB",
+      "Name": "Hurley, Contreras and Dunlap",
+      "Type": "Customer",
+      "Industry": "Manufacturing",
+      "Phone": "839.993.9337x4647",
+      "Website": "https://www.swanson.com",
+      "BillingAddress": {
+        "street": "576 Troy Fork",
+        "city": "Whiteberg",
+        "state": "Connecticut",
+        "postalCode": "22423",
+        "country": "United States",
+        "stateCode": "CO",
+        "countryCode": "US"
+      },
+      "AnnualRevenue": 22929,
+      "NumberOfEmployees": 193,
+      "LastActivityDate": "2025-05-08",
+      "LastModifiedDate": "2025-05-08T00:00:00.000+0000",
+      "CreatedDate": "2023-12-26T00:00:00.000+0000",
+      "OwnerId": "005WIzbZN5W8I4oLun",
+      "Owner": {
+        "attributes": {
+          "type": "User",
+          "url": "/services/data/v58.0/sobjects/User/005WIzbZN5W8I4oLun"
+        },
+        "Name": "Laura Weeks",
+        "Email": "qfisher@example.com"
+      },
+      "SwiftRoute_Client_ID__c": "client_094",
+      "Account_Tier__c": "standard",
+      "Primary_City__c": "denver",
+      "Contract_Type__c": "Variable Rate",
+      "Contracted_Monthly_Volume__c": 146,
+      "Discount_Rate__c": 0.06,
+      "Is_Fulfillment_Client__c": false,
+      "Net_Payment_Terms__c": 30
+    }
+  ]
+}
