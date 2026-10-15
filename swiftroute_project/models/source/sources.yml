@@ -1,0 +1,24 @@
+sources:
+  - name: swiftroute_databricks
+    database: swiftroute
+    schema: bronze
+    tables:
+      - name: gusto_employees
+      - name: gusto_payroll_compensations
+      - name: gusto_payroll_runs
+      - name: linnworks_inventory
+      - name: linnworks_orders
+      - name: linnworks_stock_transactions
+      - name: onfleet_deliveries
+      - name: onfleet_workers
+      - name: pipeline_state
+      - name: quickbooks_expenses
+      - name: quickbooks_invoices
+      - name: quickbooks_payments
+      - name: salesforce_accounts
+      - name: salesforce_contract_rates
+      - name: salesforce_contracts
+      - name: salesforce_opportunities
+      - name: samsara_driver_summary
+      - name: samsara_trips
+      - name: samsara_vehicles

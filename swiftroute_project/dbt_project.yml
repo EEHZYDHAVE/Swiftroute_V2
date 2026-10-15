@@ -32,5 +32,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   swiftroute_project:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    silver_t:
+      # Tables — cleaned and standardised records upserted from bronze
+      +materialized: table
+      +schema: silver_t

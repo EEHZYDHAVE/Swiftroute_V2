@@ -1,0 +1,1 @@
+SELECT COUNT(*) From {{ source('swiftroute_databricks', 'gusto_employees') }};

@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: onfleet_deliveries_t
+    description: >-
+      Silver Technical representation of Onfleet tasks. Contains one row per unique
+      source task, with standardized timestamps, flattened task attributes, and a
+      persistent readable surrogate task identifier.
+    columns:
+      - name: task_id
+        description: >-
+          Persistent readable surrogate identifier used for downstream joins, in the
+          format task_id_1, task_id_2, and so on.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: source_task_id
+        description: Original Onfleet task identifier retained for source reconciliation and incremental matching.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: source_updated_at_utc
+        description: >-
+          Source last-modified timestamp converted from Unix epoch milliseconds to a
+          UTC timestamp. Used as the incremental processing watermark.
+        data_tests:
+          - not_null
+
+      - name: task_state
+        description: Numeric Onfleet task state code; descriptions are intentionally deferred to Silver Business.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1, 2, 3]
+                quote: false
+
+      - name: worker_id
+        description: >-
+          Source worker reference. The text sentinel N/A is used when the original
+          worker reference is missing; worker_reference_missing preserves that fact.
+        data_tests:
+          - not_null
+
+  - name: onfleet_workers_t
+    description: >-
+      Silver Technical representation of Onfleet workers. Contains one row per unique
+      source worker, with flattened vehicle and employment metadata fields.
+    columns:
+      - name: worker_id
+        description: Original Onfleet worker identifier retained as the worker key.
+        data_tests:
+          - unique
+          - not_null
