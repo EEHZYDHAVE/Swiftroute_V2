@@ -53,3 +53,49 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: linnworks_stock_items_t
+    description: "Silver Technical stock-item records, one row per source StockItemId. SKU normalization is for comparison only and does not merge different source records."
+    columns:
+      - name: stock_item_id
+        description: "Persistent readable surrogate identifier used by downstream models."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_stock_item_id
+        description: "Original Linnworks StockItemId retained for traceability and incremental merge matching."
+        data_tests:
+          - unique
+          - not_null
+
+  - name: linnworks_orders_t
+    description: "Silver Technical processed orders, one row per source pkOrderID. The Items array remains nested to preserve order grain."
+    columns:
+      - name: order_id
+        description: "Persistent readable surrogate identifier used by downstream models."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_order_id
+        description: "Original Linnworks pkOrderID retained for traceability and incremental merge matching."
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_profile_conflict
+        description: "True when multiple distinct customer/address profiles tie for the highest frequency among duplicate source order records."
+
+  - name: linnworks_stock_transaction_t
+    description: "Silver Technical stock transaction records, one row per source pkStockTransactionId. Negative quantities are preserved as valid inventory movements."
+    columns:
+      - name: stock_transaction_id
+        description: "Persistent readable surrogate identifier used by downstream models."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_stock_transaction_id
+        description: "Original Linnworks pkStockTransactionId retained for traceability and incremental merge matching."
+        data_tests:
+          - unique
+          - not_null
+      - name: is_deleted_order_reference
+        description: "True when the original order reference used the DELETED-ORD- prefix."
