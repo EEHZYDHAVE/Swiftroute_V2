@@ -52,16 +52,16 @@ customer_profile_keys AS (
         TO_JSON(NAMED_STRUCT(
             'customer_name', COALESCE(NULLIF(TRIM(CAST(customer_name AS STRING)), ''), 'N/A'),
             'customer_email', COALESCE(NULLIF(TRIM(CAST(customer_email AS STRING)), ''), 'N/A'),
-            'address_full_name', COALESCE(NULLIF(TRIM(CAST(address.full_name AS STRING)), ''), 'N/A'),
-            'address_company', COALESCE(NULLIF(TRIM(CAST(address.company AS STRING)), ''), 'N/A'),
-            'address1', COALESCE(NULLIF(TRIM(CAST(address.address1 AS STRING)), ''), 'N/A'),
-            'address2', COALESCE(NULLIF(TRIM(CAST(address.address2 AS STRING)), ''), 'N/A'),
-            'city', COALESCE(NULLIF(TRIM(CAST(address.city AS STRING)), ''), 'N/A'),
-            'region', COALESCE(NULLIF(TRIM(CAST(address.region AS STRING)), ''), 'N/A'),
-            'post_code', COALESCE(NULLIF(TRIM(CAST(address.post_code AS STRING)), ''), 'N/A'),
-            'country', COALESCE(NULLIF(TRIM(CAST(address.country AS STRING)), ''), 'N/A'),
-            'country_code', COALESCE(NULLIF(TRIM(CAST(address.country_code AS STRING)), ''), 'N/A'),
-            'phone', COALESCE(NULLIF(TRIM(CAST(address.phone AS STRING)), ''), 'N/A')
+            'address_full_name', COALESCE(NULLIF(TRIM(CAST(address_full_name AS STRING)), ''), 'N/A'),
+            'address_company', COALESCE(NULLIF(TRIM(CAST(address_company AS STRING)), ''), 'N/A'),
+            'address1', COALESCE(NULLIF(TRIM(CAST(address_address1 AS STRING)), ''), 'N/A'),
+            'address2', COALESCE(NULLIF(TRIM(CAST(address_address2 AS STRING)), ''), 'N/A'),
+            'city', COALESCE(NULLIF(TRIM(CAST(address_city AS STRING)), ''), 'N/A'),
+            'region', COALESCE(NULLIF(TRIM(CAST(address_region AS STRING)), ''), 'N/A'),
+            'post_code', COALESCE(NULLIF(TRIM(CAST(address_post_code AS STRING)), ''), 'N/A'),
+            'country', COALESCE(NULLIF(TRIM(CAST(address_country AS STRING)), ''), 'N/A'),
+            'country_code', COALESCE(NULLIF(TRIM(CAST(address_country_code AS STRING)), ''), 'N/A'),
+            'phone', COALESCE(NULLIF(TRIM(CAST(address_phone AS STRING)), ''), 'N/A')
         )) AS customer_profile_key
     FROM source_order_rows
 ),
@@ -217,16 +217,16 @@ SELECT
     /* 4. Customer profile and address. */
     CASE WHEN orders.customer_name IS NULL OR TRIM(orders.customer_name) = '' THEN 'N/A' ELSE CAST(orders.customer_name AS STRING) END AS customer_name,
     CASE WHEN orders.customer_email IS NULL OR TRIM(orders.customer_email) = '' THEN 'N/A' ELSE CAST(orders.customer_email AS STRING) END AS customer_email,
-    CASE WHEN orders.address.full_name IS NULL OR TRIM(orders.address.full_name) = '' THEN 'N/A' ELSE CAST(orders.address.full_name AS STRING) END AS address_full_name,
-    CASE WHEN orders.address.company IS NULL OR TRIM(orders.address.company) = '' THEN 'N/A' ELSE CAST(orders.address.company AS STRING) END AS address_company,
-    CASE WHEN orders.address.address1 IS NULL OR TRIM(orders.address.address1) = '' THEN 'N/A' ELSE CAST(orders.address.address1 AS STRING) END AS address1,
-    CASE WHEN orders.address.address2 IS NULL OR TRIM(orders.address.address2) = '' THEN 'N/A' ELSE CAST(orders.address.address2 AS STRING) END AS address2,
-    CASE WHEN orders.address.city IS NULL OR TRIM(orders.address.city) = '' THEN 'N/A' ELSE CAST(orders.address.city AS STRING) END AS address_city,
-    CASE WHEN orders.address.region IS NULL OR TRIM(orders.address.region) = '' THEN 'N/A' ELSE CAST(orders.address.region AS STRING) END AS address_region,
-    CASE WHEN orders.address.post_code IS NULL OR TRIM(orders.address.post_code) = '' THEN 'N/A' ELSE CAST(orders.address.post_code AS STRING) END AS address_post_code,
-    CASE WHEN orders.address.country IS NULL OR TRIM(orders.address.country) = '' THEN 'N/A' ELSE CAST(orders.address.country AS STRING) END AS address_country,
-    CASE WHEN orders.address.country_code IS NULL OR TRIM(orders.address.country_code) = '' THEN 'N/A' ELSE CAST(orders.address.country_code AS STRING) END AS address_country_code,
-    CASE WHEN orders.address.phone IS NULL OR TRIM(orders.address.phone) = '' THEN 'N/A' ELSE CAST(orders.address.phone AS STRING) END AS address_phone,
+    CASE WHEN orders.address_full_name IS NULL OR TRIM(orders.address_full_name) = '' THEN 'N/A' ELSE CAST(orders.address_full_name AS STRING) END AS address_full_name,
+    CASE WHEN orders.address_company IS NULL OR TRIM(orders.address_company) = '' THEN 'N/A' ELSE CAST(orders.address_company AS STRING) END AS address_company,
+    CASE WHEN orders.address_address1 IS NULL OR TRIM(orders.address_address1) = '' THEN 'N/A' ELSE CAST(orders.address_address1 AS STRING) END AS address1,
+    CASE WHEN orders.address_address2 IS NULL OR TRIM(orders.address_address2) = '' THEN 'N/A' ELSE CAST(orders.address_address2 AS STRING) END AS address2,
+    CASE WHEN orders.address_city IS NULL OR TRIM(orders.address_city) = '' THEN 'N/A' ELSE CAST(orders.address_city AS STRING) END AS address_city,
+    CASE WHEN orders.address_region IS NULL OR TRIM(orders.address_region) = '' THEN 'N/A' ELSE CAST(orders.address_region AS STRING) END AS address_region,
+    CASE WHEN orders.address_post_code IS NULL OR TRIM(orders.address_post_code) = '' THEN 'N/A' ELSE CAST(orders.address_post_code AS STRING) END AS address_post_code,
+    CASE WHEN orders.address_country IS NULL OR TRIM(orders.address_country) = '' THEN 'N/A' ELSE CAST(orders.address_country AS STRING) END AS address_country,
+    CASE WHEN orders.address_country_code IS NULL OR TRIM(orders.address_country_code) = '' THEN 'N/A' ELSE CAST(orders.address_country_code AS STRING) END AS address_country_code,
+    CASE WHEN orders.address_phone IS NULL OR TRIM(orders.address_phone) = '' THEN 'N/A' ELSE CAST(orders.address_phone AS STRING) END AS address_phone,
     (orders.number_of_top_profiles > 1) AS customer_profile_conflict,
 
     /* 5. Financial and payment fields. */
@@ -239,16 +239,16 @@ SELECT
     CASE WHEN orders.payment_status IS NULL OR TRIM(orders.payment_status) = '' THEN 'N/A' ELSE CAST(orders.payment_status AS STRING) END AS payment_status,
 
     /* 6. General order information. */
-    TRY_CAST(orders.general_info.status AS INT) AS order_status_code,
-    CAST(orders.general_info.lock_for_shipping AS BOOLEAN) AS lock_for_shipping,
-    TRY_CAST(orders.general_info.marker AS BIGINT) AS order_marker,
-    CASE WHEN orders.general_info.notes IS NULL OR TRIM(orders.general_info.notes) = '' THEN 'N/A' ELSE CAST(orders.general_info.notes AS STRING) END AS order_notes,
+    TRY_CAST(orders.general_status AS INT) AS order_status_code,
+    CAST(orders.general_lock_for_shipping AS BOOLEAN) AS lock_for_shipping,
+    TRY_CAST(orders.general_marker AS BIGINT) AS order_marker,
+    CASE WHEN orders.general_notes IS NULL OR TRIM(orders.general_notes) = '' THEN 'N/A' ELSE CAST(orders.general_notes AS STRING) END AS order_notes,
 
     /* 7. Shipping details. */
-    CASE WHEN orders.shipping_info.postal_service_name IS NULL OR TRIM(orders.shipping_info.postal_service_name) = '' THEN 'N/A' ELSE CAST(orders.shipping_info.postal_service_name AS STRING) END AS postal_service_name,
-    CASE WHEN orders.shipping_info.tracking_number IS NULL OR TRIM(orders.shipping_info.tracking_number) = '' THEN 'N/A' ELSE CAST(orders.shipping_info.tracking_number AS STRING) END AS tracking_number,
-    CASE WHEN orders.shipping_info.vendor IS NULL OR TRIM(orders.shipping_info.vendor) = '' THEN 'N/A' ELSE CAST(orders.shipping_info.vendor AS STRING) END AS shipping_vendor,
-    CASE WHEN orders.shipping_info.postal_service_code IS NULL OR TRIM(orders.shipping_info.postal_service_code) = '' THEN 'N/A' ELSE CAST(orders.shipping_info.postal_service_code AS STRING) END AS postal_service_code,
+    CASE WHEN orders.shipping_postal_service_name IS NULL OR TRIM(orders.shipping_postal_service_name) = '' THEN 'N/A' ELSE CAST(orders.shipping_postal_service_name AS STRING) END AS postal_service_name,
+    CASE WHEN orders.shipping_tracking_number IS NULL OR TRIM(orders.shipping_tracking_number) = '' THEN 'N/A' ELSE CAST(orders.shipping_tracking_number AS STRING) END AS tracking_number,
+    CASE WHEN orders.shipping_vendor IS NULL OR TRIM(orders.shipping_vendor) = '' THEN 'N/A' ELSE CAST(orders.shipping_vendor AS STRING) END AS shipping_vendor,
+    CASE WHEN orders.shipping_postal_service_code IS NULL OR TRIM(orders.shipping_postal_service_code) = '' THEN 'N/A' ELSE CAST(orders.shipping_postal_service_code AS STRING) END AS postal_service_code,
 
     /* 8. Preserve order grain: each item remains a typed element inside the items array. */
     TRANSFORM(orders.items, item -> NAMED_STRUCT(
