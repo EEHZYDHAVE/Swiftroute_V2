@@ -53,23 +53,13 @@ ranked_source_transactions AS (
         ROW_NUMBER() OVER (
             PARTITION BY source_stock_transaction_id
             ORDER BY
-                transaction_at_utc ASC NULLS LAST,
-                TO_JSON(NAMED_STRUCT(
-                    'source_stock_item_id', source_stock_item_id,
-                    'sku', sku,
-                    'transaction_type', transaction_type,
-                    'quantity', quantity,
-                    'source_order_reference', source_order_reference,
-                    'location', location,
-                    'bin_rack', bin_rack,
-                    'stock_value', stock_value
-                )) ASC
+                transaction_at_utc ASC NULLS LAST
         ) AS transaction_duplicate_rank
     FROM source_transaction_rows
 ),
 
 deduplicated_source_transactions AS (
-    SELECT *
+    SELECT * EXCEPT (transaction_duplicate_rank)
     FROM ranked_source_transactions
     WHERE transaction_duplicate_rank = 1
 ),
@@ -153,10 +143,12 @@ stock_item_mapping AS (
 order_reference_mapping AS (
     SELECT
         CAST(reference_num AS STRING) AS reference_num,
-        CAST(order_id AS STRING) AS order_id
+        MAX(CAST(order_id AS STRING)) AS order_id
     FROM {{ ref('linnworks_orders_t') }}
     WHERE reference_num IS NOT NULL
       AND reference_num <> 'N/A'
+    GROUP BY reference_num
+    HAVING COUNT(DISTINCT order_id) = 1
 )
 
 SELECT
