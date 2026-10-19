@@ -99,3 +99,325 @@ models:
           - not_null
       - name: is_deleted_order_reference
         description: "True when the original order reference used the DELETED-ORD- prefix."
+    
+  - name: salesforce_accounts_t
+    description: >
+      Silver Technical customer master with one row per Salesforce Account.
+      Uses a readable account_id, preserves the Salesforce source_account_id,
+      and standardizes client_id for joins across SwiftRoute source systems.
+      Billing address and owner details are flattened.
+    columns:
+      - name: account_id
+        description: Readable Silver surrogate identifier for the account.
+        data_tests:
+          - unique
+          - not_null
+      - name: source_account_id
+        description: Original Salesforce Account.Id retained for traceability.
+        data_tests:
+          - unique
+          - not_null
+      - name: account_name
+        description: Customer organization's display name.
+        data_tests:
+          - not_null
+      - name: client_id
+        description: Shared SwiftRoute client identifier for cross-system joins.
+        data_tests:
+          - not_null
+      - name: source_updated_at_utc
+        description: Salesforce LastModifiedDate converted to a UTC timestamp.
+        data_tests:
+          - not_null
+
+  - name: salesforce_contracts_t
+    description: >
+      Silver Technical contracts, retaining orphaned contracts while flagging
+      records without a linked account. Uses readable Silver identifiers and
+      the shared SwiftRoute client_id.
+    columns:
+      - name: contract_id
+        description: Readable Silver surrogate identifier for the contract.
+        data_tests:
+          - unique
+          - not_null
+      - name: source_contract_id
+        description: Original Salesforce Contract.Id retained for traceability.
+        data_tests:
+          - unique
+          - not_null
+      - name: account_id
+        description: >
+          Readable Silver Account identifier. Null for contracts without a
+          source AccountId; relationship tests ignore null child values.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('silver_salesforce_accounts')
+                field: account_id
+      - name: client_id
+        description: Shared SwiftRoute client ID inherited from the linked account.
+        data_tests:
+          - not_null
+      - name: is_orphaned_contract
+        description: True when the source contract has no AccountId.
+        data_tests:
+          - not_null
+      - name: account_reference_unmatched
+        description: True when a supplied AccountId cannot be mapped to a Silver Account.
+        data_tests:
+          - not_null
+      - name: source_updated_at_utc
+        description: Salesforce LastModifiedDate converted to a UTC timestamp.
+        data_tests:
+          - not_null
+
+  - name: salesforce_contract_rates_t
+    description: >
+      Silver Technical contract rate records, preserving individual service
+      rates, optional zone details, and effective dates. Rates link to their
+      related contract and account.
+    columns:
+      - name: contract_rate_id
+        description: Readable Silver surrogate identifier for the rate record.
+        data_tests:
+          - unique
+          - not_null
+      - name: source_contract_rate_id
+        description: Original Contract_Rate__c Id retained for traceability.
+        data_tests:
+          - unique
+          - not_null
+      - name: contract_id
+        description: Readable Silver Contract identifier mapped from Contract__c.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('silver_salesforce_contracts')
+                field: contract_id
+      - name: account_id
+        description: Readable Silver Account identifier mapped from Account__c.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('silver_salesforce_accounts')
+                field: account_id
+      - name: client_id
+        description: Shared SwiftRoute client identifier used across source systems.
+        data_tests:
+          - not_null
+      - name: contract_reference_unmatched
+        description: True when the supplied contract reference has no matching Silver Contract.
+        data_tests:
+          - not_null
+      - name: account_reference_unmatched
+        description: True when the supplied account reference has no matching Silver Account.
+        data_tests:
+          - not_null
+      - name: client_id_mismatch
+        description: True when the source rate client ID differs from the linked contract/account client ID.
+        data_tests:
+          - not_null
+      - name: contract_account_mismatch
+        description: True when the rate's source account differs from the linked contract's source account.
+        data_tests:
+          - not_null
+      - name: effective_date
+        description: Date on which the rate becomes effective.
+        data_tests:
+          - not_null
+      - name: created_at_utc
+        description: Salesforce CreatedDate converted to a UTC timestamp.
+        data_tests:
+          - not_null
+
+  - name: salesforce_opportunities_t
+    description: >
+      Silver Technical opportunity records. Duplicate source Opportunity IDs
+      are retained and flagged as a known simulation defect. Each source row
+      receives a generated readable opportunity_id.
+    columns:
+      - name: opportunity_id
+        description: Generated readable identifier unique within the rebuilt snapshot.
+        data_tests:
+          - unique
+          - not_null
+      - name: source_opportunity_id
+        description: Original Salesforce Opportunity.Id; duplicates are a known source defect.
+        data_tests:
+          - not_null
+      - name: account_id
+        description: Readable Silver Account identifier mapped from AccountId.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('silver_salesforce_accounts')
+                field: account_id
+      - name: client_id
+        description: Shared SwiftRoute client identifier inherited from the linked account.
+        data_tests:
+          - not_null
+      - name: source_opportunity_id_is_duplicated
+        description: Flags source Opportunity IDs occurring more than once in the source snapshot.
+        data_tests:
+          - not_null
+      - name: account_reference_unmatched
+        description: True when the supplied AccountId cannot be mapped to a Silver Account.
+        data_tests:
+          - not_null
+
+  - name: quickbooks_expenses_t
+    description: >
+      Silver Technical QuickBooks Purchase records, one row per retained
+      source expense. Source IDs may be duplicated in the simulation,
+      so expense_id is a generated technical identifier.
+    columns:
+      - name: expense_id
+        description: Generated technical identifier for each retained expense record.
+        data_tests:
+          - unique
+          - not_null
+      - name: has_duplicate_source_expense_id
+        description: Flags records whose non-null source expense ID occurs more than once.
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        description: Timestamp when the Silver model processed the record.
+        data_tests:
+          - not_null
+
+  - name: quickbooks_invoices_t
+    description: >
+      Silver Technical QuickBooks invoices, one row per source invoice.
+      Invoice lines and linked transactions remain nested at invoice grain.
+    columns:
+      - name: invoice_id
+        description: Original QuickBooks invoice ID, confirmed unique in the source dataset.
+        data_tests:
+          - unique
+          - not_null
+      - name: transaction_date
+        description: Date the invoice was issued or recorded in QuickBooks.
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        description: Timestamp when the Silver model processed the record.
+        data_tests:
+          - not_null
+
+  - name: quickbooks_payments_t
+    description: >
+      Silver Technical QuickBooks payments, one row per source payment.
+      Payment allocations and linked transaction references remain nested.
+    columns:
+      - name: payment_id
+        description: Original QuickBooks payment ID, confirmed unique in the source dataset.
+        data_tests:
+          - unique
+          - not_null
+      - name: transaction_date
+        description: Date the payment was recorded in QuickBooks.
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        description: Timestamp when the Silver model processed the record.
+        data_tests:
+          - not_null
+
+  - name: samsara_driver_summary_t
+    description: >
+      Silver Technical Samsara driver summaries, one row per source driver ID.
+      HOS violations remain nested and are exposed through count and presence fields.
+    columns:
+      - name: driver_id
+        description: Original Samsara driver identifier, retained as a string for cross-table joins.
+        data_tests:
+          - unique
+          - not_null
+      - name: driver_name
+        data_tests:
+          - not_null
+      - name: city
+        data_tests:
+          - not_null
+      - name: hos_violations
+        description: Nested HOS violation details supplied by Samsara.
+        data_tests:
+          - not_null
+      - name: hos_violation_count
+        data_tests:
+          - not_null
+      - name: has_hos_violations
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        data_tests:
+          - not_null
+
+  - name: samsara_trips_t
+    description: >
+      Silver Technical Samsara trips, one row per source trip ID. Driverless trips are kept
+      with driver_id N/A and driver_assignment_status unassigned. Fuel is standardized to US gallons.
+    columns:
+      - name: trip_id
+        description: Original Samsara trip identifier; no surrogate key is created.
+        data_tests:
+          - unique
+          - not_null
+      - name: vehicle_id
+        data_tests:
+          - not_null
+      - name: driver_id
+        description: Original driver ID or N/A when no driver was logged in.
+        data_tests:
+          - not_null
+      - name: driver_assignment_status
+        data_tests:
+          - not_null
+      - name: trip_start_at_utc
+        data_tests:
+          - not_null
+      - name: fuel_consumed_gallons
+        description: Fuel consumed in US gallons, using the source gallons value or converting milliliters.
+        data_tests:
+          - not_null
+      - name: safety_events
+        description: Nested Samsara safety event records; retained at trip grain.
+        data_tests:
+          - not_null
+      - name: safety_event_count
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        data_tests:
+          - not_null
+
+  - name: samsara_vehicles_t
+    description: >
+      Silver Technical Samsara vehicle roster, one row per source vehicle ID. Samsara vehicle IDs
+      are not inferred to match Onfleet delivery records.
+    columns:
+      - name: vehicle_id
+        description: Original Samsara vehicle identifier, retained as a string.
+        data_tests:
+          - unique
+          - not_null
+      - name: vehicle_name
+        data_tests:
+          - not_null
+      - name: vehicle_type
+        data_tests:
+          - not_null
+      - name: city
+        data_tests:
+          - not_null
+      - name: tags
+        description: Readable nested array of source tag IDs and names.
+        data_tests:
+          - not_null
+      - name: operational_status
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        data_tests:
+          - not_null
