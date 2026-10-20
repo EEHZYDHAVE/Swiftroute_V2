@@ -421,3 +421,53 @@ models:
       - name: processed_at_utc
         data_tests:
           - not_null
+  
+  - name: gusto_employees_t
+    description: >
+      Silver Technical Gusto employee records, one row per Gusto employee UUID.
+      The Onfleet Worker ID custom field is extracted as onfleet_worker_id for cross-system mapping.
+    columns:
+      - name: employee_uuid
+        description: Gusto employee UUID and row-level primary key.
+        data_tests:
+          - unique
+          - not_null
+      - name: onfleet_worker_id
+        description: Onfleet Worker ID extracted from the Gusto employee custom-fields array; N/A when absent.
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        description: Timestamp when the Silver model processed the record.
+        data_tests:
+          - not_null
+
+  - name: gusto_payroll_compensations_t
+    description: >
+      Silver Technical payroll employee compensation records, one row per employee compensation
+      within a payroll run. Payroll-run context and totals are joined from the separate Bronze
+      gusto_payroll_runs relation. payroll_compensation_id is a stable generated technical row key.
+      Payroll-level totals repeat across employee rows and must not be summed at this grain.
+    columns:
+      - name: payroll_compensation_id
+        description: Generated surrogate key from payroll-run UUID and compensation ordinal.
+        data_tests:
+          - unique
+          - not_null
+      - name: source_payroll_id
+        description: Original Gusto payroll-run UUID; repeated across compensation rows belonging to the same run.
+        data_tests:
+          - not_null
+      - name: employee_uuid
+        description: Gusto employee UUID associated with this payroll compensation row; N/A if absent in the source.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('silver_gusto_employees')
+                field: employee_uuid
+              config:
+                where: "employee_uuid != 'N/A'"
+      - name: processed_at_utc
+        description: Timestamp when the Silver model processed the record.
+        data_tests:
+          - not_null

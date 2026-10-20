@@ -87,4 +87,28 @@ FROM {{source('swiftroute_databricks','samsara_vehicles')}}
 
 
 
-dbt build --select salesforce_accounts_t salesforce_contracts_t salesforce_contract_rates_t salesforce_opportunities_t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT *
+FROM {{source('swiftroute_databricks','gusto_employees')}}
+
+SELECT *
+FROM {{source('swiftroute_databricks','gusto_payroll_compensations')}}
