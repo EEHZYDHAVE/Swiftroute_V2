@@ -1,0 +1,212 @@
+version: 2
+
+models:
+  - name: silver_business_fufillment
+    description: >
+      Silver Business fulfillment transaction table at one row per Linnworks
+      stock transaction. It enriches signed inventory movements with product,
+      client, order, time-valid contract and fulfillment-pick rate context.
+      QuickBooks is used only for a client-month invoice-line presence indicator;
+      invoice and payment amounts are not allocated to individual movements.
+    columns:
+      - name: fulfillment_transaction_id
+        description: >
+          Business-level identifier sourced from the Silver Technical stock
+          transaction ID. One row represents one Linnworks inventory movement.
+        data_tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments:
+                to: ref('linnworks_stock_transaction_t')
+                field: stock_transaction_id
+      - name: source_stock_transaction_id
+        description: Original Linnworks stock transaction identifier retained for traceability.
+        data_tests:
+          - not_null
+          - unique
+      - name: transaction_at_utc
+        description: Timestamp of the inventory movement in UTC.
+        data_tests:
+          - not_null
+      - name: fulfillment_transaction_type
+        description: >
+          Normalized business event type: INBOUND, DISPATCH, ADJUSTMENT, or UNMAPPED.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['INBOUND', 'DISPATCH', 'ADJUSTMENT', 'UNMAPPED']
+      - name: inventory_movement_direction
+        description: Direction of the signed inventory quantity change.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['INCREASE', 'DECREASE', 'NO_CHANGE', 'UNKNOWN']
+      - name: quantity_change
+        description: >
+          Signed source quantity change; dispatches generally decrease inventory
+          and receipts increase it.
+      - name: client_id
+        description: >
+          Resolved SwiftRoute client ID, preferring the matched order client for
+          dispatches and otherwise the stock-item client.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('salesforce_accounts_t')
+                field: client_id
+              config:
+                where: "client_id != 'N/A'"
+      - name: client_attribution_method
+        description: Source used to resolve the client ID.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['ORDER', 'STOCK_ITEM', 'ORDER_FALLBACK', 'UNRESOLVED']
+      - name: client_attribution_mismatch
+        description: True when the matched order client and stock-item client disagree.
+        data_tests:
+          - not_null
+      - name: stock_item_id
+        description: Standardized Linnworks stock-item identifier.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('linnworks_stock_items_t')
+                field: stock_item_id
+              config:
+                where: "stock_item_match_status = 'MATCHED'"
+      - name: stock_item_match_status
+        description: Indicates whether the transaction's stock item was found in the stock-item reference model.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['MATCHED', 'UNMATCHED']
+      - name: order_match_status
+        description: Order match state for dispatches; NOT_APPLICABLE for non-dispatch events.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['NOT_APPLICABLE', 'MATCHED', 'UNMATCHED', 'DELETED_OR_REFERENCE_ONLY']
+      - name: order_item_match_status
+        description: Whether the dispatched stock item is present in the matched order's item array.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['NOT_APPLICABLE', 'MATCHED', 'MISMATCH', 'NOT_CHECKED_NO_ORDER']
+      - name: contract_id
+        description: Contract active for the client on the transaction date, when found.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('salesforce_contracts_t')
+                field: contract_id
+              config:
+                where: "contract_id != 'N/A'"
+      - name: contract_match_status
+        description: Indicates whether an in-date client contract was found.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['MATCHED_ACTIVE_ON_TRANSACTION_DATE', 'NO_ACTIVE_CONTRACT_ON_TRANSACTION_DATE']
+      - name: fulfillment_rate_context_status
+        description: >
+          Indicates whether a time-valid fulfillment-pick rate is available as
+          context. A rate is not multiplied by stock quantity because the data
+          does not prove that movement quantity is the contract's billable unit.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - 'NOT_APPLICABLE_TO_TRANSACTION_TYPE'
+                  - 'NO_ACTIVE_CONTRACT'
+                  - 'NO_APPLICABLE_FULFILLMENT_PICK_RATE'
+                  - 'RATE_CONTEXT_AVAILABLE_NOT_TRANSACTION_PRICED'
+      - name: has_fulfillment_pick_invoice_for_client_month
+        description: >
+          True when a QuickBooks invoice for the same client and activity month
+          contains a fulfillment/pick line. It does not allocate that line to
+          the individual transaction and must not be summed as a financial measure.
+        data_tests:
+          - not_null
+      - name: processed_at_utc
+        description: Timestamp when the Silver Business model processed the row.
+        data_tests:
+          - not_null
+
+  - name: silver_business_lastmile_delivery
+    description: >-
+      Business-ready last-mile delivery records at one row per non-pickup Onfleet
+      task. Pickup tasks remain available in Silver Technical but are excluded
+      from this delivery-specific model. Client-month invoice amounts and
+      driver-level Samsara summary metrics are repeated contextual attributes;
+      they are not delivery-level additive measures.
+    columns:
+      - name: delivery_id
+        description: Readable Onfleet task surrogate key for the customer-facing delivery task.
+        data_tests:
+          - not_null
+          - unique
+      - name: delivery_outcome
+        description: Normalized delivery result, retaining incomplete and unknown outcomes.
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - SUCCESS
+                  - FAILURE
+                  - INCOMPLETE
+                  - COMPLETED_OUTCOME_UNKNOWN
+      - name: account_id
+        description: Salesforce account key resolved from the shared client_id; null when unmatched or ambiguous.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('salesforce_accounts_t')
+                field: account_id
+      - name: contract_id
+        description: Contract valid on the delivery event date, where one unambiguous contract was found.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('salesforce_contracts_t')
+                field: contract_id
+      - name: contract_rate_id
+        description: Latest effective service/zone rate for the matched contract, when unambiguous.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('salesforce_contract_rates_t')
+                field: contract_rate_id
+      - name: worker_id
+        description: Assigned Onfleet worker ID when the worker lookup resolves.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('onfleet_workers_t')
+                field: worker_id
+      - name: gusto_employee_uuid
+        description: Gusto employee key resolved through the explicit Onfleet Worker ID custom field.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('gusto_employees_t')
+                field: employee_uuid
+      - name: samsara_driver_id
+        description: Samsara driver summary key attached only when the normalized driver name is unique on both sides.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('samsara_driver_summary_t')
+                field: driver_id

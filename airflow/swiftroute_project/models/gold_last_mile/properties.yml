@@ -1,0 +1,155 @@
+version: 2
+
+models:
+  - name: fact_delivery
+    description: >-
+      The only Gold Last-Mile fact model. Grain is one row per eligible delivery
+      in silver_business_lastmile_delivery. Client-month financial totals and
+      driver-level summary totals are intentionally not included as delivery measures.
+    columns:
+      - name: delivery_id
+        description: Unique Onfleet delivery task surrogate key.
+        data_tests:
+          - not_null
+          - unique
+      - name: delivery_count
+        description: Additive count measure; each fact row contributes one delivery.
+        data_tests:
+          - not_null
+      - name: customer_key
+        description: Salesforce account key, or N/A when customer attribution is unavailable.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customer_l')
+                field: customer_key
+      - name: client_id
+        description: Shared SwiftRoute client identifier retained for traceability, including where the Salesforce account relationship is unresolved.
+      - name: delivery_event_date_key
+        description: Date key for the event date selected in Silver Business (completion date when available, otherwise task creation date).
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date_l')
+                field: date_key
+      - name: task_created_date_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date_l')
+                field: date_key
+      - name: completion_date_key
+        description: -1 when the delivery has no completion timestamp.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date_l')
+                field: date_key
+      - name: driver_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_driver')
+                field: driver_key
+      - name: city_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_city')
+                field: city_key
+      - name: zone_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_zone')
+                field: zone_key
+      - name: service_key
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_service')
+                field: service_key
+      - name: contract_key
+        description: Contract active on the delivery event date when Silver Business found one unique match; otherwise N/A.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_contract_l')
+                field: contract_key
+      - name: matched_contract_net_rate
+        description: >-
+          Contextual contract rate, not recognized revenue; do not sum across delivery rows.
+      - name: is_completed
+        description: Boolean delivery/task completion indicator.
+      - name: is_successful_delivery
+        description: Nullable outcome flag; NULL means success/failure is not known.
+      - name: is_within_completion_window
+        description: Nullable indicator comparing completion timestamp with complete_before.
+
+  - name: dim_customer_l
+    description: Customer/account dimension sourced from Salesforce, keyed by account_id.
+    columns:
+      - name: customer_key
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_date_l
+    description: Calendar date dimension with a -1 unknown-date row.
+    columns:
+      - name: date_key
+        data_tests:
+          - not_null
+          - unique
+      - name: calendar_date
+        data_tests:
+          - unique
+
+  - name: dim_driver
+    description: Onfleet worker dimension enriched by a unique explicit Gusto employee mapping where available.
+    columns:
+      - name: driver_key
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_city
+    description: Delivery destination city/state/country dimension.
+    columns:
+      - name: city_key
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_zone
+    description: Zone dimension based on observed Onfleet zone_id values.
+    columns:
+      - name: zone_key
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_service
+    description: Service-type dimension based on observed Onfleet service_type values.
+    columns:
+      - name: service_key
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_contract_l
+    description: Salesforce contract dimension, including historical and orphaned contract records where present.
+    columns:
+      - name: contract_key
+        data_tests:
+          - not_null
+          - unique

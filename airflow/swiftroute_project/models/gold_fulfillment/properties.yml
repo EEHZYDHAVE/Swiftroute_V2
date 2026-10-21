@@ -1,0 +1,161 @@
+version: 2
+models:
+- name: fact_fulfillment_transaction
+  description: 'Gold fulfillment fact at one row per Linnworks stock transaction.
+    Quantity measures describe inventory movement and must not be treated as billable
+    pick quantities. Invoice presence and rate-context fields are diagnostic, not
+    allocated revenue or transaction charges.
+
+    '
+  columns:
+  - name: fulfillment_transaction_id
+    description: Unique transaction-grain identifier carried from Silver Business.
+    data_tests:
+    - not_null
+    - unique
+  - name: source_stock_transaction_id
+    description: Original Linnworks transaction identifier for traceability.
+    data_tests:
+    - not_null
+    - unique
+  - name: date_key
+    description: Calendar date key in YYYYMMDD form; -1 represents an unknown date.
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_date')
+          field: date_key
+  - name: customer_key
+    description: Shared SwiftRoute client ID; N/A represents an unresolved client.
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_customer')
+          field: customer_key
+  - name: product_key
+    description: Linnworks stock item ID; N/A represents an unresolved product.
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_product')
+          field: product_key
+  - name: warehouse_key
+    description: Normalized source inventory location; N/A represents unknown location.
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_warehouse')
+          field: warehouse_key
+  - name: contract_key
+    description: Contract active on the transaction date, or N/A when no contract
+      matched.
+    data_tests:
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('dim_contract')
+          field: contract_key
+  - name: fulfillment_transaction_type
+    description: Normalized event classification for the inventory movement.
+    data_tests:
+    - not_null
+    - accepted_values:
+        arguments:
+          values:
+          - INBOUND
+          - DISPATCH
+          - ADJUSTMENT
+          - UNMAPPED
+  - name: inventory_movement_direction
+    description: Direction of the signed quantity change.
+    data_tests:
+    - not_null
+    - accepted_values:
+        arguments:
+          values:
+          - INCREASE
+          - DECREASE
+          - NO_CHANGE
+          - UNKNOWN
+  - name: quantity_moved
+    description: Absolute magnitude of the source movement quantity; not invoice pick
+      quantity.
+  - name: processed_at_utc
+    description: Silver Business processing timestamp retained for lineage.
+    data_tests:
+    - not_null
+  - name: fulfillment_rate_context_status
+    description: Indicates whether an eligible contract rate was available as context;
+      it does not mean a transaction charge was calculated.
+  - name: fulfillment_pick_rate_id
+    description: Contract rate identifier available for context on an eligible dispatch;
+      not a charge allocation.
+  - name: fulfillment_pick_service_type
+    description: Service category from the matched contract-rate context; current
+      sources do not establish that this service was performed for each stock movement.
+  - name: fulfillment_pick_rate_unit
+    description: Unit associated with the contract-rate context; not proof that the
+      transaction quantity uses that billable unit.
+  - name: fulfillment_pick_rate_effective_date
+    description: Effective date of the matched rate context, when available.
+  - name: has_fulfillment_pick_invoice_for_client_month
+    description: Non-additive Boolean indicating a matching client-month invoice line
+      exists; do not sum or interpret as revenue.
+- name: dim_customer
+  description: Customer dimension keyed by shared SwiftRoute client ID, including
+    an unknown member.
+  columns:
+  - name: customer_key
+    data_tests:
+    - not_null
+    - unique
+  - name: client_id
+    data_tests:
+    - not_null
+- name: dim_date
+  description: Calendar dimension spanning available fulfillment activity dates plus
+    an unknown member.
+  columns:
+  - name: date_key
+    data_tests:
+    - not_null
+    - unique
+  - name: calendar_date
+    data_tests:
+    - unique:
+        config:
+          where: calendar_date IS NOT NULL
+- name: dim_product
+  description: Linnworks product/stock-item dimension, supplemented by observed transaction
+    product attributes.
+  columns:
+  - name: product_key
+    data_tests:
+    - not_null
+    - unique
+  - name: stock_item_id
+    data_tests:
+    - not_null
+- name: dim_warehouse
+  description: Dimension of distinct source inventory location labels; not a warehouse
+    master.
+  columns:
+  - name: warehouse_key
+    data_tests:
+    - not_null
+    - unique
+- name: dim_contract
+  description: Salesforce contract dimension used in place of a service dimension
+    that the transaction data cannot reliably support.
+  columns:
+  - name: contract_key
+    data_tests:
+    - not_null
+    - unique
+  - name: contract_id
+    data_tests:
+    - not_null

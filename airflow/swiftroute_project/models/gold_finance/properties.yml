@@ -1,0 +1,140 @@
+version: 2
+
+models:
+  - name: billing_invoice_lines
+    description: >-
+      Gold billing calculation view. One row per customer, service month, billing
+      window, service, zone, pricing arrangement, quantity basis, and review status.
+      Only activity with supported customer attribution, service date, billability,
+      cadence, unique applicable contract, and unique effective rate is marked
+      READY_TO_BILL. Review-only activity is retained with an explanation.
+    columns:
+      - name: billing_line_key
+        description: Deterministic SHA-256 key for the aggregate billable/review line.
+        data_tests:
+          - not_null
+          - unique
+      - name: client_id
+        description: Canonical SwiftRoute customer ID; null is retained for reviewable source activity with missing mapping.
+      - name: billing_period_start
+        description: First day of the monthly or Monday-to-Sunday weekly billing window; null when the service date is unavailable.
+      - name: service_month
+        description: Calendar month of the underlying service activity, distinct from a weekly billing-window start.
+      - name: billing_line_status
+        description: Calculation and billability status; READY_TO_BILL means pricing and activity checks passed.
+        data_tests:
+          - not_null
+      - name: invoice_ready_amount
+        description: Calculated net charge only for READY_TO_BILL lines; review-only lines remain null.
+      - name: calculated_net_charge
+        description: Calculated charge for eligible quantities with a unique contract/rate, even if another review issue prevents invoice readiness.
+      - name: source_activity_ids
+        description: Set of source task or stock transaction identifiers contributing to the line, for review and drill-through.
+      - name: source_order_ids
+        description: Set of Linnworks order identifiers associated with the line, where available.
+      - name: billing_unit
+        description: Rate-card unit, such as per_delivery or per_unit.
+
+  - name: billing_reconciliation
+    description: >-
+      Reconciles independently aggregated operational charges to QuickBooks invoice
+      lines at canonical customer, service month, and service type. Weekly pay-as-you-go
+      customers are compared at a monthly roll-up because QuickBooks billing_period is
+      monthly in the available Silver Technical model.
+    columns:
+      - name: reconciliation_key
+        description: Deterministic key for customer, month, and service.
+        data_tests:
+          - not_null
+          - unique
+      - name: client_id
+        description: Canonical SwiftRoute customer identifier.
+        data_tests:
+          - not_null
+      - name: billing_month
+        description: Month assigned by service activity for expected charges and QuickBooks billing_period for actual invoice lines.
+        data_tests:
+          - not_null
+      - name: reconciliation_status
+        description: Explicit status for matched amounts, missing invoice/charge lines, weekly roll-up limitations, and review variances.
+        data_tests:
+          - not_null
+
+  - name: financial_transaction_lines
+    description: >-
+      Normalized QuickBooks financial reporting view. Invoice lines represent recorded
+      billed revenue, payment headers represent cash receipts, payment detail rows
+      represent payment applications, and expense lines represent operating expenses.
+      Amounts from different amount_role values must not be indiscriminately summed.
+      Expenses retain the technical-layer expense_id because the source expense ID is
+      known to be non-unique.
+    columns:
+      - name: transaction_line_key
+        description: Unique deterministic key for a source line or payment header row.
+        data_tests:
+          - not_null
+          - unique
+      - name: transaction_type
+        description: QuickBooks invoice, payment, or expense record family.
+        data_tests:
+          - not_null
+      - name: amount_role
+        description: Financial meaning of amount—billed_revenue, cash_received, payment_application, operating_expense, or unresolved_payment_line.
+        data_tests:
+          - not_null
+      - name: amount
+        description: Source amount at the record's role and grain; do not add cash receipts to billed revenue.
+      - name: transaction_date
+        description: QuickBooks transaction date, used for accounting-month reporting where available.
+
+  - name: accounts_receivable
+    description: >-
+      Current invoice-level accounts receivable view. QuickBooks balance_amount is
+      the authoritative current balance; payment-derived balance is diagnostic only.
+      days_past_due and aging_bucket use CURRENT_DATE() and are not historical snapshots.
+    columns:
+      - name: invoice_id
+        description: QuickBooks invoice identifier and row grain.
+        data_tests:
+          - not_null
+          - unique
+      - name: recorded_current_balance
+        description: Current outstanding amount from the QuickBooks invoice record.
+      - name: days_past_due
+        description: Non-negative current days past due for open invoices with a due date; null when it cannot be determined.
+      - name: aging_bucket
+        description: Current aging category derived from the recorded balance and due date.
+        data_tests:
+          - not_null
+
+  - name: financial_reporting_monthly
+    description: >-
+      Monthly QuickBooks reporting view by financial area and source/reporting category.
+      Revenue is based on recorded invoice lines; expenses use source accounting-account
+      categories; cash receipts, resolved applications, and unresolved payment lines are separate. P&L signed amount
+      adds invoice-line values and subtracts expense-line values, while collection activity
+      contributes zero to P&L.
+    columns:
+      - name: financial_monthly_key
+        description: Deterministic key for accounting month, customer, city, financial area, and reporting category.
+        data_tests:
+          - not_null
+          - unique
+      - name: accounting_month
+        description: Calendar month of QuickBooks transaction_date.
+        data_tests:
+          - not_null
+      - name: financial_area
+        description: Revenue, operating expense, collections, collection applications, or payment lines requiring review.
+        data_tests:
+          - not_null
+      - name: unapplied_cash_amount
+        description: Unapplied amount recorded on QuickBooks payment headers, kept distinct from invoice applications.
+      - name: payment_application_amount
+        description: Payment-line amounts linked unambiguously to one invoice.
+      - name: unresolved_payment_line_amount
+        description: Payment-line amounts that cannot be assigned to one invoice; retained separately for review.
+      - name: pnl_signed_amount
+        description: Invoice-line amounts plus the inverse of expense-line amounts; payment receipts, resolved applications, and unresolved payment lines contribute zero.
+        data_tests:
+          - not_null

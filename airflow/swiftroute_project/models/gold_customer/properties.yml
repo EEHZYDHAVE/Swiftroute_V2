@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: dim_customer_c
+    description: >-
+      Gold customer dimension for the integrated customer mart. Contains one row
+      per canonical SwiftRoute client. The _c suffix prevents a name collision with
+      the last-mile dimension dim_customer_l. Historical service flags summarize
+      activity represented in the available Silver Business periods.
+    columns:
+      - name: customer_key
+        description: Deterministic SHA-256 surrogate key derived from canonical client_id.
+        data_tests:
+          - not_null
+          - unique
+      - name: client_id
+        description: Canonical SwiftRoute customer business key.
+        data_tests:
+          - not_null
+          - unique
+      - name: customer_name
+        description: Best available customer name selected from the integrated customer context.
+      - name: has_salesforce_account
+        description: Indicates whether the customer has a matched Salesforce Account.
+      - name: has_ever_used_fulfillment
+        description: True when fulfillment activity exists for the customer in the available period history.
+      - name: has_ever_used_last_mile
+        description: True when last-mile activity exists for the customer in the available period history.
+
+  - name: fact_customer_economics
+    description: >-
+      Gold customer-period fact with one row per canonical client_id and period_month.
+      Contains contract context, fulfillment and last-mile activity, invoice measures,
+      cash receipts, and collections applied to invoices. Customer-serving costs and
+      margins are intentionally omitted until defensible attribution is available.
+    columns:
+      - name: customer_period_key
+        description: Deterministic key for the client-month grain.
+        data_tests:
+          - not_null
+          - unique
+      - name: customer_key
+        description: Foreign key to dim_customer_c.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customer_c')
+              field: customer_key
+      - name: client_id
+        description: Canonical SwiftRoute customer business key.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customer_c')
+              field: client_id
+      - name: period_month
+        description: First calendar day of the month represented by the row.
+        data_tests:
+          - not_null
+      - name: last_mile_success_rate
+        description: Successful completed deliveries divided by completed non-pickup deliveries; null when denominator is zero.
+      - name: last_mile_failure_rate
+        description: Failed completed deliveries divided by completed non-pickup deliveries; null when denominator is zero.
+      - name: invoiced_amount
+        description: Invoice total assigned to the billing period.
+      - name: current_outstanding_balance_for_billing_period
+        description: Current outstanding balance of invoices assigned to this billing period, not historical month-end AR.
+      - name: cash_received_amount
+        description: Cash received during the payment transaction month; not revenue for that month.
+      - name: collections_applied_to_period_invoices_amount
+        description: Payment-line amounts applied to invoices belonging to this invoice billing period, where supported by links.
