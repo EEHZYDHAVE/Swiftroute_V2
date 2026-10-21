@@ -1,148 +1,59 @@
-SELECT *
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-WHERE task_id IN (
-    SELECT task_id
-    FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-    GROUP BY task_id
-    HAVING COUNT(*) > 1
+WITH payment_lines AS (
+    SELECT
+        p.payment_id,
+        p.total_amount,
+        p.unapplied_amount,
+        line.amount AS payment_line_amount,
+        line.linked_transactions
+
+    FROM silver_t.quickbooks_payments_t p
+
+    LATERAL VIEW OUTER EXPLODE(p.lines) exploded AS line
+),
+
+payment_summary AS (
+    SELECT
+        payment_id,
+
+        MAX(total_amount) AS total_payment_amount,
+        MAX(unapplied_amount) AS unapplied_amount,
+
+        SUM(COALESCE(payment_line_amount, 0))
+            AS sum_payment_line_amount,
+
+        SUM(
+            CASE
+                WHEN COALESCE(SIZE(linked_transactions), 0) > 1
+                THEN 1
+                ELSE 0
+            END
+        ) AS lines_with_multiple_links
+
+    FROM payment_lines
+    GROUP BY payment_id
 )
-ORDER BY task_id;
 
+SELECT
+    COUNT(*) AS payment_count,
 
+    COUNT_IF(lines_with_multiple_links > 0)
+        AS payments_with_multiple_linked_transactions,
 
-SELECT *
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
+    COUNT_IF(
+        total_payment_amount IS NOT NULL
+        AND ABS(
+            total_payment_amount
+            - sum_payment_line_amount
+            - COALESCE(unapplied_amount, 0)
+        ) > 0.01
+    ) AS payment_total_reconciliation_mismatches,
 
+    MAX(
+        ABS(
+            total_payment_amount
+            - sum_payment_line_amount
+            - COALESCE(unapplied_amount, 0)
+        )
+    ) AS maximum_reconciliation_difference
 
-
-SELECT 'task_id' AS column_name,
-       COUNT(CASE WHEN task_id IS NULL THEN 1 END) AS null_count
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'time_created',
-       COUNT(CASE WHEN time_created IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'time_last_modified',
-       COUNT(CASE WHEN time_last_modified IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'organization',
-       COUNT(CASE WHEN organization IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'short_id',
-       COUNT(CASE WHEN short_id IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'tracking_url',
-       COUNT(CASE WHEN tracking_url IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'worker',
-       COUNT(CASE WHEN worker IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'merchant',
-       COUNT(CASE WHEN merchant IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'executor',
-       COUNT(CASE WHEN executor IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'creator',
-       COUNT(CASE WHEN creator IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'dependencies',
-       COUNT(CASE WHEN dependencies IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'state',
-       COUNT(CASE WHEN state IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'complete_after',
-       COUNT(CASE WHEN complete_after IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'complete_before',
-       COUNT(CASE WHEN complete_before IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'pickup_task',
-       COUNT(CASE WHEN pickup_task IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'notes',
-       COUNT(CASE WHEN notes IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'completion_details',
-       COUNT(CASE WHEN completion_details IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'feedback_json',
-       COUNT(CASE WHEN feedback_json IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'metadata',
-       COUNT(CASE WHEN metadata IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'overrides_json',
-       COUNT(CASE WHEN overrides_json IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'quantity',
-       COUNT(CASE WHEN quantity IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'service_time',
-       COUNT(CASE WHEN service_time IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'identity',
-       COUNT(CASE WHEN identity IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'appearance',
-       COUNT(CASE WHEN appearance IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'container',
-       COUNT(CASE WHEN container IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'recipients',
-       COUNT(CASE WHEN recipients IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'destination',
-       COUNT(CASE WHEN destination IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'estimated_arrival_time',
-       COUNT(CASE WHEN estimated_arrival_time IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'estimated_completion_time',
-       COUNT(CASE WHEN estimated_completion_time IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'barcodes',
-       COUNT(CASE WHEN barcodes IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'source_file_path',
-       COUNT(CASE WHEN source_file_path IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'ingested_at',
-       COUNT(CASE WHEN ingested_at IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }}
-UNION ALL
-SELECT 'ingestion_run_id',
-       COUNT(CASE WHEN ingestion_run_id IS NULL THEN 1 END)
-FROM {{ source('swiftroute_databricks', 'onfleet_deliveries') }};
+FROM payment_summary;

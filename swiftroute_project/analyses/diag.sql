@@ -98,7 +98,8 @@ FROM {{source('swiftroute_databricks','samsara_vehicles')}}
 
 
 
-
+SELECT COUNT(*) AS total_count
+FROM {{ref('onfleet_workers_t')}}
 
 
 
@@ -111,4 +112,54 @@ SELECT *
 FROM {{source('swiftroute_databricks','gusto_employees')}}
 
 SELECT *
+FROM {{source('swiftroute_databricks','gusto_payroll_runs')}}
+
+SELECT *
 FROM {{source('swiftroute_databricks','gusto_payroll_compensations')}}
+WHERE payroll_run_uuid = 'e0361ada-5a8d-4f4a-b08a-9c4d3bc240b7'
+
+
+
+SELECT COUNT(*) AS total_count, COUNT(DISTINCT(payroll_run_uuid)) AS distinct_id_count
+FROM {{source('swiftroute_databricks','gusto_payroll_compensations')}}
+
+
+WITH duplicate_ids AS (
+    SELECT payroll_run_uuid
+    FROM {{ source('swiftroute_databricks', 'gusto_payroll_compensations') }}
+    GROUP BY payroll_run_uuid
+    HAVING COUNT(*) > 1
+)
+SELECT e.*
+FROM {{ source('swiftroute_databricks', 'gusto_payroll_compensations') }} e
+INNER JOIN duplicate_ids d
+    ON e.payroll_run_uuid = d.payroll_run_uuid
+ORDER BY e.payroll_run_uuid;
+
+
+
+
+
+
+SELECT table_name, column_name
+FROM `swiftroute`.`information_schema`.`columns`
+WHERE table_name IN ('gusto_payroll_runs', 'gusto_payroll_compensations')
+ORDER BY table_name, ordinal_position;
+
+
+
+
+
+SELECT
+    table_schema,
+    table_name,
+    ordinal_position,
+    column_name,
+    data_type,
+    full_data_type,
+    is_nullable
+FROM `swiftroute`.`information_schema`.`columns`
+WHERE LOWER(table_schema) = 'silver_t'
+ORDER BY
+    table_name,
+    ordinal_position;

@@ -36,3 +36,15 @@ models:
       # Tables — cleaned and standardised records upserted from bronze
       +materialized: table
       +schema: silver_t
+    silver_b:
+      # Tables — cleaned and standardised records upserted from bronze
+      +materialized: table
+      +schema: silver_b
+    gold_fulfillment:
+      # Tables — cleaned and standardised records upserted from bronze
+      +materialized: view
+      +schema: gold_fulfillment
+    gold_last_mile:
+      # Tables — cleaned and standardised records upserted from bronze
+      +materialized: view
+      +schema: gold_last_mile
