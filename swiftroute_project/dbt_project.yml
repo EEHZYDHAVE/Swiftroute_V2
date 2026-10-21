@@ -37,14 +37,22 @@ models:
       +materialized: table
       +schema: silver_t
     silver_b:
-      # Tables — cleaned and standardised records upserted from bronze
+      # Tables — cleaned and standardised records applying business logic
       +materialized: table
       +schema: silver_b
     gold_fulfillment:
-      # Tables — cleaned and standardised records upserted from bronze
+      # view — cleaned and standardised records upserted from silver_b
       +materialized: view
       +schema: gold_fulfillment
     gold_last_mile:
-      # Tables — cleaned and standardised records upserted from bronze
+      # view — cleaned and standardised records upserted from silver_b
       +materialized: view
       +schema: gold_last_mile
+    gold_customer:
+      # view — cleaned and standardised records upserted from silver_b
+      +materialized: view
+      +schema: gold_customer
+    gold_finance:
+      # view — cleaned and standardised records upserted from silver_b
+      +materialized: view
+      +schema: gold_finance

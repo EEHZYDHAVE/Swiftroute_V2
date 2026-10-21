@@ -1,59 +1,126 @@
-WITH payment_lines AS (
-    SELECT
-        p.payment_id,
-        p.total_amount,
-        p.unapplied_amount,
-        line.amount AS payment_line_amount,
-        line.linked_transactions
+SELECT
+    c.table_catalog,
+    c.table_schema,
+    c.table_name,
+    t.table_type,
+    c.ordinal_position,
+    c.column_name,
+    c.data_type,
+    c.full_data_type,
+    c.is_nullable,
+    c.comment
+FROM {{ source('swiftroute', 'information_schema_columns') }} AS c
+LEFT JOIN {{ source('swiftroute', 'information_schema_tables') }} AS t
+    ON  c.table_catalog = t.table_catalog
+    AND c.table_schema = t.table_schema
+    AND c.table_name = t.table_name
+WHERE c.table_schema LIKE 'gold%'
+  AND LEFT(c.table_name, 4) = 'dim_'
+ORDER BY
+    c.table_catalog,
+    c.table_schema,
+    c.table_name,
+    c.ordinal_position;
 
-    FROM silver_t.quickbooks_payments_t p
 
-    LATERAL VIEW OUTER EXPLODE(p.lines) exploded AS line
-),
 
-payment_summary AS (
-    SELECT
-        payment_id,
 
-        MAX(total_amount) AS total_payment_amount,
-        MAX(unapplied_amount) AS unapplied_amount,
 
-        SUM(COALESCE(payment_line_amount, 0))
-            AS sum_payment_line_amount,
 
-        SUM(
-            CASE
-                WHEN COALESCE(SIZE(linked_transactions), 0) > 1
-                THEN 1
-                ELSE 0
-            END
-        ) AS lines_with_multiple_links
 
-    FROM payment_lines
-    GROUP BY payment_id
-)
+
 
 SELECT
-    COUNT(*) AS payment_count,
+    c.table_catalog,
+    c.table_schema,
+    c.table_name,
+    t.table_type,
+    c.ordinal_position,
+    c.column_name,
+    c.data_type,
+    c.full_data_type,
+    c.is_nullable,
+    c.comment
+FROM {{ target.database }}.information_schema.columns AS c
+LEFT JOIN {{ target.database }}.information_schema.tables AS t
+    ON  c.table_catalog = t.table_catalog
+    AND c.table_schema = t.table_schema
+    AND c.table_name = t.table_name
+WHERE c.table_schema LIKE 'gold%'
+  AND LEFT(c.table_name, 4) = 'dim_'
+ORDER BY
+    c.table_catalog,
+    c.table_schema,
+    c.table_name,
+    c.ordinal_position;
 
-    COUNT_IF(lines_with_multiple_links > 0)
-        AS payments_with_multiple_linked_transactions,
 
-    COUNT_IF(
-        total_payment_amount IS NOT NULL
-        AND ABS(
-            total_payment_amount
-            - sum_payment_line_amount
-            - COALESCE(unapplied_amount, 0)
-        ) > 0.01
-    ) AS payment_total_reconciliation_mismatches,
 
-    MAX(
-        ABS(
-            total_payment_amount
-            - sum_payment_line_amount
-            - COALESCE(unapplied_amount, 0)
-        )
-    ) AS maximum_reconciliation_difference
 
-FROM payment_summary;
+
+
+
+
+
+
+
+
+
+SELECT
+    c.table_catalog,
+    c.table_schema,
+    c.table_name,
+    c.column_name,
+    c.data_type,
+    c.full_data_type
+FROM {{ target.database }}.information_schema.columns AS c
+WHERE c.table_schema LIKE 'gold%'
+  AND LEFT(c.table_name, 4) = 'dim_'
+  AND c.data_type IN (
+      'TIMESTAMP',
+      'TIMESTAMP_NTZ',
+      'DATE'
+  )
+ORDER BY
+    c.table_catalog,
+    c.table_schema,
+    c.table_name,
+    c.ordinal_position;
+
+
+
+
+
+
+
+
+
+
+SELECT
+    'gold_fulfillment.dim_contract' AS dimension_name,
+    COUNT(*) AS row_count,
+    COUNT(DISTINCT contract_key) AS distinct_keys,
+    SUM(CASE WHEN contract_key IS NULL THEN 1 ELSE 0 END) AS null_keys,
+    SUM(CASE WHEN source_updated_at_utc IS NULL THEN 1 ELSE 0 END)
+        AS null_updated_at
+FROM swiftroute.gold_fulfillment.dim_contract
+
+UNION ALL
+
+SELECT
+    'gold_fulfillment.dim_customer',
+    COUNT(*),
+    COUNT(DISTINCT customer_key),
+    SUM(CASE WHEN customer_key IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE WHEN source_updated_at_utc IS NULL THEN 1 ELSE 0 END)
+FROM swiftroute.gold_fulfillment.dim_customer
+
+UNION ALL
+
+SELECT
+    'gold_fulfillment.dim_product',
+    COUNT(*),
+    COUNT(DISTINCT product_key),
+    SUM(CASE WHEN product_key IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE WHEN product_source_updated_at_utc IS NULL THEN 1 ELSE 0 END)
+FROM swiftroute.gold_fulfillment.dim_product;

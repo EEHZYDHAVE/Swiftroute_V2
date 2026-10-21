@@ -1,0 +1,186 @@
+# SCD Type 2 snapshots for the current SwiftRoute Gold dimensions.
+#
+# Target: catalog/database `swiftroute`, schema `gold_snapshots`.
+# Timestamp strategy is used only where a source-update timestamp is exposed.
+# Dimensions without a dependable updated_at column use check strategy.
+#
+# Before running in production, validate the timestamp columns are populated and
+# advance whenever tracked source attributes change. Snapshots preserve only the
+# states visible when `dbt snapshot` runs; they cannot recreate older states that
+# were overwritten before the first snapshot execution.
+
+snapshots:
+  - name: snap_dim_customer_c
+    relation: ref('dim_customer_c')
+    description: "SCD Type 2 history for the integrated customer dimension."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: customer_key
+      strategy: check
+      check_cols:
+        - client_id
+        - customer_name
+        - has_salesforce_account
+        - account_type
+        - industry
+        - account_tier
+        - primary_city
+        - account_owner_name
+        - is_fulfillment_client_configured
+        - has_ever_used_fulfillment
+        - has_ever_used_last_mile
+        - observed_service_relationship
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_contract_fulfillment
+    relation: ref('dim_contract')
+    description: "SCD Type 2 history for the fulfillment contract dimension."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: contract_key
+      strategy: timestamp
+      updated_at: source_updated_at_utc
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_customer_fulfillment
+    relation: ref('dim_customer')
+    description: "SCD Type 2 history for the fulfillment customer dimension."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: customer_key
+      strategy: timestamp
+      updated_at: source_updated_at_utc
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_product_fulfillment
+    relation: ref('dim_product')
+    description: "SCD Type 2 history for the fulfillment product dimension."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: product_key
+      strategy: timestamp
+      updated_at: product_source_updated_at_utc
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_warehouse_fulfillment
+    relation: ref('dim_warehouse')
+    description: "SCD Type 2 history for fulfillment warehouse/location labels."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: warehouse_key
+      strategy: check
+      check_cols:
+        - warehouse_location_name
+        - source_location_label
+        - is_unknown_warehouse
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_city_last_mile
+    relation: ref('dim_city')
+    description: "Snapshot history for the last-mile city lookup dimension."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: city_key
+      strategy: check
+      check_cols:
+        - city_name
+        - state_or_region
+        - country
+        - city_label
+        - is_unknown_city
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_contract_last_mile
+    relation: ref('dim_contract_l')
+    description: "SCD Type 2 history for the last-mile contract dimension."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: contract_key
+      strategy: check
+      check_cols:
+        - source_contract_id
+        - account_id
+        - client_id
+        - customer_name
+        - contract_status
+        - start_date
+        - end_date
+        - signed_date
+        - contract_type
+        - contract_term_months
+        - committed_monthly_volume
+        - discount_rate
+        - net_payment_terms
+        - auto_renewal
+        - termination_notice_days
+        - primary_city
+        - account_tier
+        - is_orphaned_contract
+        - is_unknown_contract
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_customer_last_mile
+    relation: ref('dim_customer_l')
+    description: "SCD Type 2 history for the last-mile customer dimension."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: customer_key
+      strategy: check
+      check_cols:
+        - account_id
+        - source_account_id
+        - client_id
+        - customer_name
+        - account_type
+        - industry
+        - account_tier
+        - primary_city
+        - account_contract_type
+        - is_fulfillment_client
+        - net_payment_terms
+        - annual_revenue
+        - number_of_employees
+        - is_unknown_customer
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate
+
+  - name: snap_dim_driver_last_mile
+    relation: ref('dim_driver')
+    description: "SCD Type 2 history for driver and linked employee attributes."
+    config:
+      database: swiftroute
+      schema: gold_snapshots
+      unique_key: driver_key
+      strategy: check
+      check_cols:
+        - worker_id
+        - driver_name
+        - driver_display_name
+        - onfleet_employment_type
+        - gusto_employee_uuid
+        - gusto_employment_status
+        - gusto_hire_date
+        - gusto_termination_date
+        - gusto_department
+        - gusto_job_title
+        - is_gusto_driver
+        - current_on_duty
+        - has_gusto_employee_match
+        - is_unknown_driver
+      dbt_valid_to_current: "to_date('9999-12-31')"
+      hard_deletes: invalidate

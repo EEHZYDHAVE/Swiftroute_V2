@@ -82,9 +82,11 @@ SELECT
     process_payment,
     source_payment_method_id,
     payment_method_name,
+    -- new column: always USD
+    'USD' AS currency_code,
     source_deposit_account_id,
     deposit_account_name,
     lines,
     custom_fields,
     CURRENT_TIMESTAMP() AS processed_at_utc
-FROM eligible_payments
+FROM eligible_payments;
